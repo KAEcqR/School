@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O X</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Kółko i krzyżyk</h1>
+    <div class="container">
+        <div class="menu">
+            <div class="line">
+                <label for="width">Ilość kolumn</label>
+                <input type="number" value="20" min="4" max="100" id="width">
+                <span class="error"></span>
+            </div>
+            <div class="line">
+                <label for="height">Ilość wierszy</label>
+                <input type="number" value="20" min="4" max="100" id="height">
+                <span class="error"></span>
+            </div>
+            <div class="line">
+                <button id="run">Rozpoczij
+                    <img class="icon" src="media/circle.png" alt="kółko">
+                    <img class="icon" src="media/cross.png" alt="krzyżyk">
+                </button>
+            </div>
+        </div>
+        <div class="scene">
+            
+        </div>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
