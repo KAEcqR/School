@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cw 14</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Iteracja i rekurencja</h1>
+    <h3>Iteracyjne powtarzanie</h3>
+    <div id="iter"></div>
+    <h3>rekurencyjnie</h3>
+    <script>
+        function powtorz(ile){
+            document.writeln(`<div> i = ${ile} <div>`);
+
+            if(ile > 0) powtorz(ile - 1);
+            document.writeln(`<div> i = ${ile} <div>`);
+        }
+        
+        powtorz(10);
+    </script>
+    <script src="script.js" defer></script>
+</body>
+</html>
+
+<!-- 
+    Jak policzyć silnię liczby: 
+    4! = 1*2*3*4
+    4! = 3!*4
+    4! = 2!*3*4
+    n! = (n-1)*n
+-->

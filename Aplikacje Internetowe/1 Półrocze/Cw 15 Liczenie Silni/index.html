@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Liczenie Silni</h1>
+    <div class="form-container">
+        <div class="form">
+            <div class="line1">
+                <label for="n" > n = </label>
+                <input type="number" id="n" min="1" max="30"/>
+            </div>
+            <div class="line">
+                <label for="choice">Wybierz Metodę : </label>
+                <select id="choice">
+                    <option value="" selected></option>
+                    <option value="rek">Rekurencja</option>
+                    <option value="iter">Iteracja</option>
+                    <span class="error"></span>
+                </select>
+            </div>
+            <div class="line">
+                <button id="run">Oblicz</button>
+            </div>
+        </div>
+    </div>
+    <div class="result-container">
+      <div class="result"></div>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
+</html>

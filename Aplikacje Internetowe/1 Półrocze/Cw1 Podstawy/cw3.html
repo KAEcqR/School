@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cw3</title>
+</head>
+<body>
+    <h1>Pętla for(let i=0; i < 10;i++){...}</h1>
+    <script>
+        for( let i = 0 /*wykonuje tylko raz*/; i<10 /*sprawdza czy to jest prawda(jest zawsze sprawdzane na początku)*/ ; i++ /*i=i+1 - robi na samym końcu pętli*/){
+            document.write(`<div>Hello z pętli for dla i = ${i}</div>`);
+        }
+        for( let h = 1; h<=6;h++)
+            document.write(`<h${h}> Nagłówek  ${h} </h${h}>`)
+    </script>
+    <h1>Pęla while(warLog){ ... }</h1>
+    <script>
+      let sum = 0;
+      let num1 = 0;
+      while (sum < 100) {
+        num1 = Math.floor(Math.random() * 10);
+        document.write(num1 + ' ');
+        sum = sum + num1; // sum += num1;
+      }
+      /* let napis = '';
+      while (napis != 'koniec') {
+        napis = prompt('Podaj cos');
+      }*/
+      document.write(`<div>suma = ${sum}</div>`);
+    </script>
+    <h1>Pęla do{ ... } while(warLog)</h1>
+    <script>
+      let num2;
+      let licznik = 0;
+      sum = 0;
+      let max = Number.MAX_VALUE;
+      let min = Number.MIN_VALUE;
+      do {
+        num2 = Math.floor(Math.random() * 20);
+        document.write(num2 + ' ');
+        if (num2 != 0){
+            licznik++;
+            sum+=num2;
+            if(num2>max) max = num2;
+            if(num2<min) min = num2;
+        } 
+      } while (num2 != 0);
+      if(licznik==0){
+        document.write(`<p>Zbiór pusty</p>`);
+      }else{
+        document.write(`<p>Ilość elementów: ${licznik}</p>`);
+        document.write(`<p>suma elementów: ${sum}</p>`);
+        document.write(`<p>najmniejszy z elementów: ${min}</p>`);
+        document.write(`<p>najwieksz z elementów: ${max}</p>`);
+        document.wirte(
+          `<p>Srednia z elementow: ${(sum/licznik).toFixed(2)}</p>`
+        )
+      }
+    </script>
+</body>
+</html>
