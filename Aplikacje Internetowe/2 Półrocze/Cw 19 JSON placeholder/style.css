@@ -1,12 +1,36 @@
-.cardimage {
-    width: 20px;
-}
-
-.cards {
+.body {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.m-2{
-    width: 500px;
-    height: 500px;
+.card img {
+    width: 20px;
+    margin: 5px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 100px;
+    font-size: 15px;
+}
+
+.card{
+    margin: 10px;
+    height: 200px;
+    max-height: 200px;
+    min-height: 200px;
+    width: 300px;
+}
+
+.card:hover{
+    background-color: rgb(182, 182, 182);
+    cursor: pointer;
+}
+
+#delete{
+    border: 3px solid red;
 }

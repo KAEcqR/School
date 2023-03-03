@@ -239,7 +239,7 @@ class User {
         this.email = email
         this.phone = phone
         this.website = website
-        this.image = 'img/usericon.png'
+        this.image = 'img/bin.png'
     }
 
     //* ZAPROJEKTOWAĆ STRONĘ KTÓRA BĘDZIE WYŚWIETLAĆ TE DANE
@@ -248,27 +248,22 @@ class User {
         //* TWORZĘ KARTĘ
         const card = document.createElement("div");
         card.className = "card m-2";
-        card.style.width = "250px";
-        
+
         //* TWORZĘ TYTUŁ KARTY
         
         const cardTitle = document.createElement("div");
         cardTitle.className = "card-title text-center fw-bold";
-        cardTitle.innerHTML = `${this.id}, ${this.name}`
+        cardTitle.innerHTML = `${this.id}, ${this.name} <img class="bin" src="${this.image}">`
         card.appendChild(cardTitle);
-
-        //* USTAWIAM OBRAZEK KARTY
-
-        const cardImage = document.createElement("img");
-        cardImage.src = this.image
-        cardImage.className = 'cardimage'
-        card.appendChild(cardImage);
 
         //* TWORZĘ BODY DLA KARTY
 
         const cardBody = document.createElement("div");
         cardBody.className = "card-body";
-        cardBody.innerHTML = `${this.username}, ${this.email}, ${this.phone}, ${this.website}`;
+        cardBody.innerHTML =  `<img src="img/user.png"> Username : ${this.username} <br> 
+        <img src="img/email.png"> Email: ${this.email}<br>
+        <img src="img/phone.png"> Phone : ${this.phone} <br>
+        <img src="img/website.png"> Website : ${this.website}`;
         card.appendChild(cardBody);
         
         return card;
@@ -291,4 +286,15 @@ const users = GenerCard();
 const cardDiv = document.querySelector(".cards");
 users.forEach((v,i)=>{
 cardDiv.appendChild(v.toCard())
+})
+
+const cards = document.querySelectorAll(".card")
+
+cards.forEach((v,i)=>{
+    v.addEventListener("mouseenter",(event)=>{
+        v.setAttribute("id", "delete")
+    });
+    v.addEventListener("mouseleave",(event)=>{
+        v.removeAttribute("id", "delete")     
+    });
 })
