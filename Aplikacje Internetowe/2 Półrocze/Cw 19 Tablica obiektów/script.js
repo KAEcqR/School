@@ -293,9 +293,9 @@ class User {
 
 }
 
-//* TWORZĘ TABLICĘ USERS
+//* DO POBIERAM WYBRANE DANE Z myApiData I DAJE JE DO TABLICY users
 
-function GenerCard() {
+function createUsers() {
     const users = [];
     myApiData.forEach((v) => {
         users.push(new User(v.id, v.name, v.username, v.email, v.phone,v.website))   
@@ -303,16 +303,24 @@ function GenerCard() {
     return users;
 }
 
-const users = GenerCard();
+const users = createUsers();
 
-
+//* GENERUJE KARTY DLA KAŻDEGO UŻYTKOWNIKA
 const cardDiv = document.querySelector(".cards");
-users.forEach((v,i)=>{
-    cardDiv.appendChild(v.toCard())
-})
+
+function generCards(){
+    users.forEach((v,i)=>{
+        cardDiv.appendChild(v.toCard())
+    })
+}
+
+generCards()
 
 const bins = document.querySelectorAll(".bin")
 const cards = document.querySelectorAll(".card")
+const cardscontainer = document.querySelector(".cardscontainer")
+
+//* PRZYPISUJE EVENT LISTENER DLA KAŻDEJ KARTY
 
 cards.forEach((v,i)=>{
     v.querySelector("img").addEventListener("mouseenter",(event)=>{
@@ -326,15 +334,13 @@ cards.forEach((v,i)=>{
 bins.forEach((v,i)=>{
     v.addEventListener("click",(event)=>{
         const objectId = event.target.parentElement.offsetParent.id
-        const selectedObject = myApiData.find(item => item.id == `${objectId}`)
         
         deleteUser(objectId)
     });
 })
 
 function deleteUser(object){
-    myApiData.splice(object - 1, 1)
-    console.log(myApiData)
+    users.splice(object - 1, 1)
     
-    //TODO PRZERENDEROWAĆ KARTY
+    generCards()
 }
