@@ -231,7 +231,7 @@ const myApiData = [
 },
 {
     "id": 11,
-    "name": "Joe",
+    "name": "Joe Who?",
     "username": "Joe.Mama",
     "email": "Joe.Mama@white.house",
     "address": {
@@ -330,7 +330,13 @@ cards.forEach((v,i)=>{
 bins.forEach((v,i)=>{
     v.addEventListener("click",(event)=>{
         const objectId = event.target.parentElement.offsetParent.id
-        const selectedObject = document.getElementById(objectId)
-        console.log(selectedObject)
+        const selectedObject = myApiData.find(item => item.id == `${objectId}`)
+        
+        deleteUser(objectId)
     });
 })
+
+function deleteUser(object){
+    myApiData.splice(object - 1, 1)
+    console.log(myApiData)
+}
