@@ -290,12 +290,10 @@ class User {
 
         return card;
     }
-    
-    deleteUser(){
-        console.log(this)
-    }
 
 }
+
+//* TWORZĘ TABLICĘ USERS
 
 function GenerCard() {
     const users = [];
@@ -310,7 +308,7 @@ const users = GenerCard();
 
 const cardDiv = document.querySelector(".cards");
 users.forEach((v,i)=>{
-cardDiv.appendChild(v.toCard())
+    cardDiv.appendChild(v.toCard())
 })
 
 const bins = document.querySelectorAll(".bin")
@@ -325,8 +323,6 @@ cards.forEach((v,i)=>{
     });
 })
 
-//TODO PO KLIKNIĘCIU USUŃ OBIEKT Z LISTY BAZUJĄC NA ID 
-
 bins.forEach((v,i)=>{
     v.addEventListener("click",(event)=>{
         const objectId = event.target.parentElement.offsetParent.id
@@ -339,4 +335,6 @@ bins.forEach((v,i)=>{
 function deleteUser(object){
     myApiData.splice(object - 1, 1)
     console.log(myApiData)
+    
+    //TODO PRZERENDEROWAĆ KARTY
 }
