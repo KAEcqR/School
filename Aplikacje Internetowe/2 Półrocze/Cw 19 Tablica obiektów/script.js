@@ -309,38 +309,54 @@ const users = createUsers();
 const cardDiv = document.querySelector(".cards");
 
 function generCards(){
+    cardDiv.innerHTML = ""
+
     users.forEach((v,i)=>{
         cardDiv.appendChild(v.toCard())
     })
+    
+    addEvents()
+    addEventsBins()
 }
 
 generCards()
 
-const bins = document.querySelectorAll(".bin")
-const cards = document.querySelectorAll(".card")
 const cardscontainer = document.querySelector(".cardscontainer")
 
 //* PRZYPISUJE EVENT LISTENER DLA KAŻDEJ KARTY
+function addEvents (){
+    const cards = document.querySelectorAll(".card")
 
-cards.forEach((v,i)=>{
-    v.querySelector("img").addEventListener("mouseenter",(event)=>{
-        v.setAttribute("class", "card m-2 delete")
-    });
-    v.querySelector("img").addEventListener("mouseleave",(event)=>{
-        v.setAttribute("class", "card m-2")
-    });
-})
+    cards.forEach((v,i)=>{
+        v.querySelector("img").addEventListener("mouseenter",(event)=>{
+            v.setAttribute("class", "card m-2 delete")
+        });
+        v.querySelector("img").addEventListener("mouseleave",(event)=>{
+            v.setAttribute("class", "card m-2")
+        });
+    })
 
-bins.forEach((v,i)=>{
-    v.addEventListener("click",(event)=>{
-        const objectId = event.target.parentElement.offsetParent.id
-        
-        deleteUser(objectId)
-    });
-})
+}
 
-function deleteUser(object){
-    users.splice(object - 1, 1)
+addEvents()
+
+function addEventsBins (){
+    const bins = document.querySelectorAll(".bin")
+    bins.forEach((v,i)=>{
+        v.addEventListener("click",(event)=>{
+            const objectId = event.target.parentElement.offsetParent.id
+            
+            console.log(objectId)
     
+            deleteUser(objectId)
+        });
+    })
+}
+
+addEventsBins()
+
+function deleteUser(id){
+    users.splice(id - 1, 1)
+    createUsers()
     generCards()
 }
