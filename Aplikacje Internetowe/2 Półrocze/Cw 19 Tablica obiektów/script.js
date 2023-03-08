@@ -344,19 +344,10 @@ function addEventsBins (){
     const bins = document.querySelectorAll(".bin")
     bins.forEach((v,i)=>{
         v.addEventListener("click",(event)=>{
-            const objectId = event.target.parentElement.offsetParent.id
-            
-            console.log(objectId)
-    
-            deleteUser(objectId)
+            v.parentNode.parentNode.remove()
+
         });
     })
 }
 
 addEventsBins()
-
-function deleteUser(id){
-    users.splice(id - 1, 1)
-    createUsers()
-    generCards()
-}
