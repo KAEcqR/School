@@ -12,11 +12,12 @@ myApiData = [
 ]
 
 class User {
-    constructor(displayName,duration,displayIcon, listViewIcon) {
+    constructor(displayName,duration,displayIcon, listViewIcon, coordinates) {
         this.displayName = displayName
         this.duration = duration
         this.displayIcon = displayIcon
         this.listViewIcon = listViewIcon
+        this.coordinates = coordinates
     }
 
     toCard(){
@@ -27,8 +28,9 @@ class User {
         //* TWORZĘ TYTUŁ KARTY
         
         const cardTitle = document.createElement("div");
-        cardTitle.className = "card-title text-center fw-bold";
-        cardTitle.innerHTML = `${this.displayName}`
+        cardTitle.className = "card-title text-center fw-bold mt-2";
+        cardTitle.innerHTML = `${this.displayName} <br>
+        ${this.coordinates}`
         card.appendChild(cardTitle);
 
         //* TWORZĘ BODY DLA KARTY
@@ -45,27 +47,26 @@ class User {
 
 }
 
-//* DO POBIERAM WYBRANE DANE Z myApiData I DAJE JE DO TABLICY users
+//* DO POBIERAM WYBRANE DANE Z myApiData I DAJE JE DO TABLICY data
 
-function createGamemodes() {
-    const gamemodes = [];
+function createdata() {
+    const data = [];
     myApiData.forEach((v) => {
-        gamemodes.push(new User(v.displayName, v.duration, v.displayIcon, v.listViewIcon))   
+        data.push(new User(v.displayName, v.duration, v.displayIcon, v.listViewIcon, v.coordinates))   
     });
-    console.log(gamemodes)
-    return gamemodes;
+    // console.log(data)
+    return data;
 }
 
-const gamemodes = createGamemodes();
+const data = createdata();
 
 //* GENERUJE KARTY DLA KAŻDEGO UŻYTKOWNIKA
 const cardDiv = document.querySelector(".cards");
 
 function generCards(){
-    gamemodes.forEach((v,i)=>{
+    data.forEach((v,i)=>{
         cardDiv.appendChild(v.toCard())
     })
-    
 }
 
 generCards()
