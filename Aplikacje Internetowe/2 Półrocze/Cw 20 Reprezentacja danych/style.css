@@ -1,7 +1,5 @@
-.body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body {
+    background-color: rgb(120, 120, 120)
 }
 
 .icon {
@@ -44,14 +42,33 @@
     height: 200px;
     width: 350px;
     position: relative;
+    outline: none;
+    transition: outline 0.1s;
 }
 
 .card:hover {
     cursor: pointer;
-    border: 3px solid rgb(255, 255, 255);
+    outline: 4px solid rgb(255, 255, 255);
 }
 
 .card-title {
     font-size: 30px;
     padding: 10px;
+}
+
+.card-footer {
+    font-size: 25px;
+    margin-top: -10px;
+    position: relative;
+}
+
+.card-body {
+    height: 400px;
+}
+
+.roleIcon {
+    width: 30px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
 }

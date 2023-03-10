@@ -32,11 +32,13 @@ myApiData = [
 ]
 
 class User {
-    constructor(displayName,description,displayIcon,background) {
+    constructor(displayName,description,displayIcon,background,role,roleIcon) {
         this.displayName = displayName
         this.description = description
         this.displayIcon = displayIcon
         this.background = background
+        this.role = role
+        this.roleIcon = roleIcon
     }
 
     toCard(){
@@ -60,6 +62,14 @@ class User {
         <p class="description"> ${this.description}</p>`;
         card.appendChild(cardBody);
 
+        //* TWORZĘ FOOTER DLA KARTY
+
+        const cardFooter = document.createElement("div");
+        cardFooter.className = "card-footer";
+        cardFooter.innerHTML =  `${this.role} 
+        <img class="roleIcon" src="${this.roleIcon}"/>`;
+        card.appendChild(cardFooter);
+
         return card;
     }
 }
@@ -69,7 +79,7 @@ class User {
 function createdata() {
     const data = [];
     myApiData.forEach((v) => {
-        data.push(new User(v.displayName, v.description, v.displayIcon, v.background))   
+        data.push(new User(v.displayName, v.description, v.displayIcon, v.background, v.role.displayName, v.role.displayIcon))   
     });
     // console.log(data)
     return data;
