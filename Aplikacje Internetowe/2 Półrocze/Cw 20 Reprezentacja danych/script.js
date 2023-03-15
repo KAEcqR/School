@@ -36,7 +36,7 @@ class User {
 
     toCard(){
         //* TWORZĘ KARTĘ
-        let background = "bg-dark" //! SET TO bg-dark IF YOU DONT WANT COLORS
+        let background = "" //! SET TO bg-dark IF YOU DONT WANT COLORS
         const card = document.createElement("div");
         card.className = `card m-2 text-white ${background}`;
         card.id = `${this.displayName}`
