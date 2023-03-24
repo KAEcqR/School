@@ -30,9 +30,22 @@ body{
 }
 
 input[type="button"]{
-    width: 250px;
+    all: unset;
+    width: 270px;
+    height: 50px;
+    background-color: white;
+    border:solid 3px rgb(195, 195, 195);
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
 }
 
-input{
+.button-container{
+    width: 300px;
+    height: 100px;
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
