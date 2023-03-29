@@ -9,13 +9,21 @@ draw_sq.addEventListener("click", (e)=>{
     
     const x = document.querySelector("#x").value
     const y = document.querySelector("#y").value
-    
-    ctx.beginPath()
-    // ctx.fillRect(25,25,50,50)
-    ctx.lineWidth = "1";
-    ctx.strokeStyle = color;
-    ctx.rect(x,y,width,height)
-    ctx.stroke();
+
+    if(x < canvas.offsetWidth && y < canvas.offsetHeight){
+        // ctx.fillRect(x,y,width,height)
+        ctx.beginPath()
+
+        ctx.lineWidth = "1";
+        ctx.strokeStyle = color;
+        ctx.rect(x,y,width,height)
+        ctx.stroke();
+        document.querySelector(".x").style.color = "white"
+        document.querySelector(".y").style.color = "white"
+    } else {
+        document.querySelector(".x").style.color = "red"
+        document.querySelector(".y").style.color = "red"
+    }
     
 })
 
@@ -30,12 +38,22 @@ draw_ck.addEventListener("click", (e)=>{
     const x = document.querySelector("#x").value
     const y = document.querySelector("#y").value
 
-    ctx.beginPath()
-    ctx.arc(x,y,width,0,Math.PI*2,true)
+    if(x < canvas.offsetWidth && y < canvas.offsetHeight){
+        ctx.beginPath()
+        ctx.arc(x,y,width,0,Math.PI*2,true)
     
-    ctx.lineWidth = "2";
-    ctx.strokeStyle = color;
-    ctx.stroke();
-    // console.log("kolo")
-    
+        ctx.lineWidth = "2";
+        ctx.strokeStyle = color;
+        ctx.stroke();
+        document.querySelector(".x").style.color = "white"
+        document.querySelector(".y").style.color = "white"
+
+    } else {
+        document.querySelector(".x").style.color = "red"
+        document.querySelector(".y").style.color = "red"
+    }
+
 })
+
+
+//* WALIDACJA X I Y > 180

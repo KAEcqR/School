@@ -10,11 +10,16 @@
 <body>
     <div class="container">
         <div class="info">
-            <input type="number" id="x" placeholder="Podaj wsp: x">X</input><br>
-            <input type="number" id="y" placeholder="Podaj wsp: y">Y</input><br>
-            <input type="number" id="width" placeholder="Podaj szerokosc">Szerokość</input><br>
-            <input type="number" id="height" placeholder="Podaj wysokosc">Wysokość</input><br>
-            <input type="color" id="color">Kolor</input><br>
+            <div class="labelcontainer x"><label>Współrzędne X</label></div>
+            <input type="number" id="x" placeholder="Podaj wsp: x"></input><br>
+            <div class="labelcontainer y"><label>Współrzędne Y</label></div>
+            <input type="number" id="y" placeholder="Podaj wsp: y"></input><br>
+            <div class="labelcontainer"><label>Szerokość</label></div>
+            <input type="number" id="width" placeholder="Podaj szerokosc"></input><br>
+            <div class="labelcontainer"><label>Wysokość</label></div>
+            <input type="number" id="height" placeholder="Podaj wysokosc"></input><br>
+            <div class="labelcontainer"><label>Kolor</label></div>
+            <input type="color" id="color"></input><br>
             <div class="button-container">
                 <input type="button" value="Rysuj Kwadrat" id="draw_sq"><br>
                 <input type="button" value="Rysuj Koło" id="draw_ck"><br>
