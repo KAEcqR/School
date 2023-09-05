@@ -1,0 +1,26 @@
+.container{
+    margin: 10px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th{
+    border: solid 1px black;
+    padding: 8px;
+}
+
+th{
+    background-color: lightskyblue;
+    color: darkblue;
+}
+
+td{
+    color: blue;
+}
+
+tr:hover{
+    background-color:  lightblue;
+}

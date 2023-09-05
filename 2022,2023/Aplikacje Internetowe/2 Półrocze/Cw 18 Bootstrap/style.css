@@ -1,0 +1,78 @@
+img{
+    height: 300px;
+    width: 211px;
+}
+
+h3{
+    margin-top: 10px;
+}
+
+.books{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 100px;
+}
+
+.card{
+    margin: 10px;
+}
+
+.card:hover{
+    background-color: rgb(182, 182, 182);
+    cursor: pointer;
+}
+
+.info {
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    position: fixed;
+    width: 400px;
+    height: 500px;
+    top: 0%;
+    right: 30px;
+    background-color:rgb(235, 235, 235);
+    border-radius: 15px;
+    overflow-y: scroll;
+    margin-top: 20px;
+}
+
+.info2 {
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    position: fixed;
+    width: 400px;
+    height: 400px;
+    top: 54%;
+    right: 30px;
+    background-color:rgb(235, 235, 235);
+    border-radius: 15px;
+    margin-top: 20px;
+    overflow-y: scroll;
+}
+
+.infobutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(131, 131, 131);
+    top: 3%;
+    right: 30px;
+    border-radius: 15px;
+    z-index: 100;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.infobutton img {
+    width: 30px;
+    height: 30px;
+}

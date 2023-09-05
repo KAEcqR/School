@@ -1,0 +1,9 @@
+//opcja tak (ok) lub nie (anuluj)
+
+//const answer = confirm("oddaj mi nerke");
+//console.log(answer); 
+
+//opcja do wpisania (string) albo ok (pusta wartość "") albo null (anuluj)
+
+//const age = prompt("podaj swój wiek");
+//console.log(age);

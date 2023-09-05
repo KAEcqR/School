@@ -1,0 +1,40 @@
+.czarny {
+    background-color: black;
+    color: white;
+}
+
+.zielony {
+    background-color: green;
+    color: white;
+}
+
+.czerwony {
+    background-color: red;
+    color: white;
+}
+
+.niebieski {
+    background-color: blue;
+    color: white;
+}
+
+.żółty {
+    background-color: yellow;
+    color: black;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bordered {
+    outline: 3px solid red;
+}

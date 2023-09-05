@@ -1,0 +1,116 @@
+.body{
+    overflow: hidden;
+}
+
+.navigacja {
+    background-color: rgb(233, 233, 233);
+    width: 200px;
+    height: 400px;
+}
+
+.button {
+    background-color: rgb(45, 162, 45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    color: white;
+    width: 80%;
+    height: 30px;
+    margin-top: 20px;
+    transition: all 0.2s;   
+}
+
+.button:hover{
+    background-color: rgb(47, 199, 47);
+    cursor:pointer;
+}
+
+.button-container{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 800px;
+    height: 600px;
+}
+
+.content {
+    background-color: rgb(233, 233, 233);
+    position: relative;
+    top: -400px;
+    right: -200px;
+    width: 596px;
+    height: 600px;
+    margin-left: 4px;
+    text-align: left;
+}
+
+.kontakt-header{
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(54, 136, 183);
+}
+
+.content-header{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: rgb(48, 105, 138);
+    width: 596px;
+    text-align: left;
+    padding: 10px;
+}
+
+p {
+    margin: 10px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+
+.serwis-container {
+    width: 200px;
+    height: 300px;
+    float: right;
+}
+
+.serwis{
+    width: 200px;
+    height: 200px;
+}
+
+.footer{
+    background-color: rgb(233, 233, 233);
+    margin-top: 60px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.content-nav{
+    margin-left: 10px;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+
+.item{
+    color: rgb(153, 107, 21);
+}
+
+li{
+    cursor: pointer;
+}
+
+.r {
+    margin-left: 20px;
+}
