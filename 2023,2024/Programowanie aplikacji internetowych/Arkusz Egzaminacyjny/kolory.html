@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pomocnik CSS</title>
     <link rel="stylesheet" href="styl2.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="header">
@@ -24,13 +25,19 @@
         <img src="kolory.jpg" alt="Przestrzeń barw HSL">
         
         <form>
-            <input type="number" max="360" min="0" placeholder="0 - 360" class="numer">
-            <input type="button" class="button" value="Generuj paletę">
+            <input type="number" max="360" min="0" placeholder="0 - 360" id="numer">
+            <input type="button" id="button" value="Generuj paletę">
         </form>
 
-        <table>
+        <table class="table">
             <tr>
-                <td colspan="4">Kolor główny</td>
+                <td colspan="4" class="glowny">Kolor główny</td>
+            </tr>
+            <tr>
+                <td class="td1">1</td>
+                <td class="td2">2</td>
+                <td class="td3">3</td>
+                <td class="td4">4</td>
             </tr>
         </table>
     </div>
@@ -39,3 +46,4 @@
     </div>
 </body>
 </html>
+

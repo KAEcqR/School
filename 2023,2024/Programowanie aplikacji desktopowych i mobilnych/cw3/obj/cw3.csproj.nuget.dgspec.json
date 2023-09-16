@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Programowanie aplikacji desktopowych i mobilnych\\cw2\\cw2.csproj": {}
+    "F:\\Programowanie aplikacji desktopowych i mobilnych\\cw3\\cw3.csproj": {}
   },
   "projects": {
-    "F:\\Programowanie aplikacji desktopowych i mobilnych\\cw2\\cw2.csproj": {
+    "F:\\Programowanie aplikacji desktopowych i mobilnych\\cw3\\cw3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Programowanie aplikacji desktopowych i mobilnych\\cw2\\cw2.csproj",
-        "projectName": "cw2",
-        "projectPath": "F:\\Programowanie aplikacji desktopowych i mobilnych\\cw2\\cw2.csproj",
+        "projectUniqueName": "F:\\Programowanie aplikacji desktopowych i mobilnych\\cw3\\cw3.csproj",
+        "projectName": "cw3",
+        "projectPath": "F:\\Programowanie aplikacji desktopowych i mobilnych\\cw3\\cw3.csproj",
         "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-        "outputPath": "F:\\Programowanie aplikacji desktopowych i mobilnych\\cw2\\obj\\",
+        "outputPath": "F:\\Programowanie aplikacji desktopowych i mobilnych\\cw3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",

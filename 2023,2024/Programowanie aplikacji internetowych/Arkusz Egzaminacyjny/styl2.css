@@ -78,3 +78,34 @@ a::after {
 .numer {
     width: 200px;
 }
+
+.table{
+    background-color: white; 
+    margin: 30px;
+}
+
+td {
+    width: 160px;
+    height: 120px;
+    text-align: center;
+}
+
+.glowny {
+    text-align: center;
+}
+
+.td1{
+
+}
+
+.td2{
+
+}
+
+.td3{
+
+}
+
+.td4{
+
+}
