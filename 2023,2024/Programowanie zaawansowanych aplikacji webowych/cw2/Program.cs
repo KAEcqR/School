@@ -22,9 +22,9 @@
         Console.WriteLine($"{a}  /  {b}  = {a / b} ");
     }
 }
-catch (Exception)
+catch (Exception e)
 {
-    throw new FormatException("Podaj poprawną liczbę");
+    Console.WriteLine(e.Message);
 }
 
 
