@@ -1,0 +1,111 @@
+body {
+    background-color: rgba(250,240,230,255);
+    margin: 0;
+}
+
+.header {
+    background-color: black;
+    height: 150px;
+    width: 100%;
+    margin: 0;
+    display: flex;
+}
+
+.header > h1 {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 15px;
+    margin: 0;
+    width: 20%;
+}
+
+.nav{
+    width: 100%;
+    margin-right: 150px;
+}
+
+.item {
+    margin: 10px; 
+    float: right;
+}
+
+.item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    color: rgb(179, 179, 179);
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+a::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    display: flex;
+    margin-top: 5px;
+    background-color: white;
+}
+
+.footer {
+    color: white;
+    font-family: sans-serif;
+    font-size: 10px;
+    padding-top: 15px;
+    margin: 0;
+
+    background-color: black;
+    height: 150px;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.main {
+    padding: 20px;
+}
+
+.numer {
+    width: 200px;
+}
+
+.table{
+    background-color: white; 
+    margin: 30px;
+}
+
+td {
+    width: 160px;
+    height: 120px;
+    text-align: center;
+}
+
+.glowny {
+    text-align: center;
+}
+
+.td1{
+
+}
+
+.td2{
+
+}
+
+.td3{
+
+}
+
+.td4{
+
+}
