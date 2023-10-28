@@ -35,7 +35,7 @@ a{
     background-color: rgb(101, 214, 193);
     border: 1px solid black;
     width: 1400px;
-    height: 220px;
+    height: 420px;
     position: absolute;
     top: 275px;
     right: 0; 
@@ -57,4 +57,14 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.obrazek {
+    margin-left: 20px;
+}
+
+.obrazek2{
+    margin-left: 20px;
+    width: 300px;
+    height: 400px;
 }

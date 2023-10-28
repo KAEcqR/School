@@ -1,0 +1,14 @@
+E:\student\pulpit\9.10.2023\cw6\bin\Debug\net7.0\cw6.exe
+E:\student\pulpit\9.10.2023\cw6\bin\Debug\net7.0\cw6.deps.json
+E:\student\pulpit\9.10.2023\cw6\bin\Debug\net7.0\cw6.runtimeconfig.json
+E:\student\pulpit\9.10.2023\cw6\bin\Debug\net7.0\cw6.dll
+E:\student\pulpit\9.10.2023\cw6\bin\Debug\net7.0\cw6.pdb
+E:\student\pulpit\9.10.2023\cw6\obj\Debug\net7.0\cw6.GeneratedMSBuildEditorConfig.editorconfig
+E:\student\pulpit\9.10.2023\cw6\obj\Debug\net7.0\cw6.AssemblyInfoInputs.cache
+E:\student\pulpit\9.10.2023\cw6\obj\Debug\net7.0\cw6.AssemblyInfo.cs
+E:\student\pulpit\9.10.2023\cw6\obj\Debug\net7.0\cw6.csproj.CoreCompileInputs.cache
+E:\student\pulpit\9.10.2023\cw6\obj\Debug\net7.0\cw6.dll
+E:\student\pulpit\9.10.2023\cw6\obj\Debug\net7.0\refint\cw6.dll
+E:\student\pulpit\9.10.2023\cw6\obj\Debug\net7.0\cw6.pdb
+E:\student\pulpit\9.10.2023\cw6\obj\Debug\net7.0\cw6.genruntimeconfig.cache
+E:\student\pulpit\9.10.2023\cw6\obj\Debug\net7.0\ref\cw6.dll

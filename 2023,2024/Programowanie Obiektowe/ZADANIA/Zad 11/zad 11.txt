@@ -1,0 +1,19 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    int X;
+
+    cout << "Podaj X: ";
+    cin >> X;
+
+    if (X <= 1) {
+        cout << "X ma być większe od 1 podaj jeszcze raz" << endl;
+    } else {
+        double wynik = sqrt(sin(X) / (X - 1));
+        cout << "Wynik pierwiastka z sin(X) / (X-1) to: " << wynik << endl;
+    }
+
+    return 0;
+}

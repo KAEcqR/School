@@ -1,0 +1,42 @@
+F:\Programowanie aplikacji desktopowych i mobilnych\cw6\bin\Debug\net7.0\cw6.exe
+F:\Programowanie aplikacji desktopowych i mobilnych\cw6\bin\Debug\net7.0\cw6.deps.json
+F:\Programowanie aplikacji desktopowych i mobilnych\cw6\bin\Debug\net7.0\cw6.runtimeconfig.json
+F:\Programowanie aplikacji desktopowych i mobilnych\cw6\bin\Debug\net7.0\cw6.dll
+F:\Programowanie aplikacji desktopowych i mobilnych\cw6\bin\Debug\net7.0\cw6.pdb
+F:\Programowanie aplikacji desktopowych i mobilnych\cw6\obj\Debug\net7.0\cw6.GeneratedMSBuildEditorConfig.editorconfig
+F:\Programowanie aplikacji desktopowych i mobilnych\cw6\obj\Debug\net7.0\cw6.AssemblyInfoInputs.cache
+F:\Programowanie aplikacji desktopowych i mobilnych\cw6\obj\Debug\net7.0\cw6.AssemblyInfo.cs
+F:\Programowanie aplikacji desktopowych i mobilnych\cw6\obj\Debug\net7.0\cw6.csproj.CoreCompileInputs.cache
+F:\Programowanie aplikacji desktopowych i mobilnych\cw6\obj\Debug\net7.0\cw6.dll
+F:\Programowanie aplikacji desktopowych i mobilnych\cw6\obj\Debug\net7.0\refint\cw6.dll
+F:\Programowanie aplikacji desktopowych i mobilnych\cw6\obj\Debug\net7.0\cw6.pdb
+F:\Programowanie aplikacji desktopowych i mobilnych\cw6\obj\Debug\net7.0\cw6.genruntimeconfig.cache
+F:\Programowanie aplikacji desktopowych i mobilnych\cw6\obj\Debug\net7.0\ref\cw6.dll
+F:\Programowanie zaawansowanych aplikacji webowych\cw7\bin\Debug\net7.0\cw6.exe
+F:\Programowanie zaawansowanych aplikacji webowych\cw7\bin\Debug\net7.0\cw6.deps.json
+F:\Programowanie zaawansowanych aplikacji webowych\cw7\bin\Debug\net7.0\cw6.runtimeconfig.json
+F:\Programowanie zaawansowanych aplikacji webowych\cw7\bin\Debug\net7.0\cw6.dll
+F:\Programowanie zaawansowanych aplikacji webowych\cw7\bin\Debug\net7.0\cw6.pdb
+F:\Programowanie zaawansowanych aplikacji webowych\cw7\obj\Debug\net7.0\cw6.GeneratedMSBuildEditorConfig.editorconfig
+F:\Programowanie zaawansowanych aplikacji webowych\cw7\obj\Debug\net7.0\cw6.AssemblyInfoInputs.cache
+F:\Programowanie zaawansowanych aplikacji webowych\cw7\obj\Debug\net7.0\cw6.AssemblyInfo.cs
+F:\Programowanie zaawansowanych aplikacji webowych\cw7\obj\Debug\net7.0\cw6.csproj.CoreCompileInputs.cache
+F:\Programowanie zaawansowanych aplikacji webowych\cw7\obj\Debug\net7.0\cw6.dll
+F:\Programowanie zaawansowanych aplikacji webowych\cw7\obj\Debug\net7.0\refint\cw6.dll
+F:\Programowanie zaawansowanych aplikacji webowych\cw7\obj\Debug\net7.0\cw6.pdb
+F:\Programowanie zaawansowanych aplikacji webowych\cw7\obj\Debug\net7.0\cw6.genruntimeconfig.cache
+F:\Programowanie zaawansowanych aplikacji webowych\cw7\obj\Debug\net7.0\ref\cw6.dll
+G:\Programowanie zaawansowanych aplikacji webowych\cw7\bin\Debug\net7.0\cw6.exe
+G:\Programowanie zaawansowanych aplikacji webowych\cw7\bin\Debug\net7.0\cw6.deps.json
+G:\Programowanie zaawansowanych aplikacji webowych\cw7\bin\Debug\net7.0\cw6.runtimeconfig.json
+G:\Programowanie zaawansowanych aplikacji webowych\cw7\bin\Debug\net7.0\cw6.dll
+G:\Programowanie zaawansowanych aplikacji webowych\cw7\bin\Debug\net7.0\cw6.pdb
+G:\Programowanie zaawansowanych aplikacji webowych\cw7\obj\Debug\net7.0\cw6.GeneratedMSBuildEditorConfig.editorconfig
+G:\Programowanie zaawansowanych aplikacji webowych\cw7\obj\Debug\net7.0\cw6.AssemblyInfoInputs.cache
+G:\Programowanie zaawansowanych aplikacji webowych\cw7\obj\Debug\net7.0\cw6.AssemblyInfo.cs
+G:\Programowanie zaawansowanych aplikacji webowych\cw7\obj\Debug\net7.0\cw6.csproj.CoreCompileInputs.cache
+G:\Programowanie zaawansowanych aplikacji webowych\cw7\obj\Debug\net7.0\cw6.dll
+G:\Programowanie zaawansowanych aplikacji webowych\cw7\obj\Debug\net7.0\refint\cw6.dll
+G:\Programowanie zaawansowanych aplikacji webowych\cw7\obj\Debug\net7.0\cw6.pdb
+G:\Programowanie zaawansowanych aplikacji webowych\cw7\obj\Debug\net7.0\cw6.genruntimeconfig.cache
+G:\Programowanie zaawansowanych aplikacji webowych\cw7\obj\Debug\net7.0\ref\cw6.dll

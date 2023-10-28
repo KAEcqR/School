@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 2;
+    int b = -4;
+    int x;
+    
+    x = ((-1)*b)/a;
+    
+    cout<<"Miejsce zerowe funkcji f(x) = 2*x-4 to: "<<x<<endl;
+    
+    return 0;
+}

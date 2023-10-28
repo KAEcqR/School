@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double dbt = 9;
+    double pt = 7;
+    double pbt = 7;
+    double wysokosc = 8;
+    
+    double polet = (pt * wysokosc) / 2;
+    double obwt = pt + pbt + dbt;
+
+    cout << "Obwod trójkata: " << obwt << endl;    
+    cout << "Pole trójkata: " << polet << endl;
+    
+    return 0;
+}

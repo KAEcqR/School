@@ -1,0 +1,14 @@
+F:\Programowanie aplikacji desktopowych i mobilnych\cw5\bin\Debug\net7.0\cw5.exe
+F:\Programowanie aplikacji desktopowych i mobilnych\cw5\bin\Debug\net7.0\cw5.deps.json
+F:\Programowanie aplikacji desktopowych i mobilnych\cw5\bin\Debug\net7.0\cw5.runtimeconfig.json
+F:\Programowanie aplikacji desktopowych i mobilnych\cw5\bin\Debug\net7.0\cw5.dll
+F:\Programowanie aplikacji desktopowych i mobilnych\cw5\bin\Debug\net7.0\cw5.pdb
+F:\Programowanie aplikacji desktopowych i mobilnych\cw5\obj\Debug\net7.0\cw5.GeneratedMSBuildEditorConfig.editorconfig
+F:\Programowanie aplikacji desktopowych i mobilnych\cw5\obj\Debug\net7.0\cw5.AssemblyInfoInputs.cache
+F:\Programowanie aplikacji desktopowych i mobilnych\cw5\obj\Debug\net7.0\cw5.AssemblyInfo.cs
+F:\Programowanie aplikacji desktopowych i mobilnych\cw5\obj\Debug\net7.0\cw5.csproj.CoreCompileInputs.cache
+F:\Programowanie aplikacji desktopowych i mobilnych\cw5\obj\Debug\net7.0\cw5.dll
+F:\Programowanie aplikacji desktopowych i mobilnych\cw5\obj\Debug\net7.0\refint\cw5.dll
+F:\Programowanie aplikacji desktopowych i mobilnych\cw5\obj\Debug\net7.0\cw5.pdb
+F:\Programowanie aplikacji desktopowych i mobilnych\cw5\obj\Debug\net7.0\cw5.genruntimeconfig.cache
+F:\Programowanie aplikacji desktopowych i mobilnych\cw5\obj\Debug\net7.0\ref\cw5.dll

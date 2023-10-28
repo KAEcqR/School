@@ -1,0 +1,25 @@
+Dobre praktyki w zglaszaniu bledow za pomoca narzedzi
+
+Defekt = Blad lub usterka, jest jednym z najczesciej uzywanym przez testera pojec codziennej pracy, wada modulu lub systemu ktora moze spowodowac ze modul lub system nie wykona zadnej czynnosci, ta wada najczesciej wynika z popelnionej przez programiste pomylki polegajacej np na uzyciu nie poprawnego polecenia lub wyrazenia badz nie wlasciwej definicji danych, ostatecznym skutkiem jest awaria oprogramowania
+
+Mechanizm powstawania awari:
+
+Pomylka => Defekt => Awaria 
+
+Obszary w ktorych najczesciej mozemy znalezc bledy:
+- skomplikowany kod, rozbudowana funkcjonalnosc
+- nowo wprowadzone zmiany (regresja)
+- zmiany wykonane w pracy pod presja czasu 
+
+przy rejestrowaniu zgloszenia kazde narzedzie wymaga roznego rodzaju informajci, w takim 
+zgloszeniu powinny sie znalezc: 
+- Nazwa powinna w krotki i zwiezly sposob haslowo informowac o tym czego dotyczy blad
+- Unikalny identyfikator id udzielany przez systemy
+- Opis problemu powinien zawierac dokladny zapis krok po kroku wykonywanych ktore spowodowaly blad oraz opis blednego dzialania skonfrontowany z poprawnym oczekiwanym
+zachowaniem 
+- zalaczniki = zrzut ekranu arkusz dokument link
+- login badz imie i nazwisko osoby zglaszajacej 
+- priorytet - informujacy o tym jak wazny jest blad i jak szybko powinien zostac naprawiony 
+- waga - informujaca o tym jaki wplyw na inne funkcje ma raportowany blad
+- srodowisko, w ktorym wykryto blad( przegladarka, rola uzytkownika, link do srodowiska testowego)         
+

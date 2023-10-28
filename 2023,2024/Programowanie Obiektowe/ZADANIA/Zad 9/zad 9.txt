@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int A, B, C;
+   
+    cout << "Podaj A: ";
+    cin >> A;
+    cout << "Podaj B: ";
+    cin >> B;
+    cout << "Podaj C: ";
+    cin >> C;
+
+    if ( (B != 0) || A != 0 || (C != 0)) {
+        double w = A / B + C / (A + B) - (A + C) / (A + B + A);
+        cout << "Wynik: " << w << endl;
+    }
+
+    return 0;
+}

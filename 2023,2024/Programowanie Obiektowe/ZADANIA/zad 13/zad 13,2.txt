@@ -1,0 +1,31 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    int x;
+    int y;
+    int parzyste = 0;
+    int nieparzyste = 0;
+    int ogolnie = 0;
+
+    cout << "Podaj początkową wartość: ";
+    cin >> x;
+
+    cout << "Podaj końcową wartość: ";
+    cin >> y;
+
+    do {
+        ogolnie += x;
+        if (x % 2 == 0) {
+            parzyste += x;
+        } else {
+            nieparzyste += x;
+        }
+        x++;
+    } while (x != y);
+
+    cout << "suma liczb w zakresie to: " << parzyste << ", nieparzystych: " << nparzyste << ", a wszystkich to: " << ogolnie << endl;
+
+    return 0;
+}

@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double wysokosc = 8;
+    double pt = 7;
+    double dbt;
+    double pbt;
+    
+    cout<<"Podaj pierwszy bok: ";
+    cin>>pbt;
+    cout<<endl;
+
+    cout<<"Podaj drugi bok: ";
+    cin>>dbt;
+    cout<<endl;
+    
+    
+    
+    double polet = (pt * wysokosc) / 2;
+    double obwt = pt + pbt + dbt;
+    
+    cout << "Obwod trójkata: " << obwt << endl;
+    cout << "Pole trójkata: " << polet << endl;
+    
+    return 0;
+}

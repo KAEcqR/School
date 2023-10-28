@@ -1,0 +1,46 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+    int il;
+    cout << "Ile liczb: ";
+    cin >> il;
+
+    if (il <= 0) {
+        cout << "Zła liczba" << endl;
+        return 1;
+    }
+
+    int numbers[il];
+
+    for (int i = 0; i < il; i++) {
+        int n;
+        cout << i + 1 << ". Podaj liczbe: ";
+        cin >> n;
+
+        if (n <= 10) {
+            numbers[i] = n;
+        } else {
+            cout << "liczba musi byc mniejsza od 10, jeszcze raz" << endl;
+            i--;
+        }
+    }
+
+    int max = numbers[0];
+    int min = numbers[0];
+
+    for (int i = 0; i < il; i++) {
+        if (numbers[i] > max) {
+            max = numbers[i];
+        }
+        if (numbers[i] < min) {
+            min = numbers[i];
+        }
+    }
+
+    cout << "Max. wartosc z liczby to: " << max << endl;
+    cout << "Min. wartosc z liczby to: " << min << endl;
+
+    return 0;
+}

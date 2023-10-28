@@ -1,0 +1,44 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    enum Szkola {
+        PODSTAWOWKA = 8,
+        TECHNIKUM = 5,
+        LICEUM = 4,
+        STUDIA = 5
+    };
+
+    cout << "Podaj dlugosc okresu ksztalcenia (4, 5 lub 8)" << endl;
+    int szkola;
+    cin >> szkola;
+
+    switch (szkola) {
+        case 8: {
+            cout << "Podstawowa" << endl;
+            break;
+        }
+        case 5: {
+            cout << "O jaka szkole ci chodzi, (1 technikum, 2 studia): ";
+            int odpowiedz;
+            cin >> odpowiedz;
+            if (odpowiedz == 1) {
+                cout << "Technikum" << endl;
+            } else if (odpowiedz == 2) {
+                cout << "Studia" << endl;
+            } else {
+                cout << "Błąd: Wybierz 1 lub 2" << endl;
+            }
+            break;
+        }
+        case 4: {
+            cout << "Liceum" << endl;
+            break;
+        }
+        default: {
+            cout << "Błąd: Wybrano niewłaściwy okres kształcenia" << endl;
+        }
+    }
+    return 0;
+}
