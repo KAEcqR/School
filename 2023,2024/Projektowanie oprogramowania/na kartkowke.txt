@@ -23,3 +23,38 @@ zachowaniem
 - waga - informujaca o tym jaki wplyw na inne funkcje ma raportowany blad
 - srodowisko, w ktorym wykryto blad( przegladarka, rola uzytkownika, link do srodowiska testowego)         
 
+Jira jest obecnie najpopularniejszym narzedziem wykorzystywanym komercyjnie. Swoja popularnosc zawdziecza przede wszystkim elastycznosc oraz mozliwosci dostosowania ekranow do potrzeb projektu. Producent programu opracowuje i udostpenia na biezaco wiele dodatkow ktore mozna w pelni integrowac z tym narzedziem.
+
+Najpopularniejsze pola, z jakimi mozesz sie spotkac w jira podczas zglaszania bledu to : 
+- Project - nazwa projektu w Jira, czasem sie zdaza ze mamy kilka do wyboru, jesli pracujemy w paru projektach jednoczesnie 
+
+- Issue Type - typ zgloszenia, np. Bug - blad, improvement - zgloszenie dotyczace nowych zmian w systemie, Documentation, zgloszenie dotyczace tworzenia nowej dokumentacji w projekcie
+
+Summary - tytul zgloszenia
+Priority - priorytet, rozrozniamy nastepujace priorytety zgloszen : 
+            - blocker, np aplikacja nie dziala blokuje sie kluczowy proces i nie ma sposobu na obejcie problemu
+            - Critical, np, kluczowy proces nie dziala, ale jest obejscie, problemu ze wsparciem IT
+            -Major, np, blad powodujacy spowolnienie procesu, a jednoczesnie blad, dla ktoregi istnieje obejscie
+            - Minor, np, blad ktory nie ma wplywu na dzialanie procesu biznesowego ale jego naprawa poprawi ergonomie pracy
+            - Trivial, np, malo znaczacy latwy do naprawienia blad jak zly napis lub literowka
+
+- Affect/Fix version - oznaczenie wersji systemu w ktorej znaleziono blad lub teh w ktorej zdanie ma zostac zrealizowane
+- Assigne - pole okreslajace osobe ktora ma sie zajac realizacja zadania domyslnie uzupelnione jest wartoscia automatic w takim przypadku zostanie automatycznie przypisane do osoby wskazanej w konfiguracji projektu w Jira czesto jest to project owner 
+- Environment - to poole wskazujace w ktorym srodowisku testowym zaobserwowane zostalo zdarzenei ktorego dotyczy zgloszenie
+- Description - Pole pozwalajace na umieszczenie w nim pelnego opisu zgloszenia 
+- Origina\l Estimate - umozliwia okreslenie czasu na realizacje zadania
+- Attachment - daje mozliwosc dodania zalocznikow do zgloszenia
+
+Bugzilla pomimo dosc prostego interfaceu narzedzie wciaz chetnie wykorzystuje sie w projektach Jest darmowym i otwartym oprogramowaniem sluzacym do raportowania bledow moze byc stosowane do aplikacji komercyjnyhc podczas raportowania bledow mamy mozliwosc zglaszania wlasnych sugestii zwiazanych z rozwojem oprogramowania
+
+Trello jest najmlodszym narzedziem z tej grupy ma bardzo szerokie zastosowanie i daje uzytkownikowi calkowita dowolnosc nie ma zdefiniowanych pol, niezbedne informacje mozna wprowadzac na dodawanych w razie potrzeby kartach wystarczy znac zbior dobrych praktyk aby narzedzie nie odbiegalo od jira aplikacja trello nie wymusza na uzytkowniku wypelnienia okreslonych pol, caly ciezar przekazania informacji o bledzie spoczywa na zglaszajacym
+
+Jakie informacje powinno zawierac poprawne zgloszenie bledu
+Identyfikator.
+Opis defektu.
+Tytuł
+Kroki prowadzące do odtworzenia błędu.
+Rezultat aktualny i oczekiwany.
+Środowisko.
+Informacje na temat zgłaszającego.
+Priorytet.
