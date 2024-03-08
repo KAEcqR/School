@@ -1,0 +1,25 @@
+table {
+    border: 1px black solid;
+}
+
+th {
+    border: 1px black solid;
+    width: 500px;
+    height: 200px;
+}
+
+.tab1 {
+    background-color: gray;
+}
+
+.tab2 {
+    background-color: green;
+}
+
+.tab3 {
+    background-color: yellow;
+}
+
+.obrazek {
+    width: 150px;
+}

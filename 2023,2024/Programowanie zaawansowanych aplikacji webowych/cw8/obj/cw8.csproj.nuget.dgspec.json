@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Programowanie zaawansowanych aplikacji webowych\\cw8\\cw8.csproj": {}
+    "F:\\Programowanie zaawansowanych aplikacji webowych\\cw8\\Cw8.csproj": {}
   },
   "projects": {
-    "G:\\Programowanie zaawansowanych aplikacji webowych\\cw8\\cw8.csproj": {
+    "F:\\Programowanie zaawansowanych aplikacji webowych\\cw8\\Cw8.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Programowanie zaawansowanych aplikacji webowych\\cw8\\cw8.csproj",
-        "projectName": "cw8",
-        "projectPath": "G:\\Programowanie zaawansowanych aplikacji webowych\\cw8\\cw8.csproj",
+        "projectUniqueName": "F:\\Programowanie zaawansowanych aplikacji webowych\\cw8\\Cw8.csproj",
+        "projectName": "Cw8",
+        "projectPath": "F:\\Programowanie zaawansowanych aplikacji webowych\\cw8\\Cw8.csproj",
         "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-        "outputPath": "G:\\Programowanie zaawansowanych aplikacji webowych\\cw8\\obj\\",
+        "outputPath": "F:\\Programowanie zaawansowanych aplikacji webowych\\cw8\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

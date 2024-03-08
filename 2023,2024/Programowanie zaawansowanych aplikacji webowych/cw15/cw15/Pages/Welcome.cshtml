@@ -1,0 +1,41 @@
+﻿@page
+@model cw15.Pages.WelcomeModel
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="~/bootstrap/css/bootstrap.min.css"
+</head>
+<body>
+    <h1>Witamy</h1>
+    <form method="post">
+        <div class="row m-2">
+            <label class="col-3 text-end" asp-for="MyPerson.Firstname"></label>
+            <input class="col-6" asp-for="MyPerson.Firstname"/>
+            <span class="col-3 text-danger" asp-validation-for="MyPerson.Firstname"></span>
+        </div>
+        <div class="row m-2">
+            <label class="col-3 text-end" asp-for="MyPerson.Lastname"></label>
+            <input class="col-6" asp-for="MyPerson.Lastname"/>
+            <span class="col-3 text-danger" asp-validation-for="MyPerson.Lastname"></span>
+        </div>
+        <div class="row m-2">
+            <label class="col-3 text-end" asp-for="MyPerson.Content"></label>
+            <input class="col-6" asp-for="MyPerson.Content"/>
+            <span class="col-3 text-danger" asp-validation-for="MyPerson.Content"></span>
+        </div>
+        <div class="row m-2">
+            <label class="col-3 text-end" asp-for="MyPerson.PartyDate"></label>
+            <input class="col-6" type="date" asp-for="MyPerson.PartyDate"/>
+            <span class="col-3 text-danger" asp-validation-for="MyPerson.PartyDate"></span>
+        </div>
+        <div class="offset-3 col-6 m-2">
+            <input type="submit" class="btn btn-dark" value="Zapisz"/>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,32 @@
+Dokumentacja wytworzona podczas procesu testowego jest niezbedna do ewentualnego odtworzenia danego etapu testow czy przekazania wiedzy nowym czlonkom zespolu stanowi srodek komunikacji wszelkie ustalenia i zmiany sa umieszczane we wskazanych lokalizacjach takich jak miejsce na dysku firmowym lub dedyhkowane narzedzie do ktorego prowadzi wskazanyh link  dokumentacja powina byhc tworzona wedlug wzorcow przyjetych i obowiazujacych w danej ordganizacji 
+
+Plan testow jest tworzony na etapie planowania procesu testowego. Ten dokument jest aktywny przez caly czas trwania projektu powinien byc kazdorazowo modyfikowany i uzupelniany o nowe informacje wszystkie osoby zaangazowane w projekt musza miec dostep do dokumenty
+
+Plan testow projektu [ nazwa ] 
+
+I cel dokumentu 
+
+ W tym punkcie nalezy opisac cel stworzenia dokumentu, a takze wskazac projekt ktorego dotyczy
+
+II Przedmiot i zakres
+
+Nalezy wskazac co jest celem testow oraz wymienic elementy ktore beda testowane w tym punkcie moze sie znalesc np opis informujacy o tym ze zostana sprawdzone interfejsy i nowe funkcjonalnosci procesy biznesowe mozna takze zamiescic informacje o tym czy przeprowadzone beda testy regresji jesli tak nalezy podac ich zakres
+
+III terminologia
+
+Zawiera wykaz definicji i pojec uzytych przy tworzeniu dokumentu np :
+
+
+VI obowiazki odpowiedzialnosci i uprawnienia
+
+Zawiera opis orl wraz z zakresem obowiazkow przydzielonych do osob ktore biora udzial w tworzeniu specyfikacji funkcjonalnej zmiany informatycznej w ramach poszczegolnych etapow testow w naszym przykladowmy planie do realizacji zadan przydzielone zostaly osoby wymienione w tabeli 
+
+V opis postepowania
+
+1. informacje wstepne
+	a) dokumenty powiazane (harmonogram, zestawienie wymagan dotyczacych danych)
+	b) zalozenia i ograniczenia (typy testow jakie zostana przeprowadzone)
+	c) dokumentacja realizowania testow (potwierdzenie wynikow testu zostana umiesczone w narzedziu test link ) 
+	d) potrzeby szkoleniowe ( np. warsztaty z architektami i kierownikami projektu ) 
+	e) kryteria rozpoczecia zawieszenia i zakonczenia testow - opis
+2. ryzyka 

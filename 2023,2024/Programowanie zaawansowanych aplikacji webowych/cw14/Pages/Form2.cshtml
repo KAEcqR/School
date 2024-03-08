@@ -1,0 +1,57 @@
+﻿@page
+@model MyApp.Namespace.Form2Model
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Nowy Film</h2>
+    <form method="post">
+        <div class="row m-2">
+            <label asp-for="@Model.MyFilm.Title" class="col-3"></label>
+            <input asp-for="@Model.MyFilm.Title" class="col-6">
+            <span asp-validation-for="@Model.MyFilm.Title" class="col-3 error"></span>
+        </div>
+        <div class="row m-2">
+            <label asp-for="@Model.MyFilm.Genre" class="col-3"></label>
+            <select asp-for="@Model.MyFilm.Genre" class="col-6">
+                @foreach (var e in Model.Genres)
+                    {
+                        <option value="@e">@e</option>
+                    }
+            </select>
+            <span asp-validation-for="@Model.MyFilm.Genre" class="col-3 error"></span>
+        </div>
+        <div class="row m-2">
+            <label asp-for="@Model.MyFilm.Price" class="col-3"></label>
+            <input asp-for="@Model.MyFilm.Price" class="col-6" type="number" step="0.01">
+            <span asp-validation-for="@Model.MyFilm.Price" class="col-3 error"></span>
+        </div>
+        <div class="row m-2">
+            <label asp-for="@Model.MyFilm.DateOf" class="col-3"></label>
+            <input asp-for="@Model.MyFilm.DateOf" class="col-6">
+            <span asp-validation-for="@Model.MyFilm.DateOf" class="col-3 error"></span>
+        </div>
+        <div class="row m-2">
+            <input type="submit" value="Zapisz" class="col-6 offset-3 btn-primary">
+        </div>
+    </form>
+    @if(Model.MyFilm != null){
+    <div class="card" style="width: 18rem;">
+        <div class="card-header">
+            @Model.MyFilm.Title
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">@Model.MyFilm.Genre</li>
+            <li class="list-group-item">@Model.MyFilm.Price zł</li>
+            <li class="list-group-item">@Model.MyFilm.DateOf</li>
+        </ul>
+    </div>
+    }
+</body>
+</html>

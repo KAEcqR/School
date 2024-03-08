@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\Programowanie zaawansowanych aplikacji webowych\\cw11\\cw11\\wwwroot\\index1.css",
+      "PackagePath": "staticwebassets\\index1.css"
+    },
+    {
+      "Id": "F:\\Programowanie zaawansowanych aplikacji webowych\\cw11\\cw11\\wwwroot\\index1.js",
+      "PackagePath": "staticwebassets\\index1.js"
+    },
+    {
+      "Id": "F:\\Programowanie zaawansowanych aplikacji webowych\\cw11\\cw11\\wwwroot\\index2.js",
+      "PackagePath": "staticwebassets\\index2.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.cw11.props",
+      "PackagePath": "build\\cw11.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.cw11.props",
+      "PackagePath": "buildMultiTargeting\\cw11.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.cw11.props",
+      "PackagePath": "buildTransitive\\cw11.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.cw11.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

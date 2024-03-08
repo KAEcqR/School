@@ -1,0 +1,270 @@
+Setting environment for using XAMPP for Windows.
+PC@HUBERT c:\xampp
+# mysql -u root
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MariaDB connection id is 9
+Server version: 10.4.32-MariaDB mariadb.org binary distribution
+
+Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+MariaDB [(none)]> prompt HB
+PROMPT set to 'HB '
+HB CREATE DATABASE Adresy_nazwisko;
+Query OK, 1 row affected (0.002 sec)
+
+HB USE Adresy_nazwisko;
+Database changed
+HB CREATE TABLE Osoba (
+    ->     Id INT PRIMARY KEY AUTO_INCREMENT,
+    ->     Imie VARCHAR(20) NOT NULL,
+    ->     Nazwisko VARCHAR(45) NOT NULL,
+    ->     Data_urodzenia DATE,
+    ->     Adres_Id INT UNIQUE
+    -> );
+Query OK, 0 rows affected (0.030 sec)
+
+HB CREATE TABLE Adres (
+    ->     Id INT PRIMARY KEY AUTO_INCREMENT,
+    ->     Ulica VARCHAR(30),
+    ->     Nr_domu VARCHAR(5),
+    ->     Kod VARCHAR(6),
+    ->     Miejscowosc VARCHAR(30)
+    -> );
+Query OK, 0 rows affected (0.010 sec)
+
+HB
+HB ALTER TABLE Osoba
+    -> ADD CONSTRAINT Adres_Nazwa
+    -> FOREIGN KEY (Adres_Id)
+    -> REFERENCES Adres(Id);
+Query OK, 0 rows affected (0.053 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+HB ALTER TABLE Osoba
+    -> DROP FOREIGN KEY Adres_Nazwa,
+    -> DROP COLUMN Adres_Id,
+    -> ADD COLUMN Adres_zam_id INT,
+    -> ADD COLUMN Adres_kor_id INT;
+Query OK, 0 rows affected (0.011 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+HB ALTER TABLE Osoba
+    -> ADD CONSTRAINT FK_Adres_zam
+    -> FOREIGN KEY (Adres_zam_id)
+    -> REFERENCES Adres(Id);
+Query OK, 0 rows affected (0.048 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+HB ALTER TABLE Osoba
+    -> ADD CONSTRAINT FK_Adres_kor
+    -> FOREIGN KEY (Adres_kor_id)
+    -> REFERENCES Adres(Id);
+Query OK, 0 rows affected (0.054 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+HB show table osoba
+    -> ;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'osoba' at line 1
+HB USE nazwisko_firma;
+ERROR 1049 (42000): Unknown database 'nazwisko_firma'
+HB USE bochenek_firma;
+ERROR 1049 (42000): Unknown database 'bochenek_firma'
+HB show database
+    -> ;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'database' at line 1
+HB show databases
+    -> ;
++--------------------+
+| Database           |
++--------------------+
+| adresy_nazwisko    |
+| information_schema |
+| mysql              |
+| performance_schema |
+| phpmyadmin         |
+| pracownicy_hb      |
+| test               |
++--------------------+
+7 rows in set (0.022 sec)
+
+HB create database boch_firma
+    -> ;
+Query OK, 1 row affected (0.001 sec)
+
+HB use boch_firma;
+Database changed
+HB CREATE TABLE test1 (
+    ->     id INT PRIMARY KEY,
+    ->     nazwa VARCHAR(20),
+    ->     INDEX nazwa_idx (nazwa)
+    -> );
+Query OK, 0 rows affected (0.024 sec)
+
+HB DESCRIBE test1;
++-------+-------------+------+-----+---------+-------+
+| Field | Type        | Null | Key | Default | Extra |
++-------+-------------+------+-----+---------+-------+
+| id    | int(11)     | NO   | PRI | NULL    |       |
+| nazwa | varchar(20) | YES  | MUL | NULL    |       |
++-------+-------------+------+-----+---------+-------+
+2 rows in set (0.010 sec)
+
+HB CREATE TABLE test2 (
+    ->     id INT PRIMARY KEY,
+    ->     imie VARCHAR(20),
+    ->     nazwisko VARCHAR(30),
+    ->     INDEX id_idx (id),
+    ->     INDEX imie_idx (imie),
+    ->     INDEX nazwisko_idx (nazwisko)
+    -> );
+Query OK, 0 rows affected (0.026 sec)
+
+HB DESCRIBE test2;
++----------+-------------+------+-----+---------+-------+
+| Field    | Type        | Null | Key | Default | Extra |
++----------+-------------+------+-----+---------+-------+
+| id       | int(11)     | NO   | PRI | NULL    |       |
+| imie     | varchar(20) | YES  | MUL | NULL    |       |
+| nazwisko | varchar(30) | YES  | MUL | NULL    |       |
++----------+-------------+------+-----+---------+-------+
+3 rows in set (0.010 sec)
+
+HB CREATE TABLE test3 (
+    ->     id INT PRIMARY KEY,
+    ->     imie VARCHAR(20),
+    ->     nazwisko VARCHAR(30),
+    ->     pesel CHAR(11),
+    ->     INDEX imie_nazwisko_idx (imie, nazwisko)
+    -> );
+Query OK, 0 rows affected (0.025 sec)
+
+HB
+HB DESCRIBE test3;
++----------+-------------+------+-----+---------+-------+
+| Field    | Type        | Null | Key | Default | Extra |
++----------+-------------+------+-----+---------+-------+
+| id       | int(11)     | NO   | PRI | NULL    |       |
+| imie     | varchar(20) | YES  | MUL | NULL    |       |
+| nazwisko | varchar(30) | YES  |     | NULL    |       |
+| pesel    | char(11)    | YES  |     | NULL    |       |
++----------+-------------+------+-----+---------+-------+
+4 rows in set (0.010 sec)
+
+HB SHOW INDEX FROM test1;
++-------+------------+-----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+| Table | Non_unique | Key_name  | Seq_in_index | Column_name | Collation | Cardinality | Sub_part | Packed | Null | Index_type | Comment | Index_comment |
++-------+------------+-----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+| test1 |          0 | PRIMARY   |            1 | id          | A         |           0 |     NULL | NULL   |      | BTREE      |         |               |
+| test1 |          1 | nazwa_idx |            1 | nazwa       | A         |           0 |     NULL | NULL   | YES  | BTREE      |         |               |
++-------+------------+-----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+2 rows in set (0.000 sec)
+
+HB SHOW INDEX FROM test2;
++-------+------------+--------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+| Table | Non_unique | Key_name     | Seq_in_index | Column_name | Collation | Cardinality | Sub_part | Packed | Null | Index_type | Comment | Index_comment |
++-------+------------+--------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+| test2 |          0 | PRIMARY      |            1 | id          | A         |           0 |     NULL | NULL   |      | BTREE      |         |               |
+| test2 |          1 | id_idx       |            1 | id          | A         |           0 |     NULL | NULL   |      | BTREE      |         |               |
+| test2 |          1 | imie_idx     |            1 | imie        | A         |           0 |     NULL | NULL   | YES  | BTREE      |         |               |
+| test2 |          1 | nazwisko_idx |            1 | nazwisko    | A         |           0 |     NULL | NULL   | YES  | BTREE      |         |               |
++-------+------------+--------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+4 rows in set (0.001 sec)
+
+HB SHOW INDEX FROM test3;
++-------+------------+-------------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+| Table | Non_unique | Key_name          | Seq_in_index | Column_name | Collation | Cardinality | Sub_part | Packed | Null | Index_type | Comment | Index_comment |
++-------+------------+-------------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+| test3 |          0 | PRIMARY           |            1 | id          | A         |           0 |     NULL | NULL   |      | BTREE      |         |               |
+| test3 |          1 | imie_nazwisko_idx |            1 | imie        | A         |           0 |     NULL | NULL   | YES  | BTREE      |         |               |
+| test3 |          1 | imie_nazwisko_idx |            2 | nazwisko    | A         |           0 |     NULL | NULL   | YES  | BTREE      |         |               |
++-------+------------+-------------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+3 rows in set (0.001 sec)
+
+HB DROP INDEX nazwa_indeksu ON nazwisko_firma.test1;
+ERROR 1146 (42S02): Table 'nazwisko_firma.test1' doesn't exist
+HB DROP INDEX id_idx ON test2;
+Query OK, 0 rows affected (0.010 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+HB DROP INDEX imie_nazwisko_idx ON test3;
+Query OK, 0 rows affected (0.008 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+HB DROP INDEX nazwa_indeksu ON boch_firma.test1;
+ERROR 1091 (42000): Can't DROP INDEX `nazwa_indeksu`; check that it exists
+HB drop index Index on boch_firma.test1;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Index on boch_firma.test1' at line 1
+HB drop Index on boch_firma.test1;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'on boch_firma.test1' at line 1
+HB SHOW INDEX FROM test1;
++-------+------------+-----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+| Table | Non_unique | Key_name  | Seq_in_index | Column_name | Collation | Cardinality | Sub_part | Packed | Null | Index_type | Comment | Index_comment |
++-------+------------+-----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+| test1 |          0 | PRIMARY   |            1 | id          | A         |           0 |     NULL | NULL   |      | BTREE      |         |               |
+| test1 |          1 | nazwa_idx |            1 | nazwa       | A         |           0 |     NULL | NULL   | YES  | BTREE      |         |               |
++-------+------------+-----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+2 rows in set (0.001 sec)
+
+HB SHOW INDEX FROM test2;
++-------+------------+--------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+| Table | Non_unique | Key_name     | Seq_in_index | Column_name | Collation | Cardinality | Sub_part | Packed | Null | Index_type | Comment | Index_comment |
++-------+------------+--------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+| test2 |          0 | PRIMARY      |            1 | id          | A         |           0 |     NULL | NULL   |      | BTREE      |         |               |
+| test2 |          1 | imie_idx     |            1 | imie        | A         |           0 |     NULL | NULL   | YES  | BTREE      |         |               |
+| test2 |          1 | nazwisko_idx |            1 | nazwisko    | A         |           0 |     NULL | NULL   | YES  | BTREE      |         |               |
++-------+------------+--------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+3 rows in set (0.000 sec)
+
+HB SHOW INDEX FROM test3;
++-------+------------+----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+| Table | Non_unique | Key_name | Seq_in_index | Column_name | Collation | Cardinality | Sub_part | Packed | Null | Index_type | Comment | Index_comment |
++-------+------------+----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+| test3 |          0 | PRIMARY  |            1 | id          | A         |           0 |     NULL | NULL   |      | BTREE      |         |               |
++-------+------------+----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+1 row in set (0.000 sec)
+
+HB CREATE INDEX id_idx ON test1 (id);
+Query OK, 0 rows affected (0.012 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+HB SHOW INDEX FROM test1;
++-------+------------+-----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+| Table | Non_unique | Key_name  | Seq_in_index | Column_name | Collation | Cardinality | Sub_part | Packed | Null | Index_type | Comment | Index_comment |
++-------+------------+-----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+| test1 |          0 | PRIMARY   |            1 | id          | A         |           0 |     NULL | NULL   |      | BTREE      |         |               |
+| test1 |          1 | nazwa_idx |            1 | nazwa       | A         |           0 |     NULL | NULL   | YES  | BTREE      |         |               |
+| test1 |          1 | id_idx    |            1 | id          | A         |           0 |     NULL | NULL   |      | BTREE      |         |               |
++-------+------------+-----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+3 rows in set (0.000 sec)
+
+HB CREATE INDEX imie_idx ON test2 (imie);
+ERROR 1061 (42000): Duplicate key name 'imie_idx'
+HB CREATE INDEX nazwisko_idx ON test2 (nazwisko);
+ERROR 1061 (42000): Duplicate key name 'nazwisko_idx'
+HB SHOW INDEX FROM test2;
++-------+------------+--------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+| Table | Non_unique | Key_name     | Seq_in_index | Column_name | Collation | Cardinality | Sub_part | Packed | Null | Index_type | Comment | Index_comment |
++-------+------------+--------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+| test2 |          0 | PRIMARY      |            1 | id          | A         |           0 |     NULL | NULL   |      | BTREE      |         |               |
+| test2 |          1 | imie_idx     |            1 | imie        | A         |           0 |     NULL | NULL   | YES  | BTREE      |         |               |
+| test2 |          1 | nazwisko_idx |            1 | nazwisko    | A         |           0 |     NULL | NULL   | YES  | BTREE      |         |               |
++-------+------------+--------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+3 rows in set (0.000 sec)
+
+HB CREATE INDEX nazwisko_pesel_idx ON test3 (nazwisko, pesel);
+Query OK, 0 rows affected (0.012 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+HB SHOW INDEX FROM test3;
++-------+------------+--------------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+| Table | Non_unique | Key_name           | Seq_in_index | Column_name | Collation | Cardinality | Sub_part | Packed | Null | Index_type | Comment | Index_comment |
++-------+------------+--------------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+| test3 |          0 | PRIMARY            |            1 | id          | A         |           0 |     NULL | NULL   |      | BTREE      |         |               |
+| test3 |          1 | nazwisko_pesel_idx |            1 | nazwisko    | A         |           0 |     NULL | NULL   | YES  | BTREE      |         |               |
+| test3 |          1 | nazwisko_pesel_idx |            2 | pesel       | A         |           0 |     NULL | NULL   | YES  | BTREE      |         |               |
++-------+------------+--------------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+3 rows in set (0.001 sec)
+
+HB

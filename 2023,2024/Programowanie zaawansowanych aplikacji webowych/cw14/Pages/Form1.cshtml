@@ -1,0 +1,52 @@
+﻿@page
+@model MyApp.Namespace.Form1Model
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Nowa Gra</h2>
+    <form method="post">
+        <div class="row m-2">
+            <label asp-for="@Model.MyGame.Title" class="col-3"></label>
+            <input asp-for="@Model.MyGame.Title" class="col-6">
+            <span asp-validation-for="@Model.MyGame.Title" class="col-3 error"></span>
+        </div>
+        <div class="row m-2">
+            <label asp-for="@Model.MyGame.Genre" class="col-3"></label>
+            <input asp-for="@Model.MyGame.Genre" class="col-6">
+            <span asp-validation-for="@Model.MyGame.Genre" class="col-3 error"></span>
+        </div>
+        <div class="row m-2">
+            <label asp-for="@Model.MyGame.Price" class="col-3"></label>
+            <input asp-for="@Model.MyGame.Price" class="col-6" type="number" step="0.01">
+            <span asp-validation-for="@Model.MyGame.Price" class="col-3 error"></span>
+        </div>
+        <div class="row m-2">
+            <label asp-for="@Model.MyGame.DateOf" class="col-3"></label>
+            <input asp-for="@Model.MyGame.DateOf" class="col-6">
+            <span asp-validation-for="@Model.MyGame.DateOf" class="col-3 error"></span>
+        </div>
+        <div class="row m-2">
+            <input type="submit" value="Zapisz" class="col-6 offset-3 btn-primary">
+        </div>
+    </form>
+    @if(Model.MyGame != null){
+    <div class="card" style="width: 18rem;">
+        <div class="card-header">
+            @Model.MyGame.Title
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">@Model.MyGame.Genre</li>
+            <li class="list-group-item">@Model.MyGame.Price zł</li>
+            <li class="list-group-item">@Model.MyGame.DateOf</li>
+        </ul>
+    </div>
+    }
+</body>
+</html>

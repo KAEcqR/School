@@ -1,4 +1,0 @@
-﻿  Cw11.cpp
-E:\student\pulpit\Cw11\Cw11.cpp(21,17): warning C4553: '==': result of expression not used; did you intend '='?
-E:\student\pulpit\Cw11\Cw11.cpp(24,17): warning C4553: '==': result of expression not used; did you intend '='?
-  Cw11.vcxproj -> E:\student\pulpit\Cw11\x64\Debug\Cw11.exe

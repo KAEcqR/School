@@ -1,0 +1,36 @@
+F:\Programowanie aplikacji desktopowych i mobilnych\cw8\cw8\bin\Debug\net6.0-windows\cw8.exe
+F:\Programowanie aplikacji desktopowych i mobilnych\cw8\cw8\bin\Debug\net6.0-windows\cw8.deps.json
+F:\Programowanie aplikacji desktopowych i mobilnych\cw8\cw8\bin\Debug\net6.0-windows\cw8.runtimeconfig.json
+F:\Programowanie aplikacji desktopowych i mobilnych\cw8\cw8\bin\Debug\net6.0-windows\cw8.dll
+F:\Programowanie aplikacji desktopowych i mobilnych\cw8\cw8\bin\Debug\net6.0-windows\cw8.pdb
+F:\Programowanie aplikacji desktopowych i mobilnych\cw8\cw8\obj\Debug\net6.0-windows\cw8.Form1.resources
+F:\Programowanie aplikacji desktopowych i mobilnych\cw8\cw8\obj\Debug\net6.0-windows\cw8.csproj.GenerateResource.cache
+F:\Programowanie aplikacji desktopowych i mobilnych\cw8\cw8\obj\Debug\net6.0-windows\cw8.GeneratedMSBuildEditorConfig.editorconfig
+F:\Programowanie aplikacji desktopowych i mobilnych\cw8\cw8\obj\Debug\net6.0-windows\cw8.AssemblyInfoInputs.cache
+F:\Programowanie aplikacji desktopowych i mobilnych\cw8\cw8\obj\Debug\net6.0-windows\cw8.AssemblyInfo.cs
+F:\Programowanie aplikacji desktopowych i mobilnych\cw8\cw8\obj\Debug\net6.0-windows\cw8.csproj.CoreCompileInputs.cache
+F:\Programowanie aplikacji desktopowych i mobilnych\cw8\cw8\obj\Debug\net6.0-windows\cw8.dll
+F:\Programowanie aplikacji desktopowych i mobilnych\cw8\cw8\obj\Debug\net6.0-windows\refint\cw8.dll
+F:\Programowanie aplikacji desktopowych i mobilnych\cw8\cw8\obj\Debug\net6.0-windows\cw8.pdb
+F:\Programowanie aplikacji desktopowych i mobilnych\cw8\cw8\obj\Debug\net6.0-windows\cw8.genruntimeconfig.cache
+F:\Programowanie aplikacji desktopowych i mobilnych\cw8\cw8\obj\Debug\net6.0-windows\ref\cw8.dll
+F:\Programowanie aplikacji desktopowych i mobilnych\cw8\cw8\obj\Debug\net6.0-windows\cw8.Form2.resources
+F:\Programowanie aplikacji desktopowych i mobilnych\cw8\cw8\obj\Debug\net6.0-windows\cw8.Form3.resources
+E:\student\pulpit\cw8\cw8\obj\Debug\net6.0-windows\cw8.Form1.resources
+E:\student\pulpit\cw8\cw8\obj\Debug\net6.0-windows\cw8.Form2.resources
+E:\student\pulpit\cw8\cw8\obj\Debug\net6.0-windows\cw8.Form3.resources
+E:\student\pulpit\cw8\cw8\obj\Debug\net6.0-windows\cw8.csproj.GenerateResource.cache
+E:\student\pulpit\cw8\cw8\obj\Debug\net6.0-windows\cw8.GeneratedMSBuildEditorConfig.editorconfig
+E:\student\pulpit\cw8\cw8\obj\Debug\net6.0-windows\cw8.AssemblyInfoInputs.cache
+E:\student\pulpit\cw8\cw8\obj\Debug\net6.0-windows\cw8.AssemblyInfo.cs
+E:\student\pulpit\cw8\cw8\obj\Debug\net6.0-windows\cw8.csproj.CoreCompileInputs.cache
+E:\student\pulpit\cw8\cw8\obj\Debug\net6.0-windows\cw8.dll
+E:\student\pulpit\cw8\cw8\obj\Debug\net6.0-windows\refint\cw8.dll
+E:\student\pulpit\cw8\cw8\obj\Debug\net6.0-windows\cw8.pdb
+E:\student\pulpit\cw8\cw8\bin\Debug\net6.0-windows\cw8.exe
+E:\student\pulpit\cw8\cw8\bin\Debug\net6.0-windows\cw8.deps.json
+E:\student\pulpit\cw8\cw8\bin\Debug\net6.0-windows\cw8.runtimeconfig.json
+E:\student\pulpit\cw8\cw8\bin\Debug\net6.0-windows\cw8.dll
+E:\student\pulpit\cw8\cw8\bin\Debug\net6.0-windows\cw8.pdb
+E:\student\pulpit\cw8\cw8\obj\Debug\net6.0-windows\cw8.genruntimeconfig.cache
+E:\student\pulpit\cw8\cw8\obj\Debug\net6.0-windows\ref\cw8.dll

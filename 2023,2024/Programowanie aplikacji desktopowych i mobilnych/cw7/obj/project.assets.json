@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Programowanie aplikacji desktopowych i mobilnych\\cw7\\cw7.csproj",
+      "projectUniqueName": "G:\\Programowanie aplikacji desktopowych i mobilnych\\cw7\\cw7.csproj",
       "projectName": "cw7",
-      "projectPath": "F:\\Programowanie aplikacji desktopowych i mobilnych\\cw7\\cw7.csproj",
+      "projectPath": "G:\\Programowanie aplikacji desktopowych i mobilnych\\cw7\\cw7.csproj",
       "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-      "outputPath": "F:\\Programowanie aplikacji desktopowych i mobilnych\\cw7\\obj\\",
+      "outputPath": "G:\\Programowanie aplikacji desktopowych i mobilnych\\cw7\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",

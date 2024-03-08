@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "aLKvYtkGZ7vzU6Xr8lWnU2IFCaLGrPOz6xA8dVpbS+k=",
+  "Source": "cw11",
+  "BasePath": "_content/cw11",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "cw11\\wwwroot",
+      "Source": "cw11",
+      "ContentRoot": "F:\\Programowanie zaawansowanych aplikacji webowych\\cw11\\cw11\\wwwroot\\",
+      "BasePath": "_content/cw11",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "F:\\Programowanie zaawansowanych aplikacji webowych\\cw11\\cw11\\wwwroot\\index1.css",
+      "SourceId": "cw11",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Programowanie zaawansowanych aplikacji webowych\\cw11\\cw11\\wwwroot\\",
+      "BasePath": "_content/cw11",
+      "RelativePath": "index1.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index1.css"
+    },
+    {
+      "Identity": "F:\\Programowanie zaawansowanych aplikacji webowych\\cw11\\cw11\\wwwroot\\index1.js",
+      "SourceId": "cw11",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Programowanie zaawansowanych aplikacji webowych\\cw11\\cw11\\wwwroot\\",
+      "BasePath": "_content/cw11",
+      "RelativePath": "index1.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index1.js"
+    },
+    {
+      "Identity": "F:\\Programowanie zaawansowanych aplikacji webowych\\cw11\\cw11\\wwwroot\\index2.js",
+      "SourceId": "cw11",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Programowanie zaawansowanych aplikacji webowych\\cw11\\cw11\\wwwroot\\",
+      "BasePath": "_content/cw11",
+      "RelativePath": "index2.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index2.js"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "hmdTdfY8/p6sKIbN4RIhaoPElctHnPzmZE4hGLmw13k=",
+  "Source": "cw12",
+  "BasePath": "_content/cw12",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "cw12\\wwwroot",
+      "Source": "cw12",
+      "ContentRoot": "F:\\Programowanie zaawansowanych aplikacji webowych\\cw12\\cw12\\wwwroot\\",
+      "BasePath": "_content/cw12",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

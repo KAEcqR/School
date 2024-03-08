@@ -1,0 +1,51 @@
+I. Cel dokumentu:
+
+Celem tego dokumentu jest zapewnienie kompleksowego planu testowania dla projektu sklepu internetowego z odzieżą o nazwie [nazwa projektu].
+II. Przedmiot i Zakres:
+
+Cel testów: Weryfikacja funkcjonalności sklepu internetowego, interfejsów użytkownika oraz procesów biznesowych.
+Elementy do przetestowania:
+Interfejsy użytkownika.
+Nowe funkcjonalności dodane do sklepu.
+Procesy biznesowe, w tym proces zakupu, płatności, i dostawy.
+Testy regresji dla istniejących funkcji.
+III. Terminologia:
+
+Terminologia użyta w dokumentacji:
+Produkt - dowolny artykuł dostępny w sklepie.
+Koszyk - obszar przechowujący produkty wybrane przez użytkownika do zakupu.
+Konto użytkownika - indywidualne konto dla klienta sklepu.
+Płatność - proces dokonywania transakcji za pomocą różnych metod płatności online.
+IV. Obowiązki, Odpowiedzialności i Uprawnienia:
+
+Osoby zaangażowane w projekcie:
+[Imię Nazwisko] - Tester, odpowiedzialny za testy interfejsów użytkownika.
+[Imię Nazwisko] - Tester, odpowiedzialny za testy nowych funkcjonalności.
+[Imię Nazwisko] - Tester, odpowiedzialny za testy procesów biznesowych.
+[Imię Nazwisko] - Kierownik projektu, odpowiedzialny za nadzór nad postępem testów.
+V. Opis Postępowania:
+1. Informacje Wstępne:
+a) Dokumenty powiązane:
+- Harmonogram projektu.
+- Zestawienie wymagań dotyczących danych.
+b) Zalożenia i Ograniczenia:
+- Testy obejmują interfejsy, funkcjonalności oraz procesy biznesowe.
+c) Dokumentacja Testów:
+- Potwierdzenie wyników testów zostanie umieszczone w narzędziu do testów (link).
+d) Potrzeby Szkoleniowe:
+- Warsztaty dla zespołu projektowego dotyczące nowych funkcjonalności.
+e) Kryteria Rozpoczęcia, Zawieszenia i Zakończenia Testów:
+- Opis kryteriów określających, kiedy rozpocząć, zawiesić lub zakończyć testy.
+
+2. Ryzyka:
+
+Identyfikacja potencjalnych ryzyk, takich jak problemy z płatnościami online, błędy w interfejsie, czy problemy z dostawą.
+VI. Harmonogram Testów:
+
+Przewidziane etapy testów oraz terminy związane z testowaniem poszczególnych funkcji i procesów.
+VII. Raportowanie Błędów:
+
+Procedury raportowania i monitorowania błędów, z określeniem priorytetów.
+VIII. Zakończenie Testów:
+
+Kryteria zakończenia testów oraz procedury archiwizacji dokumentacji.

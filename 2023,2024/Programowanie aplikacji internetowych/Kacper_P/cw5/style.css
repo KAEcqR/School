@@ -1,0 +1,14 @@
+.card-header  {
+    display: flex;
+    justify-content: center;      
+    align-items: center;
+}
+
+.card-header img {
+    width: 30px;
+    margin-left: 10px;
+}
+
+.card {
+    margin: 10px;
+}

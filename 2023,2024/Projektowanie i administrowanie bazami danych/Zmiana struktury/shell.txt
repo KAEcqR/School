@@ -1,0 +1,69 @@
+MariaDB [(none)]> USE firma_proc;
+Database changed
+MariaDB [firma_proc]> create table pracownicy ( Id_pracownicy INT,Imie VARCHAR(20),Nazwisko VARCHAR(30),Wiek INT);
+Query OK, 0 rows affected (0.008 sec)
+
+MariaDB [firma_proc]> prompt HB
+PROMPT set to 'HB'
+HB USE firma_proc;
+Database changed
+HB INSERT INTO pracownicy (Id_pracownicy, Imie, Nazwisko, Wiek)
+    -> VALUES
+    -> 	   (1, 'Anna', 'Wanna', 21),
+    -> 	   (2, 'Bogdan', 'Bodzio', 54),
+    -> 	   (3, 'Jan', 'Rynna', 21),
+    -> 	   (4, 'Maria', 'Dąb', 53),
+    -> 	   (5, 'Zofia', 'Kot', 12);
+Query OK, 5 rows affected, 2 warnings (0.003 sec)
+Records: 5  Duplicates: 0  Warnings: 2
+
+HB ALTER TABLE pracownicy
+    -> ADD PRIMARY KEY (Id_pracownicy);
+Query OK, 0 rows affected (0.036 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+HB ALTER TABLE pracownicy
+    -> ADD Wyksztalcenie VARCHAR(15);
+Query OK, 0 rows affected (0.007 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+HB UPDATE pracownicy
+    -> SET Wyksztalcenie = 'Zawodowe';
+Query OK, 5 rows affected (0.004 sec)
+Rows matched: 5  Changed: 5  Warnings: 0
+
+HB ALTER TABLE pracownicy
+    -> ALTER COLUMN Wyksztalcenie  SET DEFAULT 'Srednie';
+Query OK, 0 rows affected (0.004 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+HB ALTER TABLE pracownicy
+    -> ADD Premia NUMERIC;
+Query OK, 0 rows affected (0.006 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+HB UPDATE pracownicy
+    -> SET Premia = CASE
+    ->     WHEN Wiek > 30 THEN 100
+    ->     ELSE 50
+    ->     END;
+Query OK, 5 rows affected (0.003 sec)
+Rows matched: 5  Changed: 5  Warnings: 0
+
+HB ALTER TABLE pracownicy
+    -> MODIFY COLUMN Wiek NUMERIC;
+Query OK, 5 rows affected (0.047 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+HB EXPLAIN pracownicy;
++---------------+---------------+------+-----+---------+-------+
+| Field         | Type          | Null | Key | Default | Extra |
++---------------+---------------+------+-----+---------+-------+
+| Id_pracownicy | int(11)       | NO   | PRI | NULL    |       |
+| Imie          | varchar(20)   | YES  |     | NULL    |       |
+| Nazwisko      | varchar(30)   | YES  |     | NULL    |       |
+| Wiek          | decimal(10,0) | YES  |     | NULL    |       |
+| Wyksztalcenie | varchar(15)   | YES  |     | Srednie |       |
+| Premia        | decimal(10,0) | YES  |     | NULL    |       |
++---------------+---------------+------+-----+---------+-------+
+6 rows in set (0.010 sec)

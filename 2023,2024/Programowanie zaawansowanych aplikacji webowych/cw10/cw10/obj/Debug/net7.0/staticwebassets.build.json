@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "MWEXgVnX+ifMfWnGQ5lVAqPP7rOJ7lUEoa5FS5iilMw=",
+  "Source": "cw10",
+  "BasePath": "_content/cw10",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "cw10\\wwwroot",
+      "Source": "cw10",
+      "ContentRoot": "f:\\Programowanie zaawansowanych aplikacji webowych\\cw10\\cw10\\wwwroot\\",
+      "BasePath": "_content/cw10",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "f:\\Programowanie zaawansowanych aplikacji webowych\\cw10\\cw10\\wwwroot\\index.html",
+      "SourceId": "cw10",
+      "SourceType": "Discovered",
+      "ContentRoot": "f:\\Programowanie zaawansowanych aplikacji webowych\\cw10\\cw10\\wwwroot\\",
+      "BasePath": "_content/cw10",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "f:\\Programowanie zaawansowanych aplikacji webowych\\cw10\\cw10\\wwwroot\\script.js",
+      "SourceId": "cw10",
+      "SourceType": "Discovered",
+      "ContentRoot": "f:\\Programowanie zaawansowanych aplikacji webowych\\cw10\\cw10\\wwwroot\\",
+      "BasePath": "_content/cw10",
+      "RelativePath": "script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\script.js"
+    }
+  ]
+}

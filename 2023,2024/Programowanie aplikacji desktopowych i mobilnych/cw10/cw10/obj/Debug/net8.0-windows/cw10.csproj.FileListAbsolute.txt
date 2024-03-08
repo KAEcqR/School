@@ -1,0 +1,16 @@
+F:\Programowanie aplikacji desktopowych i mobilnych\cw10\cw10\bin\Debug\net8.0-windows\cw10.exe
+F:\Programowanie aplikacji desktopowych i mobilnych\cw10\cw10\bin\Debug\net8.0-windows\cw10.deps.json
+F:\Programowanie aplikacji desktopowych i mobilnych\cw10\cw10\bin\Debug\net8.0-windows\cw10.runtimeconfig.json
+F:\Programowanie aplikacji desktopowych i mobilnych\cw10\cw10\bin\Debug\net8.0-windows\cw10.dll
+F:\Programowanie aplikacji desktopowych i mobilnych\cw10\cw10\bin\Debug\net8.0-windows\cw10.pdb
+F:\Programowanie aplikacji desktopowych i mobilnych\cw10\cw10\obj\Debug\net8.0-windows\cw10.Form1.resources
+F:\Programowanie aplikacji desktopowych i mobilnych\cw10\cw10\obj\Debug\net8.0-windows\cw10.csproj.GenerateResource.cache
+F:\Programowanie aplikacji desktopowych i mobilnych\cw10\cw10\obj\Debug\net8.0-windows\cw10.GeneratedMSBuildEditorConfig.editorconfig
+F:\Programowanie aplikacji desktopowych i mobilnych\cw10\cw10\obj\Debug\net8.0-windows\cw10.AssemblyInfoInputs.cache
+F:\Programowanie aplikacji desktopowych i mobilnych\cw10\cw10\obj\Debug\net8.0-windows\cw10.AssemblyInfo.cs
+F:\Programowanie aplikacji desktopowych i mobilnych\cw10\cw10\obj\Debug\net8.0-windows\cw10.csproj.CoreCompileInputs.cache
+F:\Programowanie aplikacji desktopowych i mobilnych\cw10\cw10\obj\Debug\net8.0-windows\cw10.dll
+F:\Programowanie aplikacji desktopowych i mobilnych\cw10\cw10\obj\Debug\net8.0-windows\refint\cw10.dll
+F:\Programowanie aplikacji desktopowych i mobilnych\cw10\cw10\obj\Debug\net8.0-windows\cw10.pdb
+F:\Programowanie aplikacji desktopowych i mobilnych\cw10\cw10\obj\Debug\net8.0-windows\cw10.genruntimeconfig.cache
+F:\Programowanie aplikacji desktopowych i mobilnych\cw10\cw10\obj\Debug\net8.0-windows\ref\cw10.dll

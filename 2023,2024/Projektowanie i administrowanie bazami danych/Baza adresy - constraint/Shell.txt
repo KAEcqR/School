@@ -1,0 +1,59 @@
+MariaDB [(none)]> USE adresy_proc;
+Database changed
+MariaDB [adresy_proc]> CREATE TABLE Osoba (
+    ->     Id INT PRIMARY KEY AUTO_INCREMENT,
+    ->     Imie VARCHAR(20) NOT NULL,
+    ->     Nazwisko VARCHAR(45) NOT NULL,
+    ->     Data_urodzenia DATE,
+    ->     Adres_Id INT UNIQUE
+    -> );
+Query OK, 0 rows affected (0.017 sec)
+
+MariaDB [adresy_proc]> CREATE TABLE Adres (
+    ->     Id INT PRIMARY KEY AUTO_INCREMENT,
+    ->     Ulica VARCHAR(30),
+    ->     Nr_domu VARCHAR(5),
+    ->     Kod VARCHAR(6),
+    ->     Miejscowosc VARCHAR(30)
+    -> );
+Query OK, 0 rows affected (0.012 sec)
+
+MariaDB [adresy_proc]> ALTER TABLE Osoba
+    -> ADD CONSTRAINT Adres_Nazwa
+    -> FOREIGN KEY (Adres_Id) REFERENCES Adres(Id);
+Query OK, 0 rows affected (0.043 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+MariaDB [adresy_proc]> ALTER TABLE Osoba
+    -> DROP FOREIGN KEY Adres_Nazwa;
+Query OK, 0 rows affected (0.010 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+MariaDB [adresy_proc]> ALTER TABLE Osoba
+    -> DROP COLUMN Adres_Id;
+Query OK, 0 rows affected (0.012 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+MariaDB [adresy_proc]> ALTER TABLE Osoba
+    -> ADD COLUMN Adres_zam_id INT;
+Query OK, 0 rows affected (0.008 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+MariaDB [adresy_proc]> ALTER TABLE Osoba
+    -> ADD COLUMN Adres_kor_id INT;
+Query OK, 0 rows affected (0.009 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+MariaDB [adresy_proc]> ALTER TABLE Osoba
+    -> ADD CONSTRAINT Adres_zam_FK
+    -> FOREIGN KEY (Adres_zam_id) REFERENCES Adres(Id);
+Query OK, 0 rows affected (0.034 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+MariaDB [adresy_proc]> ALTER TABLE Osoba
+    -> ADD CONSTRAINT Adres_kor_FK
+    -> FOREIGN KEY (Adres_kor_id) REFERENCES Adres(Id);
+Query OK, 0 rows affected (0.036 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+MariaDB [adresy_proc]>

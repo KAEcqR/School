@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    margin: 10px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 5px;
+    width: 500px;
+    padding: 15px;
+}
+
+.line{
+    margin: 5px;
+}
+
+#button {
+    width: 60px;
+    height: 30px;
+    margin-right: 20px;
+    margin-top: 10px;
+}

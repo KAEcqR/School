@@ -1,0 +1,1 @@
+document.getElementById("policz").addEventListener("click", () => { document.querySelector(".liczba").innerHTML = document.getElementById('pow').value / 4; })

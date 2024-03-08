@@ -1,0 +1,181 @@
+
+Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+MariaDB [(none)]> create database proc_firma;
+Query OK, 1 row affected (0.007 sec)
+
+MariaDB [(none)]> prompt KC
+PROMPT set to 'KC'
+KCprompt KC
+PROMPT set to 'KC '
+KC USE proc_firma;
+Database changed
+KC CREATE TABLE test1 (
+    ->     ->     id INT PRIMARY KEY,
+    ->     ->     nazwa VARCHAR(20),
+    ->     ->     INDEX nazwa_idx (nazwa)
+    -> ;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '->     id INT PRIMARY KEY,
+    ->     nazwa VARCHAR(20),
+    ->     INDEX naz...' at line 2
+KC CREATE TABLE test1 (
+    ->         id INT PRIMARY KEY,
+    ->         nazwa VARCHAR(20),
+    ->         INDEX nazwa_idx (nazwa)
+    ->     );
+Query OK, 0 rows affected (0.015 sec)
+
+KC DESCRIBE test1;
++-------+-------------+------+-----+---------+-------+
+| Field | Type        | Null | Key | Default | Extra |
++-------+-------------+------+-----+---------+-------+
+| id    | int(11)     | NO   | PRI | NULL    |       |
+| nazwa | varchar(20) | YES  | MUL | NULL    |       |
++-------+-------------+------+-----+---------+-------+
+2 rows in set (0.011 sec)
+
+KC CREATE TABLE test2 (
+    ->         id INT PRIMARY KEY,
+    ->         imie VARCHAR(20),
+    ->         nazwisko VARCHAR(30),
+    ->         INDEX id_idx (id),
+    ->         INDEX imie_idx (imie),
+    ->         INDEX nazwisko_idx (nazwisko)
+    ->     );
+Query OK, 0 rows affected (0.016 sec)
+
+KC DESCRIBE test2;
++----------+-------------+------+-----+---------+-------+
+| Field    | Type        | Null | Key | Default | Extra |
++----------+-------------+------+-----+---------+-------+
+| id       | int(11)     | NO   | PRI | NULL    |       |
+| imie     | varchar(20) | YES  | MUL | NULL    |       |
+| nazwisko | varchar(30) | YES  | MUL | NULL    |       |
++----------+-------------+------+-----+---------+-------+
+3 rows in set (0.007 sec)
+
+KC CREATE TABLE test3 (
+    ->         id INT PRIMARY KEY,
+    ->         imie VARCHAR(20),
+    ->         nazwisko VARCHAR(30),
+    ->         pesel CHAR(11),
+    ->         INDEX imie_nazwisko_idx (imie, nazwisko)
+    ->     );
+Query OK, 0 rows affected (0.017 sec)
+
+KC DESCRIBE test3;
++----------+-------------+------+-----+---------+-------+
+| Field    | Type        | Null | Key | Default | Extra |
++----------+-------------+------+-----+---------+-------+
+| id       | int(11)     | NO   | PRI | NULL    |       |
+| imie     | varchar(20) | YES  | MUL | NULL    |       |
+| nazwisko | varchar(30) | YES  |     | NULL    |       |
+| pesel    | char(11)    | YES  |     | NULL    |       |
++----------+-------------+------+-----+---------+-------+
+4 rows in set (0.008 sec)
+
+KC SHOW INDEX FROM test1;
++-------+------------+-----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+| Table | Non_unique | Key_name  | Seq_in_index | Column_name | Collation | Cardinality | Sub_part | Packed | Null | Index_type | Comment | Index_comment |
++-------+------------+-----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+| test1 |          0 | PRIMARY   |            1 | id          | A         |           0 |     NULL | NULL   |      | BTREE      |         |               |
+| test1 |          1 | nazwa_idx |            1 | nazwa       | A         |           0 |     NULL | NULL   | YES  | BTREE      |         |               |
++-------+------------+-----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+2 rows in set (0.001 sec)
+
+KC SHOW INDEX FROM test2;
++-------+------------+--------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+| Table | Non_unique | Key_name     | Seq_in_index | Column_name | Collation | Cardinality | Sub_part | Packed | Null | Index_type | Comment | Index_comment |
++-------+------------+--------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+| test2 |          0 | PRIMARY      |            1 | id          | A         |           0 |     NULL | NULL   |      | BTREE      |         |               |
+| test2 |          1 | id_idx       |            1 | id          | A         |           0 |     NULL | NULL   |      | BTREE      |         |               |
+| test2 |          1 | imie_idx     |            1 | imie        | A         |           0 |     NULL | NULL   | YES  | BTREE      |         |               |
+| test2 |          1 | nazwisko_idx |            1 | nazwisko    | A         |           0 |     NULL | NULL   | YES  | BTREE      |         |               |
++-------+------------+--------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+4 rows in set (0.001 sec)
+
+KC SHOW INDEX FROM test3;
++-------+------------+-------------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+| Table | Non_unique | Key_name          | Seq_in_index | Column_name | Collation | Cardinality | Sub_part | Packed | Null | Index_type | Comment | Index_comment |
++-------+------------+-------------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+| test3 |          0 | PRIMARY           |            1 | id          | A         |           0 |     NULL | NULL   |      | BTREE      |         |               |
+| test3 |          1 | imie_nazwisko_idx |            1 | imie        | A         |           0 |     NULL | NULL   | YES  | BTREE      |         |               |
+| test3 |          1 | imie_nazwisko_idx |            2 | nazwisko    | A         |           0 |     NULL | NULL   | YES  | BTREE      |         |               |
++-------+------------+-------------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+3 rows in set (0.001 sec)
+
+KC DROP INDEX id_idx ON test2;
+Query OK, 0 rows affected (0.010 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+KC DROP INDEX imie_nazwisko_idx ON test3;
+Query OK, 0 rows affected (0.012 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+KC DROP INDEX nazwa_indeksu ON proc_firma.test1;
+ERROR 1091 (42000): Can't DROP INDEX `nazwa_indeksu`; check that it exists
+KC SHOW INDEX FROM test1;
++-------+------------+-----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+| Table | Non_unique | Key_name  | Seq_in_index | Column_name | Collation | Cardinality | Sub_part | Packed | Null | Index_type | Comment | Index_comment |
++-------+------------+-----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+| test1 |          0 | PRIMARY   |            1 | id          | A         |           0 |     NULL | NULL   |      | BTREE      |         |               |
+| test1 |          1 | nazwa_idx |            1 | nazwa       | A         |           0 |     NULL | NULL   | YES  | BTREE      |         |               |
++-------+------------+-----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+2 rows in set (0.001 sec)
+
+KC SHOW INDEX FROM test2;
++-------+------------+--------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+| Table | Non_unique | Key_name     | Seq_in_index | Column_name | Collation | Cardinality | Sub_part | Packed | Null | Index_type | Comment | Index_comment |
++-------+------------+--------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+| test2 |          0 | PRIMARY      |            1 | id          | A         |           0 |     NULL | NULL   |      | BTREE      |         |               |
+| test2 |          1 | imie_idx     |            1 | imie        | A         |           0 |     NULL | NULL   | YES  | BTREE      |         |               |
+| test2 |          1 | nazwisko_idx |            1 | nazwisko    | A         |           0 |     NULL | NULL   | YES  | BTREE      |         |               |
++-------+------------+--------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+3 rows in set (0.001 sec)
+
+KC SHOW INDEX FROM test3;
++-------+------------+----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+| Table | Non_unique | Key_name | Seq_in_index | Column_name | Collation | Cardinality | Sub_part | Packed | Null | Index_type | Comment | Index_comment |+-------+------------+----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+| test3 |          0 | PRIMARY  |            1 | id          | A         |           0 |     NULL | NULL   |      | BTREE      |         |               |+-------+------------+----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+1 row in set (0.001 sec)
+
+KC CREATE INDEX id_idx ON test1 (id);
+Query OK, 0 rows affected (0.015 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+KC  SHOW INDEX FROM test1;
++-------+------------+-----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+| Table | Non_unique | Key_name  | Seq_in_index | Column_name | Collation | Cardinality | Sub_part | Packed | Null | Index_type | Comment | Index_comment |
++-------+------------+-----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+| test1 |          0 | PRIMARY   |            1 | id          | A         |           0 |     NULL | NULL   |      | BTREE      |         |               |
+| test1 |          1 | nazwa_idx |            1 | nazwa       | A         |           0 |     NULL | NULL   | YES  | BTREE      |         |               |
+| test1 |          1 | id_idx    |            1 | id          | A         |           0 |     NULL | NULL   |      | BTREE      |         |               |
++-------+------------+-----------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+3 rows in set (0.001 sec)
+
+KC CREATE INDEX imie_idx ON test2 (imie);
+ERROR 1061 (42000): Duplicate key name 'imie_idx'
+KC CREATE INDEX nazwisko_idx ON test2 (nazwisko);
+ERROR 1061 (42000): Duplicate key name 'nazwisko_idx'
+KC SHOW INDEX FROM test2;
++-------+------------+--------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+| Table | Non_unique | Key_name     | Seq_in_index | Column_name | Collation | Cardinality | Sub_part | Packed | Null | Index_type | Comment | Index_comment |
++-------+------------+--------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+| test2 |          0 | PRIMARY      |            1 | id          | A         |           0 |     NULL | NULL   |      | BTREE      |         |               |
+| test2 |          1 | imie_idx     |            1 | imie        | A         |           0 |     NULL | NULL   | YES  | BTREE      |         |               |
+| test2 |          1 | nazwisko_idx |            1 | nazwisko    | A         |           0 |     NULL | NULL   | YES  | BTREE      |         |               |
++-------+------------+--------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+3 rows in set (0.001 sec)
+
+KC CREATE INDEX nazwisko_pesel_idx ON test3 (nazwisko, pesel);
+Query OK, 0 rows affected (0.014 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+KC SHOW INDEX FROM test3;
++-------+------------+--------------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+| Table | Non_unique | Key_name           | Seq_in_index | Column_name | Collation | Cardinality | Sub_part | Packed | Null | Index_type | Comment | Index_comment |
++-------+------------+--------------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+| test3 |          0 | PRIMARY            |            1 | id          | A         |           0 |     NULL | NULL   |      | BTREE      |         |               |
+| test3 |          1 | nazwisko_pesel_idx |            1 | nazwisko    | A         |           0 |     NULL | NULL   | YES  | BTREE      |         |               |
+| test3 |          1 | nazwisko_pesel_idx |            2 | pesel       | A         |           0 |     NULL | NULL   | YES  | BTREE      |         |               |
++-------+------------+--------------------+--------------+-------------+-----------+-------------+----------+--------+------+------------+---------+---------------+
+3 rows in set (0.001 sec)
