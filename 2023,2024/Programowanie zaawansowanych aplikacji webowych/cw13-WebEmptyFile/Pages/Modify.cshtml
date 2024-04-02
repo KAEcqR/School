@@ -1,0 +1,44 @@
+﻿@page
+@model WebEmptyFile.Pages.ModifyModel
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/bootstrap/css/bootstrap.min.css"/>
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <h1>Modyfikuj</h1>
+    <form method="post">
+        <div class="row m-2">
+            <label class="col-3 text-end" asp-for="MyNewPerson.Firstname"></label>
+                <input class="col-6" asp-for="MyNewPerson.Firstname" placeholder="@WelcomeRepo.AllFromFile().FirstOrDefault().Firstname" />
+                <span class="col-3 text-danger" asp-validation-for="MyNewPerson.Firstname"></span>
+        </div>
+        <div class="row m-2">
+                <label class="col-3 text-end" asp-for="MyNewPerson.Lastname"></label>
+                <input class="col-6" asp-for="MyNewPerson.Lastname" placeholder="@WelcomeRepo.AllFromFile().FirstOrDefault().Lastname" />
+                <span class="col-3 text-danger" asp-validation-for="MyNewPerson.Lastname"></span>
+        </div>
+        <div class="row m-2">
+                <label class="col-3 text-end" asp-for="MyNewPerson.Content"></label>
+                <input class="col-6" asp-for="MyNewPerson.Content" placeholder="@WelcomeRepo.AllFromFile().FirstOrDefault().Content" />
+                <span class="col-3 text-danger" asp-validation-for="MyNewPerson.Content"></span>
+        </div>
+        <div class="row m-2">
+                <label class="col-3 text-end" asp-for="MyNewPerson.PartyDate"></label>
+                <input type="date" class="col-6" asp-for="MyNewPerson.PartyDate" placeholder="@WelcomeRepo.AllFromFile().FirstOrDefault().PartyDate" />
+            <span class="col-3 text-danger" asp-validation-for="MyNewPerson.PartyDate"></span>
+        </div> 
+        <div class="row m-2">
+                <input type="submit" class="btn btn-dark offset-3 col-6 " value="Zapisz" />
+        </div>
+    </form>
+</div>
+
+</body>
+</html>

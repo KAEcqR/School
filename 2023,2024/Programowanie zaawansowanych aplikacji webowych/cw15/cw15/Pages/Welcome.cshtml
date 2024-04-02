@@ -8,11 +8,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="~/bootstrap/css/bootstrap.min.css"
+    <link rel="stylesheet" href="~/bootstrap/css/bootstrap.min.css" />
 </head>
 <body>
     <h1>Witamy</h1>
-    <form method="post">
+    <form method="post" asp-action="Welcome" >
         <div class="row m-2">
             <label class="col-3 text-end" asp-for="MyPerson.Firstname"></label>
             <input class="col-6" asp-for="MyPerson.Firstname"/>

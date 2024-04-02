@@ -6,8 +6,7 @@ namespace cw15.Models
     public class Person
     {
         public Person() {
-            Id = new Guid().ToString();
-
+            Id = Guid.NewGuid().ToString();
         }
         public string? Id { get; set; }
 
@@ -26,5 +25,10 @@ namespace cw15.Models
         [DisplayName("Podaj date")]
         [Required(ErrorMessage = "Podaj date")]
         public DateOnly? PartyDate { get; set; }
+
+        public override string ToString()
+        {
+            return $"{Id} | {Firstname} | {Lastname} | {Content} | {PartyDate?.ToShortDateString()}";
+        }
     }
 }

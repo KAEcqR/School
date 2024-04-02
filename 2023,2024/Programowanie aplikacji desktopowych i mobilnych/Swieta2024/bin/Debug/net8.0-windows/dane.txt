@@ -1,0 +1,6 @@
+﻿1;Barszcz z grzybami;duży opis potrawy;składniki
+2;Rosół;duży opis potrawy;kurczak,sól,warzywa
+3;Jajecznica;jeszcze większy opis potrawy;jajka,masło,kiełbasa
+4;Kurczak z rożna;duży opis potrawy;kurczak,tłuszcz,inne przyprawy
+5;Pizza;duży opis potrawy;ciasto,zółty ser,kiełbasa
+6;pierogi z mięsem;duży opis potrawy;ciasto,sól,przyprawy

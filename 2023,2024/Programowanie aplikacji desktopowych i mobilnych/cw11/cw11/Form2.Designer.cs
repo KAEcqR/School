@@ -35,7 +35,7 @@
             label3 = new Label();
             tbDescription = new TextBox();
             label4 = new Label();
-            comboBox1 = new ComboBox();
+            cbCategory = new ComboBox();
             button1 = new Button();
             button2 = new Button();
             ((System.ComponentModel.ISupportInitialize)nmPrice).BeginInit();
@@ -108,14 +108,15 @@
             label4.TabIndex = 7;
             label4.Text = "Kategoria Produktu: ";
             // 
-            // comboBox1
+            // cbCategory
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "owoce", "warzywa" });
-            comboBox1.Location = new Point(234, 243);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(144, 23);
-            comboBox1.TabIndex = 8;
+            cbCategory.DropDownStyle = ComboBoxStyle.DropDownList;
+            cbCategory.FormattingEnabled = true;
+            cbCategory.Items.AddRange(new object[] { "owoce", "warzywa" });
+            cbCategory.Location = new Point(234, 243);
+            cbCategory.Name = "cbCategory";
+            cbCategory.Size = new Size(144, 23);
+            cbCategory.TabIndex = 8;
             // 
             // button1
             // 
@@ -135,6 +136,7 @@
             button2.TabIndex = 10;
             button2.Text = "Zapisz";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // Form2
             // 
@@ -143,7 +145,7 @@
             ClientSize = new Size(546, 345);
             Controls.Add(button2);
             Controls.Add(button1);
-            Controls.Add(comboBox1);
+            Controls.Add(cbCategory);
             Controls.Add(label4);
             Controls.Add(tbDescription);
             Controls.Add(label3);
@@ -167,7 +169,7 @@
         private Label label3;
         private TextBox tbDescription;
         private Label label4;
-        private ComboBox comboBox1;
+        private ComboBox cbCategory;
         private Button button1;
         private Button button2;
     }

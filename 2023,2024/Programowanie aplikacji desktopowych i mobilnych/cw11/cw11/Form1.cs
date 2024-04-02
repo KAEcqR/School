@@ -25,8 +25,9 @@ namespace cw11
             lbCount.Text = _repository.GetProduct().ToString();
         }
 
-        private void label1_Click(object sender, EventArgs e) {
-        
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -35,6 +36,13 @@ namespace cw11
             //lbProducts.DataSource = null;
             //lbProducts.DataSource = Products;
             new Form2(this).ShowDialog();
+            lbProducts.DataSource = null;
+            lbProducts.DataSource = Products;
+        }
+
+        private void lbProducts_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

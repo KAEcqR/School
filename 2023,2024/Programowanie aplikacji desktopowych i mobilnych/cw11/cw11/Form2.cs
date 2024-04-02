@@ -1,4 +1,5 @@
-﻿using System;
+﻿using cw11.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -54,6 +55,23 @@ namespace cw11
         private void button1_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var products = _form.Products;
+            var lastId = products.Max(p => p.Id);
+            var product = new Product
+            {
+                Id = lastId + 1,
+                Name = tbName.Text.Trim(),
+                Description = tbDescription.Text.Trim(),
+                Category = cbCategory.Text.Trim(),
+                Price = Convert.ToDecimal(nmPrice.Text)
+            };
+
+            products.Add(product);
+            Close(); 
         }
     }
 }

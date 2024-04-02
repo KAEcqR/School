@@ -8,15 +8,19 @@ namespace cw15.Pages
     {
         [BindProperty]
         public Person MyPerson{get; set;}
+        public List<Person> Persons { get; set; }
+
         public void OnGet()
         {
-
+            Persons = WelcomeRepo.AllFromFile();
         }
 
         public IActionResult OnPost()
         {
             if(ModelState.IsValid){
-                //zapisywanie do pliku
+                
+                WelcomeRepo.SaveToFile(MyPerson);
+
                 return RedirectToPage(nameof(Index));
             }
 

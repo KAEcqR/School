@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
+            btDelete = new Button();
             button1 = new Button();
             lbCount = new Label();
             label1 = new Label();
@@ -40,6 +41,7 @@
             // panel1
             // 
             panel1.BackColor = SystemColors.ButtonHighlight;
+            panel1.Controls.Add(btDelete);
             panel1.Controls.Add(button1);
             panel1.Controls.Add(lbCount);
             panel1.Controls.Add(label1);
@@ -49,6 +51,16 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(234, 450);
             panel1.TabIndex = 0;
+            // 
+            // btDelete
+            // 
+            btDelete.Font = new Font("Segoe UI", 15F);
+            btDelete.Location = new Point(13, 203);
+            btDelete.Name = "btDelete";
+            btDelete.Size = new Size(208, 45);
+            btDelete.TabIndex = 4;
+            btDelete.Text = "Usun Produkt";
+            btDelete.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
@@ -101,6 +113,7 @@
             lbProducts.Name = "lbProducts";
             lbProducts.Size = new Size(566, 450);
             lbProducts.TabIndex = 1;
+            lbProducts.SelectedIndexChanged += lbProducts_SelectedIndexChanged;
             // 
             // Form1
             // 
@@ -124,5 +137,6 @@
         private Label label1;
         private Label lbCount;
         private Button button1;
+        private Button btDelete;
     }
 }

@@ -1,0 +1,56 @@
+﻿@page
+@model WebEmptyFile.Pages.IndexModel
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/bootstrap/css/bootstrap.min.css"/>
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <h1>Index</h1>
+    <nav>
+        <div>
+            <a class="btn btn-outline-info" asp-page="Welcome">Zapraszamy</a>
+        </div>
+        <div>
+            <a class="btn btn-outline-info" asp-page="Counter">Licznik</a>
+        </div>
+    </nav>
+    <main>
+        <table class="table table-striped">
+            @{ var lp = 0; }
+            <thead>
+            <th>Lp</th>
+            <th>Imię</th>
+            <th>Nazwisko</th>
+            <th>Zawartość</th>
+            <th>Data potwierdzenia</th>
+            <th></th>
+            </thead>
+            <tbody>
+            @foreach (var p in Model.Persons) {
+                lp++;
+                <tr>
+                    <td>@lp</td>
+                    <td>@p.Firstname</td>
+                    <td>@p.Lastname</td>
+                    <td>@p.Content</td>
+                    <td>@p.PartyDate</td>
+                    <td>
+                        <a class="btn btn-danger" asp-page="Delete" asp-route-id="@p.Id">Usuń</a>
+                        <a class="btn btn-primary" asp-page="Modify" asp-route-id="@p.Id">Modyfikuj</a>
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </main>
+</div>
+
+</body>
+</html>
