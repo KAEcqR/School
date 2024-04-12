@@ -17,5 +17,10 @@ namespace Swieta2024.Models
         {
             return $"Nazwa: {Name}, Opis: {Description}, Składniki: {Ingredients}";
         }
+
+        public string Nazwa()
+        {
+            return $"{Name}";
+        }
     }
 }

@@ -12,7 +12,7 @@ namespace Swieta2024
         {
             InitializeComponent();
 
-            _repository = new FakeRepo();
+            _repository = new FileRepoCSV();
             Dania = _repository.GetDanie();
             listBox1.DataSource = Dania;
         }
@@ -24,10 +24,16 @@ namespace Swieta2024
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            string curItem = listBox1.SelectedItem.ToString();
+            button1.Text = curItem;
         }
 
         private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }

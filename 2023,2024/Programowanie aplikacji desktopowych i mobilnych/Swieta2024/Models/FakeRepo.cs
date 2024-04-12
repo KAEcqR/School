@@ -10,9 +10,10 @@ namespace Swieta2024.Models
     {
         public List<Danie> GetDanie()
         {
-            return new List<Product> {
-                new Danie { Id = 1 , Description = "Opis", Name = "Barszcz", Ingredients = "Burak"};
-            }
+            return new List<Danie> {
+                new Danie { Id = 1 , Description = "Opis", Name = "Barszcz", Ingredients = "Burak"},
+                new Danie { Id = 2 , Description = "Opis2", Name = "Żurek", Ingredients = "Kiełbaska, jajko"}
+            };
         }
 
         public Danie? GetDanieById(int id)
@@ -20,4 +21,5 @@ namespace Swieta2024.Models
             throw new NotImplementedException();
         }
     }
+
 }

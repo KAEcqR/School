@@ -1,0 +1,62 @@
+zalety modelu kaskadowego : 
+zdefiniowane etapy procesu
+latwosc w planowaniu i zarzadzaniu 
+wyrazny podzial odpowiedzialnosci
+
+
+Metodyki zwinne
+
+poczatki metodyk zwinnych wiazam sie z ogloszeniem manifestu agile w 2001 roku w stanach zjednoczonych. w osrodku narciarskim zebrala sie grupa siedemnastu osob ktore representowaly rozne podejscia i metody budowania systemow infromatycznych. Pomimo tak duzej liczy uczestnikow spotkania okazalo sie ze sa oni zgodni co do podstawowych filarow ktore posluzyly jako baza manifestu
+
+tresc manifestu agile
+
+wytwarzajac oprogramowanie i pomagajac innym w tym zakresie odkrywa sie lepsze sposoby wykonywania tej pracy. w wyniku tych doswiadczen przedklada sie: 
+
+
+ludzie i interakcje ponad procesy i narzedzia
+dzialajace oprogramowanie ponad obszerna dokumentacje
+wspolprace z klientem ponad formalne ustalenia
+reagowanie na zmiany ponad podezaniem za planem
+
+wskazowki dla osob wdrazajacych w metodyki zwinne
+
+1. najwyzszy priorytet ma dla nas zadowolenie klienta dzieki wczesnemu i ciaglemu wdrazaniu wartosciowego oprogramowania
+2. bodzcie gotowi na zmiany wymagan nawet na poznym etapie jego rozwoju. procesy zwinne wykorzystuja zmiany dla zapewnienia klientowi konkurencyjnosci
+3. Dostarczajcie funkcjonujace oprogramowanie czesto w kilkutygodniowych lub kilkumiesiecznych odstepach. im czesciej, tym lepiej
+4. zespoly biznesowe i deweloperskie musza scisle ze soba wspolpracowac w codziennej pracy przez caly czas trwania projektu.
+5. tworzcie projekty wokol zmotywowanych ludzi. zapewnijcie im potrzebne srodowisko oraz wsparcie i zaufajcie ze wykonaja powierzone zadanie
+6. najbardziej efektywnym i wydajnym sposobem przekazywania informacji zespolowi deweloperskiemu i wewnatrz niego jest rozmowa twarza w twarz.
+7. dzialajace oprogramowanie jest podstawowa miara postepu.
+8. procesy zwinne umozliwiaja zrownowazony rozwoj. sponsorzy , deweloperzy oraz uzytkownicy powinni byc w stanie utrzymac rowne tempo pracy.
+9. ciagle skupienie na technicznej doskonalosci i dobrym projektowaniu zwieksza zwinnosc.
+10. prostota - sztuka minimalizowania ilosci koniecznej pracy jest kluczowa
+11. najlepsze rozwiazania architektoniczne, wymagania i projekty pochodza od samoorganizujacych sie zespolow.
+12. w regularnych odstepach czasu zespolow analizuje mozliwosc poprawy swojej wydajnosci, a nastepnie dostraja i dostosowuje swoje dzialania do wyciagnietych wnioskow
+
+zalety agile
+
+elsastyczne podejscie do zakresu zmian i ich akceptacji
+koncentracja na dostarczanej wartosci zamiast na zakresie prac
+stosowanie krotkich iteracji oraz weryfikacji po kazdej z nich
+wzmacnianie samodzielnosci i odpowiedzialnosci zespolu 
+
+metodyka scrum 
+
+scrum to metodyka o charakterze iteracyjnym oraz przyrostowym, zaliczana do swinnym metod pracy zgodnyhc z manifestem agile. jest to taki spoosb prowadzenia projektu, ktorego celem jest osiagniecie zamierzonego rezultatu i panowanie nad zmianami idealnie wpasowuje sie w mlode, male organizacje typu start up rozpoczynajace swoja dzialanosc 
+
+codzienny scrum 
+
+codzienne spotkanie trwajace max 15 minut w ktorym uczestnicy zespolu mowia co udalo im sie zrobic wczoraj, co chca zrobic dzisiaj i jakie widza przeszkody. Odbywa sie ono w trybie stand up (na stojaco )
+
+Sprint 
+
+Scrum dzieli projekt na iteracje (wydanie cykliczne) o stalej dlugosci ( w praktyce iteracja trwa od 2 do 4 tygodni) 
+
+UWAGA 
+Dlugosc iteracji nie ulega zmianie jezeli przyjeto ze sprint trwa 4 tygodnie to ten zakres czasu jest ostateczny
+
+Jezeli zadanie nie moze byc ukonczone w czasie sprintu. odpowiednie cechy produktu sa dzielone i zadanie wraca do backlogu produktu technika ta nazywa sie ograniczeniem czasowym ( timeboxing)
+
+Przyrost produktu 
+
+Wynikiem kazdego sprintu jest produkt ktory potencjalnie mozna wdrozyc ( nazywany przyrostem) 

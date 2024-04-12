@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "rMlBDKyzSTNeD9vB/idWrIZ9POCgTZwN5HK6ZLLpIbg=",
+  "Source": "cw16",
+  "BasePath": "_content/cw16",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "cw16\\wwwroot",
+      "Source": "cw16",
+      "ContentRoot": "F:\\Programowanie zaawansowanych aplikacji webowych\\cw16\\wwwroot\\",
+      "BasePath": "_content/cw16",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "F:\\Programowanie zaawansowanych aplikacji webowych\\cw16\\wwwroot\\StyleSheet.css",
+      "SourceId": "cw16",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Programowanie zaawansowanych aplikacji webowych\\cw16\\wwwroot\\",
+      "BasePath": "_content/cw16",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
+}
