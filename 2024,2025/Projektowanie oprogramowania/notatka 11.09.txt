@@ -1,46 +1,16 @@
-Algorytm to jednoznacznie określony ciąg czynności potrzebnych do wykonania pewnego zadania. Termin "algorytm" pochodzi od łacińskiego słowa "algorithmus".
+czym jest algorytm, projektowanie algorytmu
 
-Cechy algorytmu:
-	Skończoność - algorytm musi dojść do końca w określonej "złożoności czasowej algorytmu".
-	Określoność - dla takich samych danych wejściowych algorytm zawsze zwraca takie same dane wyjściowe.
-	Efektywność - algorytm powinien zwracać wynik w najmniejszej możliwej liczbie kroków.
-	Poprawność - wynik zwrócony przez algorytm powinien być za każdym razem poprawny.
+algorytmy to jednoznacznie okreslony ciag czynnosci potrzebny do wykonania danego zadania
 
-Schemat blokowy jest najprostszym sposobem zobrazowania algorytmu. Głównymi elementami schematów blokowych są:
-	owal - punkt zaczęcia / skończenia / przeniesienia algorytmu
-	strzałka - pokazuje kierunek kolejności wykonywania
-	romb (predykat, instrukcja warunkowa) - w jego wnętrzu znajdują się wyłącznie instrukcje warunkowe
-	prostokąt (operator) - zawiera wszystkie możliwe obliczenia / opisu kroków niebędące wyborami
+skonczonosc, algorytm musi dojsc do konca w okreslonym czasie
+w zlozonosci czasowej algorytmu
 
-Cechy:
-	- podaje szczegółowo wszystkie operacje arytmetyczne, logiczne, przesyłania, sterująca i pomocnicze wraz z kolejnością ich wykonania
-	- jest podstawą do napisania programu, znacznie ułatwiającą późniejszy zapis w określonym języku programowania
+algorytm powinien zawsze zwracac takie same dane wyjsciowe 
 
-Lista Kroków:
-To przedstawienie algorytmu w kolejnych punktach (krokach). Każdy punkt takiej listy zawiera opis wykonywanej czynności. Kolejność punktów nie może być przypadkowa - muśi być zgodna z działaniem algorytmu
-Przykład:
-	1. START
-	2. Wprowadź A i B
-	3. P = a*b
-	4 Wyświetl Pole
-	5. KONIEC
+algorytm powinien zwrocic wynik w jak 
 
-Algorytm Euklidesa:
-Jego zadaniem jest znalezienie największego wspólnego dzielnika dwóch liczb całkowitych.
-Algorytm otrzymuje dwie liczby a i b
-Najpierw sprawdza czy liczba b jest równa 0
-Jeżeli jest to wyświetli a i zakończy działanie
-W przeciwnym wypadku sprawdzi, czy A>B. Jeżeli tak to A = A-B i wróci przed pierwszy rąb. Jeżeli B>A, to B=B-A i wróci przed pierwszy rąb
-Format listy kroków
-	1.Podaj liczby A i B
-	2. Jeżeli B = 0, idź do kroku 8.
-	3. Jeżeli A > B, idź do kroku 6.
-	4. B=B - A
-	5. Idź do kroku 2
-	6. A=A - B
-	7. Idź do kroku 2
-	8. Wyświetl A.
-	9. Koniec
+glownymi elementami czyli punkt zlaczenia, strzalka, romb 
 
-
-
+schemat blokowy algorytmu cechy: 
+	-podaje szczegolowo wszystkie operacje arytmetyczne logiczne przesylania sterujace 	 i pomocnicze wraz z koolejnacia ich wykonania
+	-jest podstawa do napisania programu znacznie ulatwiajaca pozniejszy zapis w 	 	 okreslonym jezyku programowania
