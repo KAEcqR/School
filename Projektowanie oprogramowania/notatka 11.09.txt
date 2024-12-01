@@ -1,0 +1,16 @@
+czym jest algorytm, projektowanie algorytmu
+
+algorytmy to jednoznacznie okreslony ciag czynnosci potrzebny do wykonania danego zadania
+
+skonczonosc, algorytm musi dojsc do konca w okreslonym czasie
+w zlozonosci czasowej algorytmu
+
+algorytm powinien zawsze zwracac takie same dane wyjsciowe 
+
+algorytm powinien zwrocic wynik w jak 
+
+glownymi elementami czyli punkt zlaczenia, strzalka, romb 
+
+schemat blokowy algorytmu cechy: 
+	-podaje szczegolowo wszystkie operacje arytmetyczne logiczne przesylania sterujace 	 i pomocnicze wraz z koolejnacia ich wykonania
+	-jest podstawa do napisania programu znacznie ulatwiajaca pozniejszy zapis w 	 	 okreslonym jezyku programowania
