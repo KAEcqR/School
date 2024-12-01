@@ -1,0 +1,23 @@
+najcześciej wybieranym graficznym elementem procesu decyzyjnego
+stosowanym przy tak zwanym uczeniu maszynowym oraz w obliczaniu prawdopodobienstwa, jest drzewo decyzyjne. Jest to odwzorowanie wszystkich krokow decyzji za pomoca schematu przypominajacego drzewo, patrzac od korzenia ( przy czym korzen wystepuje w przypadku u gory schematu) kazda galaz to droga do decyzji ktora obrazuje lisc
+
+program 1 : 
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    double a, b, c;
+
+    cout << "Podaj dlugosci bokow trójkąta (a, b, c): ";
+    cin >> a >> b >> c;
+
+    if ((a + b > c) && (a + c > b) && (b + c > a)) {
+        cout << "Z tych boków można utworzyć trójkąt." << endl;
+    } else {
+        cout << "Z tych boków nie można utworzyć trójkąta." << endl;
+    }
+
+    return 0;
+}

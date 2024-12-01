@@ -1,0 +1,37 @@
+﻿@model List<cw2.Models.Game>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~\lib\bootstrap\dist\css\bootstrap.css.css">
+</head>
+<body>
+    <h1>Lista Gier</h1>
+    <div>
+        <a asp-action="AddGame" asp-asp-controller="Home" class="btn btn-primary">Dodaj Gre</a>
+    </div>
+     <table class="table">
+            <tr>
+                <th>Nazwa</th>
+                <th>Rok</th>
+                <th>Producent</th>
+                <th>Cena</th>
+                <th>Akcja</th>
+            </tr>
+            @foreach(var game in Model){
+                <tr>
+                    <td>@game.Nazwa</td>
+                    <td>@game.Rok</td>
+                    <td>@game.Producent</td>
+                    <td>@game.Cena</td>
+                    <td><a asp-action="RemoveGame" asp-asp-controller="Home" asp-route-id="@game.Id" class="btn btn-danger"><i class="fa fa-trash" aria-hidden="true"></i></a> 
+                    <a asp-action="ModifyGame" asp-asp-controller="Home" asp-route-id="@game.Id" class="btn btn-warning"><i class="fa fa-pencil" aria-hidden="true"></i></a></td>
+                </tr>
+            }
+        </table>
+</body>
+</html>

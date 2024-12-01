@@ -1,0 +1,36 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Dodaj studenta</h1>
+    <form asp-asp-action="AddStudent" method="post">
+        <div class="row m-2">
+                <label class="col-3 text-end" asp-for="Id"></label>
+                <input type="text" class="col-6" asp-for="Id">
+                <span asp-validation-for="Id" class="col-3 text-danger"></span>
+        </div>
+            <div class="row m-2">
+                <label class="col-3 text-end" asp-for="Director"></label>
+                <input type="text" class="col-6" asp-for="Director">
+                <span asp-validation-for="Director" class="col-3 text-danger"></span>
+        </div>
+        <div class="row m-2">
+                <label class="col-3 text-end" asp-for="Year"></label>
+                <input type="number" class="col-6" asp-for="Year">
+                <span asp-validation-for="Year" class="col-3 text-danger"></span>
+        </div>
+        <div class="row m-2">
+                <button type="submit" class="btn btn-primary offset-3 col-6">Dodaj</button>
+        </div>
+    </form>
+</body>
+</html>

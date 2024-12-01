@@ -1,0 +1,1052 @@
+{
+  "Version": 1,
+  "Hash": "BlAlBbbNBop4TY8X/EY3Nb5TQLSSbjKSBlRpFdm7LTo=",
+  "Source": "cw4",
+  "BasePath": "_content/cw4",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "cw4\\wwwroot",
+      "Source": "cw4",
+      "ContentRoot": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\",
+      "BasePath": "_content/cw4",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\Media\\1.jpg",
+      "SourceId": "cw4",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\",
+      "BasePath": "_content/cw4",
+      "RelativePath": "Media/1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hzapduxbn7",
+      "Integrity": "I8fAsdVUttmz+lZ4ClgSkpZqBLpYT8G66NJMBBNHfeE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Media\\1.jpg"
+    },
+    {
+      "Identity": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\Media\\2.jpg",
+      "SourceId": "cw4",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\",
+      "BasePath": "_content/cw4",
+      "RelativePath": "Media/2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "t54z6tpn2t",
+      "Integrity": "0and4738UfkN3CHp5FsB27wN3G9qxJry1PLEs0jcWuc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Media\\2.jpg"
+    },
+    {
+      "Identity": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\Media\\3.jpg",
+      "SourceId": "cw4",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\",
+      "BasePath": "_content/cw4",
+      "RelativePath": "Media/3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "n6pbcz5di9",
+      "Integrity": "P9wqDYAr3+sWSTkE5xu3cWl5TKHi/bTdsNua0UrNno8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Media\\3.jpg"
+    },
+    {
+      "Identity": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\Media\\4.jpg",
+      "SourceId": "cw4",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\",
+      "BasePath": "_content/cw4",
+      "RelativePath": "Media/4#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yq7pzq910m",
+      "Integrity": "em7Fv6CNLEczDmiiceRTRctPdjgmHhK8PsIiGJQk+bs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Media\\4.jpg"
+    },
+    {
+      "Identity": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\Media\\5.jpg",
+      "SourceId": "cw4",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\",
+      "BasePath": "_content/cw4",
+      "RelativePath": "Media/5#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mjkp61h541",
+      "Integrity": "vhHqXssuLcXPVVGiAecEg3SBs7xEgX90OQ2hD6WR0Po=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Media\\5.jpg"
+    },
+    {
+      "Identity": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\Media\\6.jpg",
+      "SourceId": "cw4",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\",
+      "BasePath": "_content/cw4",
+      "RelativePath": "Media/6#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "d1ovsqdu1v",
+      "Integrity": "j+BKU2nLY2jw8YE0ppoYNYbEmAdXNVIXj25deFLXaMo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Media\\6.jpg"
+    },
+    {
+      "Identity": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\Media\\7.jpg",
+      "SourceId": "cw4",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\",
+      "BasePath": "_content/cw4",
+      "RelativePath": "Media/7#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tle4sexbp9",
+      "Integrity": "8YYwEN9GYf4mPuEYj9ak4wyDOVQbPePOrLh5XWdOrc8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Media\\7.jpg"
+    },
+    {
+      "Identity": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\Media\\8.jpg",
+      "SourceId": "cw4",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\",
+      "BasePath": "_content/cw4",
+      "RelativePath": "Media/8#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p4nf97v3qy",
+      "Integrity": "Jwik07Ev8L2JylyrhTLlzm+6WoS2pcVYZaNArdDmPy8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Media\\8.jpg"
+    },
+    {
+      "Identity": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\Media\\9.jpg",
+      "SourceId": "cw4",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\",
+      "BasePath": "_content/cw4",
+      "RelativePath": "Media/9#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ts72zktigi",
+      "Integrity": "A0m7Dms1k4HeRWw8bXb6u870cd80Mw1Xhud67W+lMGA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Media\\9.jpg"
+    },
+    {
+      "Identity": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\style.css",
+      "SourceId": "cw4",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\",
+      "BasePath": "_content/cw4",
+      "RelativePath": "style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "y1v758um0n",
+      "Integrity": "CsKr4uho/D+DTJhrGgdEQ60IiU9p3c0VAlYz1bVhcls=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "Media/1.hzapduxbn7.jpg",
+      "AssetFile": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\Media\\1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "56078"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I8fAsdVUttmz+lZ4ClgSkpZqBLpYT8G66NJMBBNHfeE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Oct 2024 09:58:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hzapduxbn7"
+        },
+        {
+          "Name": "label",
+          "Value": "Media/1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-I8fAsdVUttmz+lZ4ClgSkpZqBLpYT8G66NJMBBNHfeE="
+        }
+      ]
+    },
+    {
+      "Route": "Media/1.jpg",
+      "AssetFile": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\Media\\1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "56078"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I8fAsdVUttmz+lZ4ClgSkpZqBLpYT8G66NJMBBNHfeE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Oct 2024 09:58:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-I8fAsdVUttmz+lZ4ClgSkpZqBLpYT8G66NJMBBNHfeE="
+        }
+      ]
+    },
+    {
+      "Route": "Media/2.jpg",
+      "AssetFile": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\Media\\2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "112136"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0and4738UfkN3CHp5FsB27wN3G9qxJry1PLEs0jcWuc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Oct 2024 09:58:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0and4738UfkN3CHp5FsB27wN3G9qxJry1PLEs0jcWuc="
+        }
+      ]
+    },
+    {
+      "Route": "Media/2.t54z6tpn2t.jpg",
+      "AssetFile": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\Media\\2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "112136"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0and4738UfkN3CHp5FsB27wN3G9qxJry1PLEs0jcWuc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Oct 2024 09:58:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t54z6tpn2t"
+        },
+        {
+          "Name": "label",
+          "Value": "Media/2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0and4738UfkN3CHp5FsB27wN3G9qxJry1PLEs0jcWuc="
+        }
+      ]
+    },
+    {
+      "Route": "Media/3.jpg",
+      "AssetFile": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\Media\\3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85800"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P9wqDYAr3+sWSTkE5xu3cWl5TKHi/bTdsNua0UrNno8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Oct 2024 09:58:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-P9wqDYAr3+sWSTkE5xu3cWl5TKHi/bTdsNua0UrNno8="
+        }
+      ]
+    },
+    {
+      "Route": "Media/3.n6pbcz5di9.jpg",
+      "AssetFile": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\Media\\3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85800"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P9wqDYAr3+sWSTkE5xu3cWl5TKHi/bTdsNua0UrNno8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Oct 2024 09:58:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n6pbcz5di9"
+        },
+        {
+          "Name": "label",
+          "Value": "Media/3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-P9wqDYAr3+sWSTkE5xu3cWl5TKHi/bTdsNua0UrNno8="
+        }
+      ]
+    },
+    {
+      "Route": "Media/4.jpg",
+      "AssetFile": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\Media\\4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "64536"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"em7Fv6CNLEczDmiiceRTRctPdjgmHhK8PsIiGJQk+bs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Oct 2024 09:58:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-em7Fv6CNLEczDmiiceRTRctPdjgmHhK8PsIiGJQk+bs="
+        }
+      ]
+    },
+    {
+      "Route": "Media/4.yq7pzq910m.jpg",
+      "AssetFile": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\Media\\4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "64536"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"em7Fv6CNLEczDmiiceRTRctPdjgmHhK8PsIiGJQk+bs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Oct 2024 09:58:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yq7pzq910m"
+        },
+        {
+          "Name": "label",
+          "Value": "Media/4.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-em7Fv6CNLEczDmiiceRTRctPdjgmHhK8PsIiGJQk+bs="
+        }
+      ]
+    },
+    {
+      "Route": "Media/5.jpg",
+      "AssetFile": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\Media\\5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "69680"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vhHqXssuLcXPVVGiAecEg3SBs7xEgX90OQ2hD6WR0Po=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Oct 2024 09:58:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vhHqXssuLcXPVVGiAecEg3SBs7xEgX90OQ2hD6WR0Po="
+        }
+      ]
+    },
+    {
+      "Route": "Media/5.mjkp61h541.jpg",
+      "AssetFile": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\Media\\5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "69680"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vhHqXssuLcXPVVGiAecEg3SBs7xEgX90OQ2hD6WR0Po=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Oct 2024 09:58:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mjkp61h541"
+        },
+        {
+          "Name": "label",
+          "Value": "Media/5.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vhHqXssuLcXPVVGiAecEg3SBs7xEgX90OQ2hD6WR0Po="
+        }
+      ]
+    },
+    {
+      "Route": "Media/6.d1ovsqdu1v.jpg",
+      "AssetFile": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\Media\\6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "97463"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j+BKU2nLY2jw8YE0ppoYNYbEmAdXNVIXj25deFLXaMo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Oct 2024 09:58:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d1ovsqdu1v"
+        },
+        {
+          "Name": "label",
+          "Value": "Media/6.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-j+BKU2nLY2jw8YE0ppoYNYbEmAdXNVIXj25deFLXaMo="
+        }
+      ]
+    },
+    {
+      "Route": "Media/6.jpg",
+      "AssetFile": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\Media\\6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "97463"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j+BKU2nLY2jw8YE0ppoYNYbEmAdXNVIXj25deFLXaMo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Oct 2024 09:58:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-j+BKU2nLY2jw8YE0ppoYNYbEmAdXNVIXj25deFLXaMo="
+        }
+      ]
+    },
+    {
+      "Route": "Media/7.jpg",
+      "AssetFile": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\Media\\7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "90079"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8YYwEN9GYf4mPuEYj9ak4wyDOVQbPePOrLh5XWdOrc8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Oct 2024 09:58:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8YYwEN9GYf4mPuEYj9ak4wyDOVQbPePOrLh5XWdOrc8="
+        }
+      ]
+    },
+    {
+      "Route": "Media/7.tle4sexbp9.jpg",
+      "AssetFile": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\Media\\7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "90079"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8YYwEN9GYf4mPuEYj9ak4wyDOVQbPePOrLh5XWdOrc8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Oct 2024 09:58:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tle4sexbp9"
+        },
+        {
+          "Name": "label",
+          "Value": "Media/7.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8YYwEN9GYf4mPuEYj9ak4wyDOVQbPePOrLh5XWdOrc8="
+        }
+      ]
+    },
+    {
+      "Route": "Media/8.jpg",
+      "AssetFile": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\Media\\8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "86852"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jwik07Ev8L2JylyrhTLlzm+6WoS2pcVYZaNArdDmPy8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Oct 2024 09:58:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jwik07Ev8L2JylyrhTLlzm+6WoS2pcVYZaNArdDmPy8="
+        }
+      ]
+    },
+    {
+      "Route": "Media/8.p4nf97v3qy.jpg",
+      "AssetFile": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\Media\\8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "86852"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jwik07Ev8L2JylyrhTLlzm+6WoS2pcVYZaNArdDmPy8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Oct 2024 09:58:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p4nf97v3qy"
+        },
+        {
+          "Name": "label",
+          "Value": "Media/8.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jwik07Ev8L2JylyrhTLlzm+6WoS2pcVYZaNArdDmPy8="
+        }
+      ]
+    },
+    {
+      "Route": "Media/9.jpg",
+      "AssetFile": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\Media\\9.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "70424"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A0m7Dms1k4HeRWw8bXb6u870cd80Mw1Xhud67W+lMGA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Oct 2024 09:58:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-A0m7Dms1k4HeRWw8bXb6u870cd80Mw1Xhud67W+lMGA="
+        }
+      ]
+    },
+    {
+      "Route": "Media/9.ts72zktigi.jpg",
+      "AssetFile": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\Media\\9.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "70424"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A0m7Dms1k4HeRWw8bXb6u870cd80Mw1Xhud67W+lMGA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Oct 2024 09:58:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ts72zktigi"
+        },
+        {
+          "Name": "label",
+          "Value": "Media/9.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-A0m7Dms1k4HeRWw8bXb6u870cd80Mw1Xhud67W+lMGA="
+        }
+      ]
+    },
+    {
+      "Route": "style.css",
+      "AssetFile": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1418"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CsKr4uho/D+DTJhrGgdEQ60IiU9p3c0VAlYz1bVhcls=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 15:04:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CsKr4uho/D+DTJhrGgdEQ60IiU9p3c0VAlYz1bVhcls="
+        }
+      ]
+    },
+    {
+      "Route": "style.y1v758um0n.css",
+      "AssetFile": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1418"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CsKr4uho/D+DTJhrGgdEQ60IiU9p3c0VAlYz1bVhcls=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 15 Nov 2024 15:04:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y1v758um0n"
+        },
+        {
+          "Name": "label",
+          "Value": "style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CsKr4uho/D+DTJhrGgdEQ60IiU9p3c0VAlYz1bVhcls="
+        }
+      ]
+    }
+  ]
+}

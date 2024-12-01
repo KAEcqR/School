@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Projektowanie oprogramowania\\Zad3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{60CC1130-7C0C-4014-AE40-1EE26CD528EF}|Zad3.vcxproj|F:\\Projektowanie oprogramowania\\Zad3\\Zad3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{60CC1130-7C0C-4014-AE40-1EE26CD528EF}|Zad3.vcxproj|solutionrelative:Zad3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Zad3.cpp",
+              "DocumentMoniker": "F:\\Projektowanie oprogramowania\\Zad3\\Zad3.cpp",
+              "RelativeDocumentMoniker": "Zad3.cpp",
+              "ToolTip": "F:\\Projektowanie oprogramowania\\Zad3\\Zad3.cpp",
+              "RelativeToolTip": "Zad3.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-31T16:08:21.659Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

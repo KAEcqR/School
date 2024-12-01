@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Programowanie obiektowe\\cw10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2E82A71F-1E1A-4294-96C7-D2D1FADD6F35}|cw10.vcxproj|E:\\Programowanie obiektowe\\cw10\\cw10.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2E82A71F-1E1A-4294-96C7-D2D1FADD6F35}|cw10.vcxproj|solutionrelative:cw10.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "cw10.cpp",
+              "DocumentMoniker": "E:\\Programowanie obiektowe\\cw10\\cw10.cpp",
+              "RelativeDocumentMoniker": "cw10.cpp",
+              "ToolTip": "E:\\Programowanie obiektowe\\cw10\\cw10.cpp",
+              "RelativeToolTip": "cw10.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-21T15:26:27.399Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\Media\\1.jpg",
+      "PackagePath": "staticwebassets\\Media\\1.jpg"
+    },
+    {
+      "Id": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\Media\\2.jpg",
+      "PackagePath": "staticwebassets\\Media\\2.jpg"
+    },
+    {
+      "Id": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\Media\\3.jpg",
+      "PackagePath": "staticwebassets\\Media\\3.jpg"
+    },
+    {
+      "Id": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\Media\\4.jpg",
+      "PackagePath": "staticwebassets\\Media\\4.jpg"
+    },
+    {
+      "Id": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\Media\\5.jpg",
+      "PackagePath": "staticwebassets\\Media\\5.jpg"
+    },
+    {
+      "Id": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\Media\\6.jpg",
+      "PackagePath": "staticwebassets\\Media\\6.jpg"
+    },
+    {
+      "Id": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\Media\\7.jpg",
+      "PackagePath": "staticwebassets\\Media\\7.jpg"
+    },
+    {
+      "Id": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\Media\\8.jpg",
+      "PackagePath": "staticwebassets\\Media\\8.jpg"
+    },
+    {
+      "Id": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\Media\\9.jpg",
+      "PackagePath": "staticwebassets\\Media\\9.jpg"
+    },
+    {
+      "Id": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw4\\wwwroot\\style.css",
+      "PackagePath": "staticwebassets\\style.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.cw4.props",
+      "PackagePath": "build\\cw4.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.cw4.props",
+      "PackagePath": "buildMultiTargeting\\cw4.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.cw4.props",
+      "PackagePath": "buildTransitive\\cw4.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.cw4.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.cw4.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

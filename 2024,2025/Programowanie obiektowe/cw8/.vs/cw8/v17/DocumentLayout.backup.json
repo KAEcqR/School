@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Programowanie obiektowe\\cw8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A118ECC2-6FA5-45BC-A3B9-E59949E115A9}|cw8.vcxproj|F:\\Programowanie obiektowe\\cw8\\cw8.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A118ECC2-6FA5-45BC-A3B9-E59949E115A9}|cw8.vcxproj|solutionrelative:cw8.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "cw8.cpp",
+              "DocumentMoniker": "F:\\Programowanie obiektowe\\cw8\\cw8.cpp",
+              "RelativeDocumentMoniker": "cw8.cpp",
+              "ToolTip": "F:\\Programowanie obiektowe\\cw8\\cw8.cpp",
+              "RelativeToolTip": "cw8.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAmwC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-14T15:22:26.755Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    height: 140px;
+    width: 100vw;
+    background-color: rgb(122, 188, 122);
+    display: flex;
+}
+
+.blok1 {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.blok1 a {
+    margin-right: 50px;
+    font-size: 30px;
+    color: orange;
+}
+
+.blok2 {
+    display: flex;
+    width: 50%;
+    justify-content: end;
+    align-items: center;
+    margin-top: -40px;
+    font-size: 25px;
+    color: orange;
+}
+
+.main {
+    height: 500px;
+    padding: 20px;
+    background-color: #E3F6E7;
+}

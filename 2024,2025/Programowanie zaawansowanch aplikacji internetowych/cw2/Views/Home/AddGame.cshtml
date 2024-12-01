@@ -1,0 +1,35 @@
+﻿@model cw2.Models.Game
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testowanie</title>
+    <link rel="stylesheet" href="~\lib\bootstrap\dist\css\bootstrap.css.css">
+</head>
+<body>
+    <div class="container">
+        <form asp-action="AddGame" method="post">
+            <div class="row m-2">
+                <label class="col-3 text-end" asp-for="Nazwa"></label>
+                <input required type="text" class="col-6" asp-for="Nazwa">
+            </div>
+            <div class="row m-2">
+                <label class="col-3 text-end" asp-for="Rok"></label>
+                <input required type="text" class="col-6" asp-for="Rok">
+            </div>
+            <div class="row m-2">
+                <label class="col-3 text-end" asp-for="Producent"></label>
+                <input required type="text" class="col-6" asp-for="Producent">
+            </div>
+            <div class="row m-2">
+                <label class="col-3 text-end" asp-for="Cena"></label>
+                <input required type="number" class="col-6" asp-for="Cena">
+            </div>
+            <div class="row m-2">
+                <button type="submit" class="btn btn-primary">Dodaj Gre</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

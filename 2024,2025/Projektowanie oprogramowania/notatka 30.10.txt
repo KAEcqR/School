@@ -1,0 +1,17 @@
+technika projektowania algorytmow dziel i zwyciezaj
+jest najczesciej wykorzystywana metoda projektowania algorytmow 
+zgodnie z jej nazwa pierwsza rzecza jaka trzeba zrobic jest podzielenie programu na mniejsze
+porownywalnie pod wyzgledem skomplifikowania , czesci to za ich pomoca zostanie najpierw przedstawione rozwiazanie dopiero na koncowym etapie nastepuje scalenie tych malych
+krokow w jeden, gotowy algorytm
+
+ta zasada prowadzi do bardzo efektywnych rozwiazan, polega na rekurencyjnym dzieleniu problemu na dwa mniejsze problemy 
+nastepnie dzielenie ma miejsce tak dlugo jak problemy maja proste bezposrednie rozwiazania
+nastepnie zwykle podproblemy sa mniejszymi kopiami podproblemu z ktorego powstaly
+oficjalnie pierwszy raz zastosowano w 1960
+ta zasada jest najbardziej popuralna ponieważ algorytmy zbudowane z jej uzyciem maja najmniejsza zlozonosc obliczeniowa
+zasada ta wykorzystywana jest w sortowaniu i wyszukiwaniu elementow
+algorytm sprawdza czy w podanej posortowanej tablicy znajduje sie element o danej wartosci 
+tablica jest dzielona na coraz mniejsze elementy 
+jako potencjalny element do wyszukania typuje sie element srodkowy
+w zaleznosci od wartosci elementu srodkowego, kontynuuje sie przeszukiwanie odpowiedniej czesci tablicy 
+podzial konczy sie gdy znajdziemy szukany element lub gdy przedzial osiagnie dlugosc 0 

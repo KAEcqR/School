@@ -1,0 +1,65 @@
+﻿@model cw4.Models.HomeViewModel
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poznaj Europę</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="banner">
+        <h1>BIURO PODRÓŻY</h1>
+    </header>
+    <main>
+        <section class="left">
+            <h2>Promocje</h2>
+            <table>
+                <tr>
+                    <td>Warszawa</td>
+                    <td>od 600 zł</td>
+                </tr>
+                <tr>
+                    <td>Wenecja</td>
+                    <td>od 1200 zł</td>
+                </tr>
+                <tr>
+                    <td>Paryż</td>
+                    <td>od 1200 zł</td>
+                </tr>
+            </table>
+        </section>
+        <section class="center">
+            <h2>W tym roku jedziemy do...</h2>
+            <div class='container'>
+                @foreach (var zdjecie in Model.Zdjecia) {
+                    <img src="~/Media/@zdjecie.Plik" title="@zdjecie.Podpis">
+                }
+            </div>
+        </section>
+        <section class="right">
+            <h2>Kontakt</h2>
+            <a href="mailto:biuro@wycieczki.pl">napisz do nas</a>
+            <p>telefon: 444555666</p>
+        </section>
+    </main>
+    <div class="content">
+        <h3>W poprzednich latach byliśmy...</h3>
+        <form action="" method="post">
+            <Label>Wybierz cel wycieczki</Label>
+            <input type="text" id="cel" name="cel">
+            <button type="submit">Wybierz</button>
+        </form>
+        <ol>
+        @foreach(var wycieczka in Model.Wycieczki){
+            <li>Dnia @wycieczka.DataWyjazdu Pojechaliśmy do @wycieczka.Cel</li>
+        }
+        </ol>
+    </div>
+    <footer>
+        <p>Stronę wykonał: 00000000000000000000</p>
+    </footer>
+</body>
+</html>
