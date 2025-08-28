@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Programowanie obiektowe\\Zad5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BF5FED66-E06F-41B5-9364-08FF47D07C9A}|Zad5.vcxproj|F:\\Programowanie obiektowe\\Zad5\\Zad5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BF5FED66-E06F-41B5-9364-08FF47D07C9A}|Zad5.vcxproj|solutionrelative:Zad5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Zad5.cpp",
+              "DocumentMoniker": "F:\\Programowanie obiektowe\\Zad5\\Zad5.cpp",
+              "RelativeDocumentMoniker": "Zad5.cpp",
+              "ToolTip": "F:\\Programowanie obiektowe\\Zad5\\Zad5.cpp",
+              "RelativeToolTip": "Zad5.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-31T16:12:53.679Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

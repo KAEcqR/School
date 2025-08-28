@@ -1,0 +1,14 @@
+img[src="baner.jpg"]{
+    width: 100%;
+}
+
+#lewy{
+    width: 50%;
+}
+#prawy{
+    background-color: lightblue;
+    width: 50%;
+}
+main{
+    display: flex;
+}

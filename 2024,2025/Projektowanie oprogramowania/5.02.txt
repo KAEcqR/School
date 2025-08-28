@@ -1,0 +1,46 @@
+ charakterystyka elementow dokumentacji wymagan dla aplikacji slownik, architektura, indeks, wymagania systemowe, wymagania klienta, scenariusze
+
+analiza wymagan, uzgodnienie wymagan klienta i ichi analiza. celem jest okreslenie zakresu prac, oszacowanie czasochlonnosci kosztow i czasu wykonania
+
+wstepna analiza wymagan
+
+oszacowac techniczne wymagania (srodowisko dzialania, system operacyjny, wymagania sieciowe)
+okreslic aplikacje, systemy z ktorymi musi zintegorwac system
+wymagania funkcjonalne (spis oczekiwan klienta)
+(przykladowe) scenariusze uzycia
+
+analiza wymagan funkcjonalnych umozliwia zidentyfikowanie i opisanie pozadanego zachowania systemu. zgodnie z jedna z definicji wymaganie funkcjonalne to stwierdzenie jakie uslugi ma oferowac system jak ma reagowac na okreslone dane wejsciowe oraz jak ma sie zachowawywac w okreslonych syteuacjach w niektorych wypadkach wymagania funkcjonalne okreslaja czego system nie powinien robic
+
+jakie dzialania bedzie mogl wykonac uzytkownik? uzytkownik moze sie zalogowac wydrukowac wynik, wyswietlic liste plikow po wcisnieciu przycisku ok okno sie zamyka i na	stepuje powrot do okna glownego
+
+jakie dzialanie wykonuje system?
+przyklad: 
+	cyklicznie codziennie wysylana jest poczta do wskazanych uzytkownikow
+dane wejsciowe -> dzialanie -> dane wyjsciowe
+ogolne - lista w jezyku naturalnym
+szczegolowa specyfikacja - dokladna lista uml grafy dzialania zrobimy w pozniejszej fazie projektowania 
+
+dobra dokumentacja wymagan nie powinna nadmiernie ograniczac projektu aplikacji to znaczy narzucac konkretnego rozwiazania architektonicznego, analityk powinien w taki sposob opisywac system by prezentowac dostepne funkcje i mozliwosci aplikacji bez zbednego wnikania w szczegoly techniczne
+podczas opisywania wymagan funkcjonalnych zarowno listy wymagan jak i szczegolowej specyfikacji nalezy poslugiwac sie prostymi jednoznacznymi i zrozumialymi stwierdzeniami 
+
+przypadek uzycia 
+przypadek uzycia powinien przedstawiac podstawowy przebieg operacji, tzw. szczesliwa sciezke wydarzen
+przyklad:
+system prosi uzytkownika o zalogowanie
+uzytkownik podaje swoj numer identyfikacyjny oraz haslo
+system stwierdza poprawnosc danych
+uzytkownik zostaje zalogowany do systemu
+
+
+Wymagania niefunkcjonalne
+ograniczenia w jakich system ma pracowac standardy jakie spelnia tip
+jaki ten system powinien byc
+co jest interfejsem (strona www, gui)
+
+Metoda FURPS
+
+functionality - funkcjonalnosc w zrozumieniu zestawu funkcji uwzgledniajaca rowniez bezpieczenstwo, mozliwosci systemu
+usability - uzytecznosc jako zestaw wizualnych aspektow oprogramowania, estetyka, dokumentacja
+reliability - niezawodnosc, bedaca mierzona np czestoscia wystepowania bledow
+performance - wydajnosc aplikacji okreslana rowniez jako czas odpowiedzi lub uzycie zasobow
+supportability - przenosnosc rozszerzalnosc nie dajaca sie latwo przetlumaczyc 'wspieralnosc' uwzgledniajaca zdolnosc aplikacji do instalacji na roznych platformach, latwosc testowania itp.

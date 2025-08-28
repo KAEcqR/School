@@ -1,0 +1,38 @@
+﻿@using cw7.Models
+@model Student
+
+<h3>Edycja studenta</h3>
+
+<form asp-action="EditStudent" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="line">
+        <label asp-for="Firstname"></label>
+        <input asp-for="Firstname" />
+        <span asp-validation-for="Firstname" class="Error"></span>
+    </div>
+
+    <div class="line">
+        <label asp-for="Lastname"></label>
+        <input asp-for="Lastname" />
+        <span asp-validation-for="Lastname" class="Error"></span>
+    </div>
+
+    <div class="line">
+        <label asp-for="IndexNumber"></label>
+        <input asp-for="IndexNumber" />
+        <span asp-validation-for="IndexNumber" class="Error"></span>
+    </div>
+
+    <div class="line">
+        <label asp-for="Birthdate"></label>
+        <input asp-for="Birthdate" type="date" />
+        <span asp-validation-for="Birthdate" class="Error"></span>
+    </div>
+
+    <div class="line">
+        <label></label>
+        <input type="submit" value="Zapisz zmiany" class="button" />
+        <a class="button" asp-action="Index">Powrót</a>
+    </div>
+</form>

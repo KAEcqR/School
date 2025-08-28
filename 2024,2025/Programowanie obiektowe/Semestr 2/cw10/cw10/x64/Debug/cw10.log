@@ -1,0 +1,3 @@
+﻿  cw10.cpp
+G:\Programowanie obiektowe\Semestr 2\cw10\cw10.cpp(33,9): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  cw10.vcxproj -> G:\Programowanie obiektowe\Semestr 2\cw10\x64\Debug\cw10.exe

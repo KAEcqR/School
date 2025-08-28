@@ -1,0 +1,90 @@
+		Lekcja
+Temat: Charakterystyka elementów dokumentacji wymagań dla aplikacji - słownik, architektura, indeks, wymagania systemowe, wymagania klienta, scenariusze.
+
+Analiza wymagań - ozgodnienie wymagań klienta i ich analiza. Celem jest określenie zakresu prac, szacowanie czasochłonności kosztów i czasu wykonania.
+
+-> oszacować techniczne wymagania (środowisko działania, system operacyjny, wymagania sieciowe)
+-> określić aplikacje, systemy z którymi musimy zintegrować system
+-> wymagania funkcjonalne (spis oczekiwań klienta)
+-> (przykładowe) scenariusze użycia
+
+Wymagania funkcjonalne
+
+-> Analiza wymagań funkcjonalnych umożliwia zidentyfikowanie i opisanie pożądanego zachowania systemu. Zgodnie z jednąz definicji, wymaganie funkcjonalne to 
+	"stwierdzenie, jakie usługi ma oferować system,
+	 jak ma reagować na określone dane wejściowe oraz jak ma się zachowywać w określonych sytuacjach."
+W niektórych wypadkach wymagania funkcjonalne określają, czego system nie powinien robić.
+
+Przykład:
+|  Użytkownik może się zalogować, wydrukować wynik, wyświetlić listę plików.     |
+| Po wciśnięciu przycisku OK okno się zamyka i następuję powrót do okna głównego |
+
+Jakie działanie wykonuje system?
+Przykład:
+| Cyklicznie (codziennie) wysłana jest poczta do wskazanych użytkowników |
+-> dane wejściowe -> działanie -> dane wyjściowe
+-> ogólne - lista w języku naturalnym
+-> Szczegółowa specyfikacja - dokładna lista, UML, grafy działania (zrobimy w późniejszej fazie projektowania)
+
+Dobra dokumentacja - nie powinna nadmiernie ograniczać projektu aplikacji, to znaczy narzucać konkretnego rozwiązania architektonicznego.
+Analityk powienien w taki sposób opisywać system, by prezentować dostępne funkcje i możliwości aplikacja bez zbędnego wnikania w szczegóły techniczne
+
+Podczas opisywania wymagań funkcjonalnych (zarówno listy wymagań, jak i szczegółowej specyfikacji),
+należy posługiwać się prostymi, jednoznacznymi i zrozumiałymi stwierdzeniami
+
+Przypadek użycia - powinien przedstawiać podstawowy przebieg operacji, tzw. szczęsliwą ścieżkę wydarzeń ("basic flow", "happy flow")
+
+1. System prosu użytkownika o zalogowanie
+2. Użytkownik podaje swoję dane
+3. System stwierdza poprawność danych
+
+Ścieżki alternatywne - sytuacje, gdy nie zachodzi ścieżka optymalna.
+Dla punktu 3 może zajść, np.:
+-> System odrzuca podane dane
+-> Powrót do kroku 1
+
+Wymagania niefunkcjonalne
+-> Ograniczenie w jakich systemach ma pracować, standardy jakie spełnia, itp.
+-> Jaki ten system powinien być?
+-> Co jest interfejsem? (strona www, GUI, konsola, inne aplikacje)
+-> Czy jest przeznaczona dla pojedynczego urzytkownika?
+-> Na jakim systemie operacyjnym działa?
+-> Jakie mam wymagania (dodatkowe oprogramowanie, dodatkowy sprzęt)?
+
+-> wydajność
+-> skalowalność
+-> otwartość, możliwość rozbudowy
+-> odporność na awarie
+-> bezpieczeństwo
+
+Metoda FURPS
+-> Functionality (funkcjonalność, bezpeczeństwo, możliwości systemu)
+-> Usability (użyteczność, estetyka, dokumentacja)         
+-> Reliability (Niezawodność, częstość występowania błędów)
+-> Performance (Wydajność, czas odpowiedzi, użycie zasobów)
+-> Supportability (Przenosność, rozszerzalność, wspieralność różnych systemów)
+
+1.Wprowadzenie
+-> Krótki opis celu systemu.
+2. Słownik - Definicja wszystkich technicznych i specyficznych terminów użytych w dokumencie.
+3. Ogólny opis systemu
+-> Opis najważniejszych cech systemu
+-> Modele systemu - wyodrębnienie i opis najważniejszych modułów systemu, relacje między elementami systemu i środowiskiem systemu (np. w formie graficznej - diagram)
+-> grupy urzytkowników i ich atrybuty (użytkownik, administrator)
+-> środowisko pracy systemu (system operacyjny, sprzęt) ogólny opis interfejsów.
+4. Wymagania funkcjonalne - możliwie pełny spis usług systemu, przy czym nie muszą one jeszcze być opisywane bardzo szczegółowo
+-> Zwykle opis wymagań funkcjonalnych powinien zawierać następujące punkty:
+	-> Nazwa funkcjonalności
+	-> Opis - krótki opis funkcjonalności
+	-> Wejście - definicja danych wejściowych i ich ewentualnych ograniczeń
+	-> Wyjście - definicja zwracanych rezultatów
+	-> Efekty Uboczne - określenie dodatkowych czynności wykonywanych dla tej funkcjonalności, np. interakcji z innymi funkcjami
+-> Może zawrzeć diagramy (przypadki) użycia
+5. Wymagania niefunkcjonalne - W tej sekcji przede wszystkim należy wypisać ograniczenia wynikające z oczekiwań klienta co do technologii, w której ma to być realizowane.
+ Część z nich już mogła pojawić się we wcześniejszym opisie.
+-> Środowisko pracy systemu (system operacyjny), komunikacja z innymi elementami środowiska
+-> wykorzystywane technologie
+-> ograniczenia sprzętowe
+-> ograniczenia prawne, licencje
+-> inne, ...
+-> założenia dotyczące bezpieczeństwa, wydajności, wymagania pamięciowe, itp.

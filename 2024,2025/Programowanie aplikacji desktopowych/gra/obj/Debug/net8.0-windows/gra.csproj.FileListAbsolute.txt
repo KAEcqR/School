@@ -1,0 +1,16 @@
+F:\Programowanie aplikacji desktopowych\gra\bin\Debug\net8.0-windows\gra.exe
+F:\Programowanie aplikacji desktopowych\gra\bin\Debug\net8.0-windows\gra.deps.json
+F:\Programowanie aplikacji desktopowych\gra\bin\Debug\net8.0-windows\gra.runtimeconfig.json
+F:\Programowanie aplikacji desktopowych\gra\bin\Debug\net8.0-windows\gra.dll
+F:\Programowanie aplikacji desktopowych\gra\bin\Debug\net8.0-windows\gra.pdb
+F:\Programowanie aplikacji desktopowych\gra\obj\Debug\net8.0-windows\gra.Form1.resources
+F:\Programowanie aplikacji desktopowych\gra\obj\Debug\net8.0-windows\gra.csproj.GenerateResource.cache
+F:\Programowanie aplikacji desktopowych\gra\obj\Debug\net8.0-windows\gra.GeneratedMSBuildEditorConfig.editorconfig
+F:\Programowanie aplikacji desktopowych\gra\obj\Debug\net8.0-windows\gra.AssemblyInfoInputs.cache
+F:\Programowanie aplikacji desktopowych\gra\obj\Debug\net8.0-windows\gra.AssemblyInfo.cs
+F:\Programowanie aplikacji desktopowych\gra\obj\Debug\net8.0-windows\gra.csproj.CoreCompileInputs.cache
+F:\Programowanie aplikacji desktopowych\gra\obj\Debug\net8.0-windows\gra.dll
+F:\Programowanie aplikacji desktopowych\gra\obj\Debug\net8.0-windows\refint\gra.dll
+F:\Programowanie aplikacji desktopowych\gra\obj\Debug\net8.0-windows\gra.pdb
+F:\Programowanie aplikacji desktopowych\gra\obj\Debug\net8.0-windows\gra.genruntimeconfig.cache
+F:\Programowanie aplikacji desktopowych\gra\obj\Debug\net8.0-windows\ref\gra.dll

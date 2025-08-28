@@ -1,0 +1,3 @@
+﻿  cw6.cpp
+G:\Programowanie obiektowe\Semestr 2\cw6\cw6.cpp(14,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  cw6.vcxproj -> G:\Programowanie obiektowe\Semestr 2\cw6\x64\Debug\cw6.exe

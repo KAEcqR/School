@@ -1,0 +1,46 @@
+﻿@model List<cw8.Models.Podzespol>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podzespoły</title>
+    <link rel="stylesheet" href="~/css/style.css">
+</head>
+
+<body>
+    <div class="banner">
+        <div class="menu">
+            <a asp-action="Index">Glowna</a>
+            <a asp-action="Procesor">Procesory</a>
+            <a asp-action="Ram">RAM</a>
+            <a asp-action="Grafika">Grafika</a>
+        </div>
+        <div class="logo">
+            <h2>Podzespoly Komputerowe</h2>
+        </div>
+    </div>
+    <div class="main">
+        <h1>Dzisiejsze promocje</h1>
+        @RenderBody()
+    </div>
+    <div class="footer">
+        <div class="blok">
+            <img src="~/img/scalak.jpg" alt="promocje na procesory">
+        </div>
+        <div class="blok1">
+            <h4>Nasz sklep komputerowy</h4>
+            <p>Wspolpracujemy z hurtownia <a href="http://www.edata.pl/" target="_blank">edata</a></p>
+        </div>
+        <div class="blok1">
+            <p>Zadzwon: 601 602 603</p>
+        </div>
+        <div class="blok1">
+            <p>Strone wykonal : 00000000000000</p>
+        </div>
+    </div>
+</body>
+
+</html>

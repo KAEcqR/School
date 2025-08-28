@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Georgia;
+}
+
+.banner {
+    color: orange;
+    background-color: #63AC74;
+    height: 208px;
+    text-align: right;
+    display: flex;
+    font-size: 160%;
+}
+
+.menu,
+.logo {
+    width: 50%;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+h4 {
+    margin-bottom: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: end;
+}
+
+.main {
+    background-color: #E3F6E7;
+    height: 500px;
+    padding: 20px;
+}
+
+.footer {
+    display: flex;
+}
+
+.blok,
+.blok1 {
+    background-color: #63AC74;
+    height: 207px;
+    width: 25%;
+}
+
+.blok1 {
+    padding: 20px;
+}
+
+a {
+    color: orange;
+    margin: 15px;
+}
+
+table {
+    width: 100%;
+    border: 2px solid green;
+}
+
+th {
+    background-color: #63AC74;
+    color: white;
+}
+
+table tbody td:nth-child(4) {
+    text-align: right;
+}

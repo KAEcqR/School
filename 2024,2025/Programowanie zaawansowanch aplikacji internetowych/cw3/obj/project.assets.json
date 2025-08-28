@@ -1613,11 +1613,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw3\\cw3.csproj",
+      "projectUniqueName": "G:\\Programowanie zaawansowanch aplikacji internetowych\\cw3\\cw3.csproj",
       "projectName": "cw3",
-      "projectPath": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw3\\cw3.csproj",
+      "projectPath": "G:\\Programowanie zaawansowanch aplikacji internetowych\\cw3\\cw3.csproj",
       "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-      "outputPath": "F:\\Programowanie zaawansowanch aplikacji internetowych\\cw3\\obj\\",
+      "outputPath": "G:\\Programowanie zaawansowanch aplikacji internetowych\\cw3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

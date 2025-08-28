@@ -1,0 +1,85 @@
+E:\student\pulpit\desk\kosci_egzamin\obj\Debug\net8.0-windows\kosci_egzamin.Form1.resources
+E:\student\pulpit\desk\kosci_egzamin\obj\Debug\net8.0-windows\kosci_egzamin.csproj.GenerateResource.cache
+E:\student\pulpit\desk\kosci_egzamin\obj\Debug\net8.0-windows\kosci_egzamin.GeneratedMSBuildEditorConfig.editorconfig
+E:\student\pulpit\desk\kosci_egzamin\obj\Debug\net8.0-windows\kosci_egzamin.AssemblyInfoInputs.cache
+E:\student\pulpit\desk\kosci_egzamin\obj\Debug\net8.0-windows\kosci_egzamin.AssemblyInfo.cs
+E:\student\pulpit\desk\kosci_egzamin\obj\Debug\net8.0-windows\kosci_egzamin.csproj.CoreCompileInputs.cache
+E:\student\pulpit\desk\kosci_egzamin\bin\Debug\net8.0-windows\kosci_egzamin.exe
+E:\student\pulpit\desk\kosci_egzamin\bin\Debug\net8.0-windows\kosci_egzamin.deps.json
+E:\student\pulpit\desk\kosci_egzamin\bin\Debug\net8.0-windows\kosci_egzamin.runtimeconfig.json
+E:\student\pulpit\desk\kosci_egzamin\bin\Debug\net8.0-windows\kosci_egzamin.dll
+E:\student\pulpit\desk\kosci_egzamin\bin\Debug\net8.0-windows\kosci_egzamin.pdb
+E:\student\pulpit\desk\kosci_egzamin\obj\Debug\net8.0-windows\kosci_egzamin.dll
+E:\student\pulpit\desk\kosci_egzamin\obj\Debug\net8.0-windows\refint\kosci_egzamin.dll
+E:\student\pulpit\desk\kosci_egzamin\obj\Debug\net8.0-windows\kosci_egzamin.pdb
+E:\student\pulpit\desk\kosci_egzamin\obj\Debug\net8.0-windows\kosci_egzamin.genruntimeconfig.cache
+E:\student\pulpit\desk\kosci_egzamin\obj\Debug\net8.0-windows\ref\kosci_egzamin.dll
+E:\student\pulpit\desk\kosci\kosci_projekt\obj\Debug\net8.0-windows\kosci_egzamin.Form1.resources
+E:\student\pulpit\desk\kosci\kosci_projekt\obj\Debug\net8.0-windows\kosci_egzamin.Properties.Resources.resources
+E:\student\pulpit\desk\kosci\kosci_projekt\obj\Debug\net8.0-windows\kosci_egzamin.csproj.GenerateResource.cache
+E:\student\pulpit\desk\kosci\kosci_projekt\obj\Debug\net8.0-windows\kosci_egzamin.GeneratedMSBuildEditorConfig.editorconfig
+E:\student\pulpit\desk\kosci\kosci_projekt\obj\Debug\net8.0-windows\kosci_egzamin.AssemblyInfoInputs.cache
+E:\student\pulpit\desk\kosci\kosci_projekt\obj\Debug\net8.0-windows\kosci_egzamin.AssemblyInfo.cs
+E:\student\pulpit\desk\kosci\kosci_projekt\obj\Debug\net8.0-windows\kosci_egzamin.csproj.CoreCompileInputs.cache
+E:\student\pulpit\desk\kosci\kosci_projekt\obj\Debug\net8.0-windows\kosci_egzamin.dll
+E:\student\pulpit\desk\kosci\kosci_projekt\obj\Debug\net8.0-windows\refint\kosci_egzamin.dll
+E:\student\pulpit\desk\kosci\kosci_projekt\obj\Debug\net8.0-windows\kosci_egzamin.pdb
+E:\student\pulpit\desk\kosci\kosci_projekt\bin\Debug\net8.0-windows\kosci_egzamin.exe
+E:\student\pulpit\desk\kosci\kosci_projekt\bin\Debug\net8.0-windows\kosci_egzamin.deps.json
+E:\student\pulpit\desk\kosci\kosci_projekt\bin\Debug\net8.0-windows\kosci_egzamin.runtimeconfig.json
+E:\student\pulpit\desk\kosci\kosci_projekt\bin\Debug\net8.0-windows\kosci_egzamin.dll
+E:\student\pulpit\desk\kosci\kosci_projekt\bin\Debug\net8.0-windows\kosci_egzamin.pdb
+E:\student\pulpit\desk\kosci\kosci_projekt\obj\Debug\net8.0-windows\kosci_egzamin.genruntimeconfig.cache
+E:\student\pulpit\desk\kosci\kosci_projekt\obj\Debug\net8.0-windows\ref\kosci_egzamin.dll
+F:\Szkoła\ob\desk\kosci\kosci_projekt\bin\Debug\net8.0-windows\kosci_egzamin.exe
+F:\Szkoła\ob\desk\kosci\kosci_projekt\bin\Debug\net8.0-windows\kosci_egzamin.deps.json
+F:\Szkoła\ob\desk\kosci\kosci_projekt\bin\Debug\net8.0-windows\kosci_egzamin.runtimeconfig.json
+F:\Szkoła\ob\desk\kosci\kosci_projekt\bin\Debug\net8.0-windows\kosci_egzamin.dll
+F:\Szkoła\ob\desk\kosci\kosci_projekt\bin\Debug\net8.0-windows\kosci_egzamin.pdb
+F:\Szkoła\ob\desk\kosci\kosci_projekt\obj\Debug\net8.0-windows\kosci_egzamin.Form1.resources
+F:\Szkoła\ob\desk\kosci\kosci_projekt\obj\Debug\net8.0-windows\kosci_egzamin.Properties.Resources.resources
+F:\Szkoła\ob\desk\kosci\kosci_projekt\obj\Debug\net8.0-windows\kosci_egzamin.csproj.GenerateResource.cache
+F:\Szkoła\ob\desk\kosci\kosci_projekt\obj\Debug\net8.0-windows\kosci_egzamin.GeneratedMSBuildEditorConfig.editorconfig
+F:\Szkoła\ob\desk\kosci\kosci_projekt\obj\Debug\net8.0-windows\kosci_egzamin.AssemblyInfoInputs.cache
+F:\Szkoła\ob\desk\kosci\kosci_projekt\obj\Debug\net8.0-windows\kosci_egzamin.AssemblyInfo.cs
+F:\Szkoła\ob\desk\kosci\kosci_projekt\obj\Debug\net8.0-windows\kosci_egzamin.csproj.CoreCompileInputs.cache
+F:\Szkoła\ob\desk\kosci\kosci_projekt\obj\Debug\net8.0-windows\kosci_egzamin.dll
+F:\Szkoła\ob\desk\kosci\kosci_projekt\obj\Debug\net8.0-windows\refint\kosci_egzamin.dll
+F:\Szkoła\ob\desk\kosci\kosci_projekt\obj\Debug\net8.0-windows\kosci_egzamin.pdb
+F:\Szkoła\ob\desk\kosci\kosci_projekt\obj\Debug\net8.0-windows\kosci_egzamin.genruntimeconfig.cache
+F:\Szkoła\ob\desk\kosci\kosci_projekt\obj\Debug\net8.0-windows\ref\kosci_egzamin.dll
+E:\student\pulpit\kosci\kosci_projekt\bin\Debug\net8.0-windows\kosci_egzamin.exe
+E:\student\pulpit\kosci\kosci_projekt\bin\Debug\net8.0-windows\kosci_egzamin.deps.json
+E:\student\pulpit\kosci\kosci_projekt\bin\Debug\net8.0-windows\kosci_egzamin.runtimeconfig.json
+E:\student\pulpit\kosci\kosci_projekt\bin\Debug\net8.0-windows\kosci_egzamin.dll
+E:\student\pulpit\kosci\kosci_projekt\bin\Debug\net8.0-windows\kosci_egzamin.pdb
+E:\student\pulpit\kosci\kosci_projekt\obj\Debug\net8.0-windows\kosci_egzamin.Form1.resources
+E:\student\pulpit\kosci\kosci_projekt\obj\Debug\net8.0-windows\kosci_egzamin.Properties.Resources.resources
+E:\student\pulpit\kosci\kosci_projekt\obj\Debug\net8.0-windows\kosci_egzamin.csproj.GenerateResource.cache
+E:\student\pulpit\kosci\kosci_projekt\obj\Debug\net8.0-windows\kosci_egzamin.GeneratedMSBuildEditorConfig.editorconfig
+E:\student\pulpit\kosci\kosci_projekt\obj\Debug\net8.0-windows\kosci_egzamin.AssemblyInfoInputs.cache
+E:\student\pulpit\kosci\kosci_projekt\obj\Debug\net8.0-windows\kosci_egzamin.AssemblyInfo.cs
+E:\student\pulpit\kosci\kosci_projekt\obj\Debug\net8.0-windows\kosci_egzamin.csproj.CoreCompileInputs.cache
+E:\student\pulpit\kosci\kosci_projekt\obj\Debug\net8.0-windows\kosci_egzamin.dll
+E:\student\pulpit\kosci\kosci_projekt\obj\Debug\net8.0-windows\refint\kosci_egzamin.dll
+E:\student\pulpit\kosci\kosci_projekt\obj\Debug\net8.0-windows\kosci_egzamin.pdb
+E:\student\pulpit\kosci\kosci_projekt\obj\Debug\net8.0-windows\kosci_egzamin.genruntimeconfig.cache
+E:\student\pulpit\kosci\kosci_projekt\obj\Debug\net8.0-windows\ref\kosci_egzamin.dll
+F:\Programowanie aplikacji desktopowych\kosci_projekt\bin\Debug\net8.0-windows\kosci_egzamin.exe
+F:\Programowanie aplikacji desktopowych\kosci_projekt\bin\Debug\net8.0-windows\kosci_egzamin.deps.json
+F:\Programowanie aplikacji desktopowych\kosci_projekt\bin\Debug\net8.0-windows\kosci_egzamin.runtimeconfig.json
+F:\Programowanie aplikacji desktopowych\kosci_projekt\bin\Debug\net8.0-windows\kosci_egzamin.dll
+F:\Programowanie aplikacji desktopowych\kosci_projekt\bin\Debug\net8.0-windows\kosci_egzamin.pdb
+F:\Programowanie aplikacji desktopowych\kosci_projekt\obj\Debug\net8.0-windows\kosci_egzamin.Form1.resources
+F:\Programowanie aplikacji desktopowych\kosci_projekt\obj\Debug\net8.0-windows\kosci_egzamin.Properties.Resources.resources
+F:\Programowanie aplikacji desktopowych\kosci_projekt\obj\Debug\net8.0-windows\kosci_egzamin.csproj.GenerateResource.cache
+F:\Programowanie aplikacji desktopowych\kosci_projekt\obj\Debug\net8.0-windows\kosci_egzamin.GeneratedMSBuildEditorConfig.editorconfig
+F:\Programowanie aplikacji desktopowych\kosci_projekt\obj\Debug\net8.0-windows\kosci_egzamin.AssemblyInfoInputs.cache
+F:\Programowanie aplikacji desktopowych\kosci_projekt\obj\Debug\net8.0-windows\kosci_egzamin.AssemblyInfo.cs
+F:\Programowanie aplikacji desktopowych\kosci_projekt\obj\Debug\net8.0-windows\kosci_egzamin.csproj.CoreCompileInputs.cache
+F:\Programowanie aplikacji desktopowych\kosci_projekt\obj\Debug\net8.0-windows\kosci_egzamin.dll
+F:\Programowanie aplikacji desktopowych\kosci_projekt\obj\Debug\net8.0-windows\refint\kosci_egzamin.dll
+F:\Programowanie aplikacji desktopowych\kosci_projekt\obj\Debug\net8.0-windows\kosci_egzamin.pdb
+F:\Programowanie aplikacji desktopowych\kosci_projekt\obj\Debug\net8.0-windows\kosci_egzamin.genruntimeconfig.cache
+F:\Programowanie aplikacji desktopowych\kosci_projekt\obj\Debug\net8.0-windows\ref\kosci_egzamin.dll
+F:\Programowanie aplikacji desktopowych\kosci_projekt\bin\Debug\net8.0-windows\Properties\Resources.Designer.cs

@@ -1,0 +1,17 @@
+﻿<table>
+    <tr>
+        <th>NUMER</th>
+        <th>NAZWA</th>
+        <th>OPIS</th>
+        <th>CENA</th>
+    </tr>
+    @foreach (var e in Model)
+    {
+        <tr>
+            <td>@e.id</td>
+            <td>@e.nazwa</td>
+            <td>@e.opis</td>
+            <td>@e.cena</td>
+        </tr>
+    }
+</table>

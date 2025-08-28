@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    width: 100%;
+    background-color: rgb(88, 88, 216);
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+}
+
+.banner {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffe137;
+}
+
+.main {
+    background-color: rgb(240, 240, 240);
+    height: 800px;
+    width: 100%;
+    display: flex;
+}
+
+.left {
+    width: 200px;
+    height: 100%;
+    background-color: #ffe137;
+}
+
+.block {
+    height: 130px;
+    border-top: 2px solid rgb(231, 231, 231);
+    border-bottom: 2px solid rgb(241, 241, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+select {
+    margin-top: 20px;
+    width: 100px;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    margin-right: 10px;
+}
+
+.right {
+    width: 100%;
+}
+
+.photo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.right img {
+    width: 50%;
+    height: 50%;
+}
+
+h3 {
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 25px;
+    width: 90%;
+    text-align: end ;
+    margin-top: 20px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="banner">
+        <img src="banner.png" alt="">
+    </div>
+    <div class="main">
+        <div class="left">
+            <div class="block">
+                <div class="container">
+                    <h1>Kolor</h1>
+                    <select name="" id="color" onchange="SetColor()">
+                        <option value="szary">szary</option>
+                        <option value="bialy">bialy</option>
+                        <option value="niebieski">niebieski</option>
+                        <option value="zolty">zolty</option>
+                        <option value="czerwony">czerwony</option>
+                    </select>
+                </div>
+            </div>
+            <div class="block">
+                <div class="container">
+                    <h1>Felgi</h1>
+                    <div class="line">
+                        <p>Stalowe</p><input type="radio" name="Stalowe" id="stal">
+                    </div>
+                    <div class="line">
+                        <p>Aluminiowe</p><input type="radio" name="Aluminiowe" id="aluminiowe">
+                    </div>
+                </div>
+            </div>
+            <div class="block">
+                <div class="container">
+                    <h1>Doposażenie</h1>
+                    <div class="line">
+                        <p>Czujniki</p>
+                    </div>
+                    <div class="line">
+                        <p>parkowania</p><input type="checkbox" name="" id="">
+                    </div>
+                    <div class="line">
+                        <p>climatronic</p><input type="checkbox" name="" id="">
+                    </div>
+                    <div class="line">
+                        <p>nawigacja</p><input type="checkbox" name="" id="">
+                    </div>
+                </div>
+            </div>      
+        </div>
+        <div class="right">
+            <div class="photo">
+                <img src="szary.jpg" alt="" id="img">
+            </div>
+
+            <h3>Wycena</h3>
+            <h2 id="cena">Cena bazowa : 75000zł</h2>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Autor strony : 000000000000000000000</p>
+    </div>
+</body>
+</html>
