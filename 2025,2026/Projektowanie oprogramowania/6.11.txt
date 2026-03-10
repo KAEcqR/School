@@ -1,0 +1,20 @@
+grupa algorytmow ktore do rozwiazania problemu wywoluja same siebie. zaoszczedza to kod lecz obciaza bardziej pamiec komputera
+
+rekurencja bezposrednia to wywolanie metody w niej samej
+
+rekurencja posrednia to wystepujace w lancuchu funkcji wywolywanie funkcji zaleznych od siebie ( A wywoluje B, B wywoluje A itd.)
+
+przykladowe algorytmy : 
+	wyznaczanie n-tej liczby ciagu fibonacciego
+	liczenie silni
+	liczenie n-tej potegi
+	sortowanie quicksort
+
+funkcja rekurencyjna : 
+	silnia liczby naturalnej n to iloczyn kolejnych liczb naturalnych od 0 do n oznacza sie ja symbolem n! 
+
+	0! = 1
+	1! = 1 czyli 0! * 1 
+	2! = 2 czyli 1! * 2
+	3! = 6 czyli 2! * 3
+	   

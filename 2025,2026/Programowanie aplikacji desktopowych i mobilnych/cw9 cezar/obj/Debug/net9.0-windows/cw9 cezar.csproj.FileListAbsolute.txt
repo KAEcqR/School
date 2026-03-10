@@ -1,0 +1,24 @@
+F:\Programowanie aplikacji desktopowych i mobilnych\cw9 cezar\bin\Debug\net9.0-windows\cw9 cezar.exe
+F:\Programowanie aplikacji desktopowych i mobilnych\cw9 cezar\bin\Debug\net9.0-windows\cw9 cezar.deps.json
+F:\Programowanie aplikacji desktopowych i mobilnych\cw9 cezar\bin\Debug\net9.0-windows\cw9 cezar.runtimeconfig.json
+F:\Programowanie aplikacji desktopowych i mobilnych\cw9 cezar\bin\Debug\net9.0-windows\cw9 cezar.dll
+F:\Programowanie aplikacji desktopowych i mobilnych\cw9 cezar\bin\Debug\net9.0-windows\cw9 cezar.pdb
+F:\Programowanie aplikacji desktopowych i mobilnych\cw9 cezar\bin\Debug\net9.0-windows\cw9 classlib.dll
+F:\Programowanie aplikacji desktopowych i mobilnych\cw9 cezar\bin\Debug\net9.0-windows\cw9 classlib.pdb
+F:\Programowanie aplikacji desktopowych i mobilnych\cw9 cezar\obj\Debug\net9.0-windows\cw9 cezar.csproj.AssemblyReference.cache
+F:\Programowanie aplikacji desktopowych i mobilnych\cw9 cezar\obj\Debug\net9.0-windows\MainWindow.g.cs
+F:\Programowanie aplikacji desktopowych i mobilnych\cw9 cezar\obj\Debug\net9.0-windows\App.g.cs
+F:\Programowanie aplikacji desktopowych i mobilnych\cw9 cezar\obj\Debug\net9.0-windows\cw9 cezar_MarkupCompile.cache
+F:\Programowanie aplikacji desktopowych i mobilnych\cw9 cezar\obj\Debug\net9.0-windows\cw9 cezar_MarkupCompile.lref
+F:\Programowanie aplikacji desktopowych i mobilnych\cw9 cezar\obj\Debug\net9.0-windows\MainWindow.baml
+F:\Programowanie aplikacji desktopowych i mobilnych\cw9 cezar\obj\Debug\net9.0-windows\cw9 cezar.g.resources
+F:\Programowanie aplikacji desktopowych i mobilnych\cw9 cezar\obj\Debug\net9.0-windows\cw9 cezar.GeneratedMSBuildEditorConfig.editorconfig
+F:\Programowanie aplikacji desktopowych i mobilnych\cw9 cezar\obj\Debug\net9.0-windows\cw9 cezar.AssemblyInfoInputs.cache
+F:\Programowanie aplikacji desktopowych i mobilnych\cw9 cezar\obj\Debug\net9.0-windows\cw9 cezar.AssemblyInfo.cs
+F:\Programowanie aplikacji desktopowych i mobilnych\cw9 cezar\obj\Debug\net9.0-windows\cw9 cezar.csproj.CoreCompileInputs.cache
+F:\Programowanie aplikacji desktopowych i mobilnych\cw9 cezar\obj\Debug\net9.0-windows\cw9 cezar.csproj.Up2Date
+F:\Programowanie aplikacji desktopowych i mobilnych\cw9 cezar\obj\Debug\net9.0-windows\cw9 cezar.dll
+F:\Programowanie aplikacji desktopowych i mobilnych\cw9 cezar\obj\Debug\net9.0-windows\refint\cw9 cezar.dll
+F:\Programowanie aplikacji desktopowych i mobilnych\cw9 cezar\obj\Debug\net9.0-windows\cw9 cezar.pdb
+F:\Programowanie aplikacji desktopowych i mobilnych\cw9 cezar\obj\Debug\net9.0-windows\cw9 cezar.genruntimeconfig.cache
+F:\Programowanie aplikacji desktopowych i mobilnych\cw9 cezar\obj\Debug\net9.0-windows\ref\cw9 cezar.dll

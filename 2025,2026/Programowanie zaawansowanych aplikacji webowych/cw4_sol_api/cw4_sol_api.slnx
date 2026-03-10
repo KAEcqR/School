@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="cw4_sol_api.Api/cw4_sol_api.Api.csproj" />
+  <Project Path="cw4_sol_api.Tests/cw4_sol_api.Tests.csproj" />
+</Solution>

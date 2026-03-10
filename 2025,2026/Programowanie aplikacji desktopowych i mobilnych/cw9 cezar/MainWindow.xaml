@@ -1,0 +1,30 @@
+﻿<Window x:Class="cw9_cezar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:cw9_cezar"
+        mc:Ignorable="d"
+        Title="Szyfrowanie. Wykonane przez " Height="500" Width="830">
+    <Grid Background="CadetBlue">
+        <StackPanel Orientation="Horizontal">
+            <StackPanel Width="352">
+                <Label Foreground="AntiqueWhite" FontSize="24" Margin="0,0,0,40">Podaj wartość klucza</Label>
+                <TextBox x:Name="InputKey" Height="31" Width="114" Margin="0,0,0,40"></TextBox>
+                <Label Foreground="AntiqueWhite" FontSize="24" Margin="0,0,0,20">Podaj tekst</Label>
+                <TextBox x:Name="InputText" AcceptsReturn="True"  TextWrapping="Wrap" Height="206" Width="314"></TextBox>
+            </StackPanel>
+            <StackPanel Width="155" VerticalAlignment="Center">
+                <Button x:Name="button" Width="98" FontSize="16" Content="Zaszyfruj" Height="35" Click="Szyfruj"/>
+            </StackPanel>
+            <StackPanel Width="291">
+                <Label Foreground="AntiqueWhite" FontSize="24" Margin="0,0,0,40">Tekst zaszyfrowany</Label>
+                <Border BorderThickness="3,3,3,3" BorderBrush="AntiqueWhite" CornerRadius="15"  Margin="0,0,0,40" Height="271" Width="265">
+                    <TextBox x:Name="OutputText" IsReadOnly="True" Background="CadetBlue" BorderThickness="0,0,0,0" Margin="7,7,5,5"/>
+                </Border>
+                <Button Height="32" Width="218" FontSize="16" Click="Zapisz">Zapisz szyfr w pliku</Button>
+            </StackPanel>
+        </StackPanel>
+
+    </Grid>
+</Window>

@@ -1,0 +1,34 @@
+celem grupy czynnosci w analizie tekstow jest przeanalizowanie podstawy testow w celu zidentyfikowania testowalnych chech i zdefiniowania zwiazanych z nimi warunkow testowych. 
+analiza testow sluzy do ustalenia tego co nalezy przetestowac w kategoriach mierzalnych kryteriow pokrycia
+
+glowne czynnosci wykonywane w ramach analizy testow to : 
+specyfikacji wymagan, takich jak
+informacji dotyczacych projektu
+implementacji samego modulu lub systemu
+raportow z analizy ryzyka ktore moga dotyczyc aspektow 
+
+dokonywanie oceny testowalnosci podstawy testow i elementow testowych w celu zidentyfikowania czesto wystepujacych typow defektow, ktore moga powodowac problemy z testowalnoscia takich jak
+niejednoznacznosc
+pominiecia
+niespojnosc
+niescislosc
+sprzecznosc
+nadmiarowe instrukcje
+
+Glowne czynnosci wykonywane w ramach analizy testow to: 
+identyfikowanie cech i zbiorow cech ktore maja zostac przetestowane 
+definiowanie warunkow testowych w odniesieniu do poszczegolnych cech oraz okreslenie ich priorytetow na podstawie analizy podstawy testow - z uwzglednieniem parametrow funkcjonalnych niefunkcjonalnych i strukturalnych innych czynnikow biznesowych i technicznych oraaz poziomow ryzyka 
+stworzenie mozliwosci dwukierunkowego sledzenia powiazan miedzy elementami podstawy testow a zwiazanymi z nimi warunkami testowymi
+
+zastosowanie technik czarnoskrzynkowych i bialoskrzynkowych oraz technik opartych na doswiadczeniu w ramach analizy testow pomaga zmniejszyc prawdopodobienstwo pominiecia waznych warunkow testowych oraz zdefiniowac bardziej precyzyjne i dokladne warunki testowe
+
+w niektorych przypadkach w wyniku analizy testow definiowane sa warunki testowe, ktore maja byc wykorzystywane jako cele testow w kartach opisow testow. karty opisu testow sa typowymi produktami pracy w niektorych odmianach testowania opartego na doswiadczeniu 
+
+identyfikowanie defektow na etapie analizy testow jest istotna potencjalna korzyscia 
+
+Techniki stosowane podczas procesu analizy testow 
+
+przykladem sa techniki takie jak
+wytwwarzanie sterowane zachowaniem
+wytwarzanie sterowane testami akceptacyjnymi
+ktore objemuja generowanie warunkow testowych i przypadkow testowych na podstawie historyjek uzytkownika i kryteriow akceptacji przed rozpoczeciem tworzenia kodu. przewiduja one rowniez weryfikacje i walidacje historyjek uzytkownika i kryteriow akceptacji oraz wykrywanie wystepujacych w nich defektow 

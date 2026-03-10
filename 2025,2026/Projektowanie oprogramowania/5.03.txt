@@ -1,0 +1,22 @@
+metodyka dzieli projekty na mniejsze iteracje(sprinty) w celu dostosowania się do łatwiejszych zmian.
+
+w tym podejsciu zespol szybko przechodzi przez fazy- ocene wymagan, planow i wynikow przed przejsciem przez inny cylk. Pozwala to zespolom na wczesne wykrywanie problemow w zlozonych projektach, zbieranie informacji zwrotnych w trakcie realizacji projektu i szybsze reagowanie na zmiany.
+
+Projekt interfejsu aplikacji menu formularza paskow narzedziowych kontrolek pol dialogowych tekstowych
+
+user inteface to wszystkie elementy aplikacji, stron www, ktore umozliwiaja wejscie w interakcje miedzy uzytkownikiem a systemem np. elementy graficzne, ktore pomagaja w komunikacji uzytkownika z aplikacja programem lub strona internetowa
+
+projektowanie interf\ejsu uzytkownika to podstawowy etap tworzenia systemow cyfrowych intuicyjnych estetycznych i funkcjonalny interfejs ulatwia korzystanie z aplikacji lub stron internetowych wplywa takze na sposob w jaki uzytkownicy wchodza w interakcje z produktami i uslugami
+
+elementy interfejsu uzytkownika : 
+	-przyciski
+	-pola tekstowe
+	-ikony
+	-listy rozwijane 
+	-formularze
+
+okreslenie potrzeb uzytkownika( przed rozpoczeciem projektowania oprogramowania nalezy dokladnie poznac grupe docelowa oraz przerpowadzic analize wymagan uzytkonwikow 
+tworzenie intuicyjnego ukladu ( uklad interfejsu powinien byc przejrzysty i latwy w nawigacji - menu i przyciski akcji musza byc umieszczone w widocznych miejscach zgodnie z naturalnymi wzorcami postrzegania)
+
+prostota i minimalizm nadmiar elementow w interfejsie moze dezorientowac uzytkownikow nalezy ograniczyc liczbe komponentow do minimum
+responsywnosc interfejs powinien dzialac plynnie na roznych urzadzeniach i ekranach

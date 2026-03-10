@@ -1,0 +1,118 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Programowanie aplikacji desktopowych i mobilnych\\cw9 cezar\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4AFE8D7A-D8B5-42EC-938C-435780731433}|cw9 cezar.csproj|f:\\programowanie aplikacji desktopowych i mobilnych\\cw9 cezar\\cw9 cezar.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{4AFE8D7A-D8B5-42EC-938C-435780731433}|cw9 cezar.csproj|solutionrelative:cw9 cezar.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AFE8D7A-D8B5-42EC-938C-435780731433}|cw9 cezar.csproj|f:\\programowanie aplikacji desktopowych i mobilnych\\cw9 cezar\\cw9 cezar.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4AFE8D7A-D8B5-42EC-938C-435780731433}|cw9 cezar.csproj|solutionrelative:cw9 cezar.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AFE8D7A-D8B5-42EC-938C-435780731433}|cw9 cezar.csproj|f:\\programowanie aplikacji desktopowych i mobilnych\\cw9 cezar\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4AFE8D7A-D8B5-42EC-938C-435780731433}|cw9 cezar.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AFE8D7A-D8B5-42EC-938C-435780731433}|cw9 cezar.csproj|f:\\programowanie aplikacji desktopowych i mobilnych\\cw9 cezar\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AFE8D7A-D8B5-42EC-938C-435780731433}|cw9 cezar.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAC99255-A856-4C54-8FA6-294918693634}|..\\cw9 classlib\\cw9 classlib.csproj|f:\\programowanie aplikacji desktopowych i mobilnych\\cw9 classlib\\cezar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDC528D2-6E42-4DDB-BCE4-07A5DB039BD8}|..\\cw9 test\\cw9 test.csproj|f:\\programowanie aplikacji desktopowych i mobilnych\\cw9 test\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "cw9 cezar",
+              "DocumentMoniker": "F:\\Programowanie aplikacji desktopowych i mobilnych\\cw9 cezar\\cw9 cezar.csproj",
+              "RelativeDocumentMoniker": "cw9 cezar.csproj",
+              "ToolTip": "F:\\Programowanie aplikacji desktopowych i mobilnych\\cw9 cezar\\cw9 cezar.csproj",
+              "RelativeToolTip": "cw9 cezar.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-23T08:12:30.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "F:\\Programowanie aplikacji desktopowych i mobilnych\\cw9 cezar\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "F:\\Programowanie aplikacji desktopowych i mobilnych\\cw9 cezar\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-23T08:12:15.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "cw9 cezar",
+              "DocumentMoniker": "F:\\Programowanie aplikacji desktopowych i mobilnych\\cw9 cezar\\cw9 cezar.csproj",
+              "RelativeDocumentMoniker": "cw9 cezar.csproj",
+              "ToolTip": "F:\\Programowanie aplikacji desktopowych i mobilnych\\cw9 cezar\\cw9 cezar.csproj",
+              "RelativeToolTip": "cw9 cezar.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-23T08:12:12.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cezar.cs",
+              "DocumentMoniker": "F:\\Programowanie aplikacji desktopowych i mobilnych\\cw9 classlib\\Cezar.cs",
+              "RelativeDocumentMoniker": "..\\cw9 classlib\\Cezar.cs",
+              "ToolTip": "F:\\Programowanie aplikacji desktopowych i mobilnych\\cw9 classlib\\Cezar.cs",
+              "RelativeToolTip": "..\\cw9 classlib\\Cezar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T09:02:52.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "F:\\Programowanie aplikacji desktopowych i mobilnych\\cw9 test\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "..\\cw9 test\\UnitTest1.cs",
+              "ToolTip": "F:\\Programowanie aplikacji desktopowych i mobilnych\\cw9 test\\UnitTest1.cs",
+              "RelativeToolTip": "..\\cw9 test\\UnitTest1.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAUwDgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T08:59:56.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "F:\\Programowanie aplikacji desktopowych i mobilnych\\cw9 cezar\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "F:\\Programowanie aplikacji desktopowych i mobilnych\\cw9 cezar\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T08:59:34.707Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

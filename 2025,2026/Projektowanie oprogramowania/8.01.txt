@@ -1,0 +1,48 @@
+klasa Klient:
+	Atrybuty: imie (string), nazwisko(String), numerPrawaJazdy(String)
+	Relacja: agregacja z klasą Adres (biały romb)
+	Relacja: asocjacja z klasą Rezerwacja (linia prosta), krotność 1 do 0..* (jeden 
+
+
+Klasa Ubezpieczenie: 
+	Atrybuty: koszt (double)
+	Jest czescia kompozycji z klasa Rezerwacja
+
+Enumeracja StatusRezerwacji: 
+	Wartości: OCZEKUJACA, POTWIERDZONA, ANULOWANA, ZAKONCZONA 
+
+Dokumentacja dla systemu rezerwacji - wypożyczalnia samochodów
+
+Relacje na diagramie: 
+	Agregacja miedzy Klient a Adres: Sugeruje, że klient ma adres, ale adres moze istniec niezalezenie od klienta.
+	Asocjacja miedzy Klient a Rezerwacja: pokazuje, że klient może dokonywać rezerwacji.
+	Kompozycja między Rezerwacja a Ubezpieczenie: wskazuje, że ubezpieczenie jest integralna czescia rezerwacji i nie moze istniec bez niej/
+	Asocjacja miedzy rezerwacja a statusrezerwacji okresla ze kazda rezerwacja ma przypisany status
+
+
+1. Klasa Klient
+Atrykuby: imię (String), nazwisko (String), numerPrawaJazdy (String)
+Relacja: agregacja z klasąAdres (biały romb)
+Relacja: asocjacja z klasą Rezerwacja (linia prosta), krotność 1 do 0..* (jeden do wielu)
+
+2. Klasa Adres
+Atrybuty: miasto (String), ulica (String)
+Jest agregowana przez klasę Klient
+
+3. Klasa Rezerwacja:
+Atrybuty: dataRozpoczecia (Date), dataZakonczenia (Date), status (StatusRezerwacjii)
+Relacja: kompozycja z klasą Ubezpieczenie (czarny romb), krotność 1 do 1 (każda rezerwacja ma dokładnie jedno ubezpieczenie)
+Relacja: asocjacja z enumeracją StatusRezerwacji, krotność 1 do 1
+
+4. Klasa Ubezpieczenie
+Atrybuty: koszt (Double), typ (String)
+jest częścią kopmozycji z klasą Rezerwacja
+
+5. Enumeracja StatusRezerwacji:
+Wartości: OCZEKUJACA, POTWIERDZONA, ANULOWANA, ZAKONCZONA
+
+Relacje na diagramie:
+Agregacja miedzy Klient a Adres: sugeruje, że klient ma adres, ale adres moze instnieć niezależnie od klient
+Asocjacja między Klient a Rezerwacja: pokazuje, że klient może dokonywaćrezerwacji.
+Kompozycja między Rezerwacja a Ubezpieczenie: wskazuje, że ubezpieczenie jest integralną częścią rezerwacji i nie mozę istnieć bez niej.
+Asocjacja między Rezerwacją a StatusRezerwacji: określa, że każda rezerwacja ma przypisany status.

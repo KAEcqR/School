@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dodaj ucznia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        form {
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            box-sizing: border-box;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            margin-right: 10px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .save-btn {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .back-btn {
+            background-color: #888;
+            color: white;
+        }
+
+        h1 {
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Dodaj nowego ucznia</h1>
+
+    <form id="studentForm">
+        <label for="firstname">Imię:</label>
+        <input type="text" id="firstname" name="firstname" required>
+
+        <label for="lastname">Nazwisko:</label>
+        <input type="text" id="lastname" name="lastname" required>
+
+        <label for="birthDate">Data urodzenia:</label>
+        <input type="date" id="birthDate" name="birthDate" required>
+
+        <br>
+        <button type="submit" class="save-btn">Zapisz ucznia</button>
+        <button type="button" class="back-btn" onclick="window.history.back()">Wróć</button>
+    </form>
+
+    <script>
+        document.getElementById('studentForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            const firstname = document.getElementById('firstname').value;
+            const lastname = document.getElementById('lastname').value;
+            const birthDate = document.getElementById('birthDate').value;
+
+            fetch('/students', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    firstname: firstname,
+                    lastname: lastname,
+                    birthDate: birthDate
+                })
+            })
+                .then(response => response.json())
+                .then(data => {
+                    window.location.href = '/';
+                })
+                .catch(error => {
+                    alert('Błąd przy dodawaniu ucznia!');
+                    console.error('Błąd:', error);
+                });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uczniowie</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 600px;
+            margin: 20px;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Lista uczniów</h1>
+
+    <button onclick="window.location.href='/add-student.html'"
+        style="background-color: #17bdff; color: white; padding: 5px 10px; border: none; cursor: pointer; border-radius: 3px;">
+        Dodaj Ucznia
+    </button>
+
+    <table id="studentsTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Imię</th>
+                <th>Nazwisko</th>
+                <th>Data urodzenia</th>
+                <th>Operacje</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+        <img src="images.jpg" alt="">
+    </table>
+
+    <script>
+        fetch('/students')
+            .then(response => response.json())
+            .then(students => {
+                const tbody = document.getElementById('tableBody');
+                students.forEach(student => {
+                    const row = `
+                        <tr>
+                            <td>${student.id}</td>
+                            <td>${student.firstname}</td>
+                            <td>${student.lastname}</td>
+                            <td>${new Date(student.birthDate).toLocaleDateString('pl-PL')}</td>
+                            <td>
+                            <button onclick="deleteStudent(${student.id})" style="background-color: #f44336; color: white; padding: 5px 10px; border: none; cursor: pointer; border-radius: 3px;">
+                                Usuń
+                            </button>
+                            </td>
+                        </tr>
+                    `;
+                    tbody.innerHTML += row;
+                });
+            })
+            .catch(error => console.error('Błąd:', error));
+
+        function deleteStudent(id) {
+            if (confirm('Na pewno chcesz usunąć tego ucznia?')) {
+                fetch(`/students/${id}`, {
+                    method: 'DELETE'
+                })
+                    .then(response => response.json())
+                    .then(data => {
+                        location.reload(); // Odświeża stronę
+                    })
+                    .catch(error => console.error('Błąd:', error));
+            }
+        }
+    </script>
+</body>
+
+</html>

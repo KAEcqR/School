@@ -1,0 +1,11 @@
+﻿  pch.cpp
+  cw9.Tests.cpp
+D:\Programowanie obiektowe\cw9.Tests\cw9.Tests.cpp(1,9): warning C4603: UNIT_TEST: makro jest niezdefiniowane lub definicja różni się po użyciu prekompilowanego nagłówka
+  (kompilowanie pliku źródłowego „/cw9.Tests.cpp”)
+      D:\Programowanie obiektowe\cw9.Tests\cw9.Tests.cpp(1,9):
+      Dodaj makro do prekompilowanego nagłówka, zamiast definiować go w tym miejscu
+      D:\Programowanie obiektowe\cw9.Tests\cw9.Tests.cpp(2,1):
+      użyj prekompilowanego nagłówka
+  
+     Trwa tworzenie biblioteki D:\Programowanie obiektowe\cw9\x64\Debug\cw9.Tests.lib i obiektu D:\Programowanie obiektowe\cw9\x64\Debug\cw9.Tests.exp
+  cw9.Tests.vcxproj -> D:\Programowanie obiektowe\cw9\x64\Debug\cw9.Tests.dll

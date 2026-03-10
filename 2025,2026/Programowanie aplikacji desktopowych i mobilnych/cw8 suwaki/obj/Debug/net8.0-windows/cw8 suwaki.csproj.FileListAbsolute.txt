@@ -1,0 +1,40 @@
+E:\Programowanie aplikacji desktopowych i mobilnych\cw8 suwaki\bin\Debug\net8.0-windows\cw8 suwaki.exe
+E:\Programowanie aplikacji desktopowych i mobilnych\cw8 suwaki\bin\Debug\net8.0-windows\cw8 suwaki.deps.json
+E:\Programowanie aplikacji desktopowych i mobilnych\cw8 suwaki\bin\Debug\net8.0-windows\cw8 suwaki.runtimeconfig.json
+E:\Programowanie aplikacji desktopowych i mobilnych\cw8 suwaki\bin\Debug\net8.0-windows\cw8 suwaki.dll
+E:\Programowanie aplikacji desktopowych i mobilnych\cw8 suwaki\bin\Debug\net8.0-windows\cw8 suwaki.pdb
+E:\Programowanie aplikacji desktopowych i mobilnych\cw8 suwaki\obj\Debug\net8.0-windows\MainWindow.g.cs
+E:\Programowanie aplikacji desktopowych i mobilnych\cw8 suwaki\obj\Debug\net8.0-windows\App.g.cs
+E:\Programowanie aplikacji desktopowych i mobilnych\cw8 suwaki\obj\Debug\net8.0-windows\cw8 suwaki_MarkupCompile.cache
+E:\Programowanie aplikacji desktopowych i mobilnych\cw8 suwaki\obj\Debug\net8.0-windows\cw8 suwaki_MarkupCompile.lref
+E:\Programowanie aplikacji desktopowych i mobilnych\cw8 suwaki\obj\Debug\net8.0-windows\MainWindow.baml
+E:\Programowanie aplikacji desktopowych i mobilnych\cw8 suwaki\obj\Debug\net8.0-windows\cw8 suwaki.g.resources
+E:\Programowanie aplikacji desktopowych i mobilnych\cw8 suwaki\obj\Debug\net8.0-windows\cw8 suwaki.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programowanie aplikacji desktopowych i mobilnych\cw8 suwaki\obj\Debug\net8.0-windows\cw8 suwaki.AssemblyInfoInputs.cache
+E:\Programowanie aplikacji desktopowych i mobilnych\cw8 suwaki\obj\Debug\net8.0-windows\cw8 suwaki.AssemblyInfo.cs
+E:\Programowanie aplikacji desktopowych i mobilnych\cw8 suwaki\obj\Debug\net8.0-windows\cw8 suwaki.csproj.CoreCompileInputs.cache
+E:\Programowanie aplikacji desktopowych i mobilnych\cw8 suwaki\obj\Debug\net8.0-windows\cw8 suwaki.dll
+E:\Programowanie aplikacji desktopowych i mobilnych\cw8 suwaki\obj\Debug\net8.0-windows\refint\cw8 suwaki.dll
+E:\Programowanie aplikacji desktopowych i mobilnych\cw8 suwaki\obj\Debug\net8.0-windows\cw8 suwaki.pdb
+E:\Programowanie aplikacji desktopowych i mobilnych\cw8 suwaki\obj\Debug\net8.0-windows\cw8 suwaki.genruntimeconfig.cache
+E:\Programowanie aplikacji desktopowych i mobilnych\cw8 suwaki\obj\Debug\net8.0-windows\ref\cw8 suwaki.dll
+F:\Programowanie aplikacji desktopowych i mobilnych\cw8 suwaki\bin\Debug\net8.0-windows\cw8 suwaki.exe
+F:\Programowanie aplikacji desktopowych i mobilnych\cw8 suwaki\bin\Debug\net8.0-windows\cw8 suwaki.deps.json
+F:\Programowanie aplikacji desktopowych i mobilnych\cw8 suwaki\bin\Debug\net8.0-windows\cw8 suwaki.runtimeconfig.json
+F:\Programowanie aplikacji desktopowych i mobilnych\cw8 suwaki\bin\Debug\net8.0-windows\cw8 suwaki.dll
+F:\Programowanie aplikacji desktopowych i mobilnych\cw8 suwaki\bin\Debug\net8.0-windows\cw8 suwaki.pdb
+F:\Programowanie aplikacji desktopowych i mobilnych\cw8 suwaki\obj\Debug\net8.0-windows\MainWindow.g.cs
+F:\Programowanie aplikacji desktopowych i mobilnych\cw8 suwaki\obj\Debug\net8.0-windows\App.g.cs
+F:\Programowanie aplikacji desktopowych i mobilnych\cw8 suwaki\obj\Debug\net8.0-windows\cw8 suwaki_MarkupCompile.cache
+F:\Programowanie aplikacji desktopowych i mobilnych\cw8 suwaki\obj\Debug\net8.0-windows\cw8 suwaki_MarkupCompile.lref
+F:\Programowanie aplikacji desktopowych i mobilnych\cw8 suwaki\obj\Debug\net8.0-windows\MainWindow.baml
+F:\Programowanie aplikacji desktopowych i mobilnych\cw8 suwaki\obj\Debug\net8.0-windows\cw8 suwaki.g.resources
+F:\Programowanie aplikacji desktopowych i mobilnych\cw8 suwaki\obj\Debug\net8.0-windows\cw8 suwaki.GeneratedMSBuildEditorConfig.editorconfig
+F:\Programowanie aplikacji desktopowych i mobilnych\cw8 suwaki\obj\Debug\net8.0-windows\cw8 suwaki.AssemblyInfoInputs.cache
+F:\Programowanie aplikacji desktopowych i mobilnych\cw8 suwaki\obj\Debug\net8.0-windows\cw8 suwaki.AssemblyInfo.cs
+F:\Programowanie aplikacji desktopowych i mobilnych\cw8 suwaki\obj\Debug\net8.0-windows\cw8 suwaki.csproj.CoreCompileInputs.cache
+F:\Programowanie aplikacji desktopowych i mobilnych\cw8 suwaki\obj\Debug\net8.0-windows\cw8 suwaki.dll
+F:\Programowanie aplikacji desktopowych i mobilnych\cw8 suwaki\obj\Debug\net8.0-windows\refint\cw8 suwaki.dll
+F:\Programowanie aplikacji desktopowych i mobilnych\cw8 suwaki\obj\Debug\net8.0-windows\cw8 suwaki.pdb
+F:\Programowanie aplikacji desktopowych i mobilnych\cw8 suwaki\obj\Debug\net8.0-windows\cw8 suwaki.genruntimeconfig.cache
+F:\Programowanie aplikacji desktopowych i mobilnych\cw8 suwaki\obj\Debug\net8.0-windows\ref\cw8 suwaki.dll

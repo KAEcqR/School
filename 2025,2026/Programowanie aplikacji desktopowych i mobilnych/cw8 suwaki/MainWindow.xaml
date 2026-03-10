@@ -1,0 +1,41 @@
+﻿<Window x:Class="cw8_suwaki.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:cw8_suwaki"
+        mc:Ignorable="d"
+        Title="Wzornik kolorów RGB" Height="740" Width="954"
+        Background="Cornsilk">
+    <StackPanel Margin="50, 32, 0, 0">
+        <Canvas x:Name="ColorPreview" Height="96" Margin="0, 0,50,0" VerticalAlignment="Top" Background="White"/>
+        <TextBlock Margin="0,40,0,5">Dobierz kolor suwakami i zapisz przyciskiem:</TextBlock>
+        <StackPanel Orientation="Horizontal" Margin="0, 10, 0, 0">
+            <TextBlock Margin="0, 0, 30, 0">R</TextBlock>
+            <Slider x:Name="SuwakR" Width="600" Value="255" Minimum="0" Maximum="255" ValueChanged="Suwak_ValueChanged"></Slider>
+            <TextBlock x:Name="LabelR" Margin="40, 0, 0, 0" Text="255"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="0, 10, 0, 0">
+            <TextBlock Margin="0, 0, 30, 0">G</TextBlock>
+            <Slider x:Name="SuwakG" Width="600" Value="255" Minimum="0" Maximum="255" ValueChanged="Suwak_ValueChanged"></Slider>
+            <TextBlock x:Name="LabelG" Margin="40, 0, 0, 0" Text="255"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="0, 10, 0, 0">
+            <TextBlock Margin="0, 0, 30, 0">B</TextBlock>
+            <Slider x:Name="SuwakB" Width="600" Value="255" Minimum="0" Maximum="255" ValueChanged="Suwak_ValueChanged"></Slider>
+            <TextBlock x:Name="LabelB" Margin="40, 0, 0, 0" Text="255"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="0, 10, 0, 0">
+            <TextBlock Margin="0, 0, 30, 0">A</TextBlock>
+            <Slider x:Name="SuwakA" Width="600" Value="255" Minimum="0" Maximum="255" ValueChanged="Suwak_ValueChanged"></Slider>
+            <TextBlock x:Name="LabelA" Margin="40, 0, 0, 0" Text="255"/>
+        </StackPanel>
+        <Button Margin="-50, 20, 0, 0" Width="170" Height="30" Background="Peru" Click="Button_Click">Pobierz</Button>
+        <TextBlock x:Name="RgbTextBlock" Margin="-50, 20, 0, 0 " Height="30" Width="170" Background="White" Padding="6">
+    255, 255, 255
+        </TextBlock>
+        <UniformGrid x:Name="HistoryGrid" Rows="2" Columns="5" Margin="0,30,0,0" Height="293">
+            
+        </UniformGrid>
+    </StackPanel>
+</Window>
