@@ -1,0 +1,23 @@
+﻿@model Student
+<h3 class="text-center">Dodawanie nowego rekordu</h3>
+<form asp-action="AddStudent" method="post">
+    <div class="row m-2">
+        <label asp-for="Name" class="col-3 text-end"></label>
+        <input asp-for="Name" class="col-6" />
+        <span asp-validation-for="Name" class="text-danger col-3"></span>
+    </div>
+    <div class="row m-2">
+        <label asp-for="DataUrodzenia" class="col-3 text-end"></label>
+        <input asp-for="DataUrodzenia" type="date" class="col-6" />
+        <span asp-validation-for="DataUrodzenia" class="text-danger col-3"></span>
+    </div>
+    <div class="row m-2">
+        <label asp-for="Index" class="col-3 text-end"></label>
+        <input asp-for="Index" class="col-6" />
+        <span asp-validation-for="Index" class="text-danger col-3"></span>
+    </div>
+    <div class="row m-2">
+        <input type="submit" value="Zapisz" class="col-6 offset-3 btn btn-primary" />
+    </div>
+
+</form>

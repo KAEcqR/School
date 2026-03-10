@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Programowanie obiektowe\\cw3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0672661C-2A9C-4AE0-838A-1C38228EE9CF}|cw3.vcxproj|D:\\Programowanie obiektowe\\cw3\\cw3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0672661C-2A9C-4AE0-838A-1C38228EE9CF}|cw3.vcxproj|solutionrelative:cw3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "cw3.cpp",
+              "DocumentMoniker": "D:\\Programowanie obiektowe\\cw3\\cw3.cpp",
+              "RelativeDocumentMoniker": "cw3.cpp",
+              "ToolTip": "D:\\Programowanie obiektowe\\cw3\\cw3.cpp",
+              "RelativeToolTip": "cw3.cpp",
+              "ViewState": "AgIAABYAAAAAAAAAAAAYwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-20T11:01:33.266Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+﻿  cw4.cpp
+D:\Programowanie obiektowe\cw4\cw4.cpp(25,28): warning C4305: "argument": obcięcie z "double" do "float"
+D:\Programowanie obiektowe\cw4\cw4.cpp(25,21): warning C4305: "argument": obcięcie z "double" do "float"
+  cw4.vcxproj -> D:\Programowanie obiektowe\cw4\x64\Debug\cw4.exe

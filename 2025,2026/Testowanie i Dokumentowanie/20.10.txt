@@ -1,0 +1,69 @@
+projekt jest to przedsiewziecie ktore sklada sie zespol czynnosci kotre sa charakterystyczne przez to ze maja date rozpoczecia, specyficzne cele i limity, ustalone odpowiedzialnosci realizatorow budzet rozklad czynnosci oraz date ich ukonczenia
+
+projekt moze byc 
+bardiej rozbudowany ( realizowany dla setki osob w czasie przekraczajacym nawet dziesiec milionow godzin)
+mniej rozbudowany (realizowany przez jedna osobe w czasie krotszym niz 100 godzin
+
+interdyscyplinarnosc realizacja projektu czesto wymaga zaangazowania wiedzy z roznych dziedzin co moze wywolywac problemy organizacyjne i komunikacyjne
+
+kompleksowosc projekt obejmuje ogol czynnosci niezbednych do jego realizacji od planowania poczyniajac poprzez przygotowanie wdrozenie a na testach i ocenie konczac
+
+roznorodnosc wykorzystancych zasobow - realizacja projektu wymaga zarowno zasobow finansowych materialnych jak i niematerialnych dodatkowym utrudnieniem jest to ze zasoby sa zazwyczaj ograniczone
+
+celowosc niepowtarzalnosc zlozonosc okreslonosc
+
+zakres projektu - suma wszystkich produktow projektu ktore trzeba wykonac
+produkt glowny projektu np system informatyczny
+produkty dodatkowe np dokumentacja uzytkowa
+produkty posrednie np analiza wymagan
+
+koszty projektu - powinny byc okreslane przez wykonawcow czynnosci w projekcie ekspertow
+
+procesy wyceny projektu moze sie odbywac
+z gory na dol na podstawie innych projektow i wiedzy ekspertow metoda porownawcza
+
+z dolu na gore gdzie to wykonawcy szacuja wartosc swojej pracy a nastepnie te wartosci sa sumowane 
+
+modele matematyczne szybka i niedroga metoda ale jej dokladnosc zalezy od wiarygodnosci algorytmow i danych zrodlowych 
+
+czas realizacji projektu podobnie jak koszty moze byc oszacowanyc jedna z trzech metod oddolnie, odgornie, poprzez oszacowanie parametryczne
+bardzo czesto najwiekszym kosztem projektu jest naklad pracy w czasie - roboczogodziny szacunkowy czas calego proejktu powinien uwzgledniac przerwy 
+
+projekt : 
+rezultat : cos nowego, niepowtarzalnego
+sposob wytwarzania: kreatywnosc, innowacyjnosc
+sposob wprowadzania zmian: zmiany sa gruntowne, niekiedy rewolucyjne, obarczone duzym ryzykiem
+rola kierownika musi na biezaco kontrolowac projekt
+
+proces
+rezultat : jasno zdefiniowany produkt lub usluga
+sposob wytwarzania : okreslone, powtarzalne czynnosci
+sposob wprowadzania zmian: rozlozony w czasie
+rola kierownika : ingeruje tylko w przypadkach odchylen rezultatow procesu od normy lub w nietypowych sytuacjach
+
+podial projektow ze wzgledu na skomplikowanie 
+typ strategiczny 
+zakres czasu - 2-5 lat
+zakres zmian - duzy
+stopien skomplikowania - duzy
+efekt projektu - wplyw na organizacje i jej otoczenia
+zakres zmian u klienta - zmiana tresci pracy (co)
+
+typ taktyczny
+zakres czasu - 1-2 lata
+zakres zmian - sredni
+stopien skomplikowania - sredni
+efekt projektu - wplyw na wiekszosc elementow organizacji
+zakres zmian u klienta - zmiana tresci pracy (co)
+
+typ operacyjny
+zakres czasu - do 1 roku
+zakres zmian - maly
+stopien skomplikowania - maly
+efekt projektu - wplyw ograniczony do komorki, w ramach ktorej projekt byl realizowany
+zakres zmian u klienta - zmiana zasobow(przez kogo, kiedy i gdzie praca jest wykonywana)
+
+poziom skomplikowania - jest funkcja trzech cech/stopni skomplikowania 
+organizacyjnego-liczba zaangazowanych osob, dzialow, organizacji, czy tez krajow
+zaangazowanych zasobow - czas, kapital
+technicznego - poziomu innowacyjnosci produktu lub przebiegu projektu 

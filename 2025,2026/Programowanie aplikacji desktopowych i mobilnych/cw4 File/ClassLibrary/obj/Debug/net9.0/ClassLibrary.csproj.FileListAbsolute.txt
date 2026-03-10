@@ -1,0 +1,11 @@
+F:\Programowanie aplikacji desktopowych i mobilnych\cw4 File\ClassLibrary\bin\Debug\net9.0\ClassLibrary.deps.json
+F:\Programowanie aplikacji desktopowych i mobilnych\cw4 File\ClassLibrary\bin\Debug\net9.0\ClassLibrary.dll
+F:\Programowanie aplikacji desktopowych i mobilnych\cw4 File\ClassLibrary\bin\Debug\net9.0\ClassLibrary.pdb
+F:\Programowanie aplikacji desktopowych i mobilnych\cw4 File\ClassLibrary\obj\Debug\net9.0\ClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+F:\Programowanie aplikacji desktopowych i mobilnych\cw4 File\ClassLibrary\obj\Debug\net9.0\ClassLibrary.AssemblyInfoInputs.cache
+F:\Programowanie aplikacji desktopowych i mobilnych\cw4 File\ClassLibrary\obj\Debug\net9.0\ClassLibrary.AssemblyInfo.cs
+F:\Programowanie aplikacji desktopowych i mobilnych\cw4 File\ClassLibrary\obj\Debug\net9.0\ClassLibrary.csproj.CoreCompileInputs.cache
+F:\Programowanie aplikacji desktopowych i mobilnych\cw4 File\ClassLibrary\obj\Debug\net9.0\ClassLibrary.dll
+F:\Programowanie aplikacji desktopowych i mobilnych\cw4 File\ClassLibrary\obj\Debug\net9.0\refint\ClassLibrary.dll
+F:\Programowanie aplikacji desktopowych i mobilnych\cw4 File\ClassLibrary\obj\Debug\net9.0\ClassLibrary.pdb
+F:\Programowanie aplikacji desktopowych i mobilnych\cw4 File\ClassLibrary\obj\Debug\net9.0\ref\ClassLibrary.dll

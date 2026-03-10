@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\cw2_Student.props" />
+</Project>

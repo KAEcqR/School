@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model List<Student>
+<h1>Przeglądaj rekordy</h1>
+<table class="table table-striped">
+    <thead>
+        <th>Lp</th>
+        <th>Imie</th>
+        <th>Data Urodzenia</th>
+        <th>Index</th>
+        <th> ---- </th>
+
+    </thead>
+    <tbody>
+        @{
+            int lp = 0;
+        }
+        @foreach (var Student in Model)
+        {
+            lp++;
+            <tr>
+                <td>@lp</td>
+                <td>@Student.Name</td>
+                <td>@Student.DataUrodzenia</td>
+                <td>@Student.Index</td>
+                <td>
+                    <a class="btn btn-danger" asp-action="DeleteStudent" asp-route-id="@Student.Id">Delete</a>
+                    <a class="btn btn-secondary" asp-action="ModifyStudent" asp-route-id="@Student.Id">Zmień</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

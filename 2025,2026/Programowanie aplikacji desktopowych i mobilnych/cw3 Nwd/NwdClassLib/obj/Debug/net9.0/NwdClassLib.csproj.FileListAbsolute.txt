@@ -1,0 +1,11 @@
+G:\Programowanie aplikacji desktopowych i mobilnych\cw3 Nwd\NwdClassLib\bin\Debug\net9.0\NwdClassLib.deps.json
+G:\Programowanie aplikacji desktopowych i mobilnych\cw3 Nwd\NwdClassLib\bin\Debug\net9.0\NwdClassLib.dll
+G:\Programowanie aplikacji desktopowych i mobilnych\cw3 Nwd\NwdClassLib\bin\Debug\net9.0\NwdClassLib.pdb
+G:\Programowanie aplikacji desktopowych i mobilnych\cw3 Nwd\NwdClassLib\obj\Debug\net9.0\NwdClassLib.GeneratedMSBuildEditorConfig.editorconfig
+G:\Programowanie aplikacji desktopowych i mobilnych\cw3 Nwd\NwdClassLib\obj\Debug\net9.0\NwdClassLib.AssemblyInfoInputs.cache
+G:\Programowanie aplikacji desktopowych i mobilnych\cw3 Nwd\NwdClassLib\obj\Debug\net9.0\NwdClassLib.AssemblyInfo.cs
+G:\Programowanie aplikacji desktopowych i mobilnych\cw3 Nwd\NwdClassLib\obj\Debug\net9.0\NwdClassLib.csproj.CoreCompileInputs.cache
+G:\Programowanie aplikacji desktopowych i mobilnych\cw3 Nwd\NwdClassLib\obj\Debug\net9.0\NwdClassLib.dll
+G:\Programowanie aplikacji desktopowych i mobilnych\cw3 Nwd\NwdClassLib\obj\Debug\net9.0\refint\NwdClassLib.dll
+G:\Programowanie aplikacji desktopowych i mobilnych\cw3 Nwd\NwdClassLib\obj\Debug\net9.0\NwdClassLib.pdb
+G:\Programowanie aplikacji desktopowych i mobilnych\cw3 Nwd\NwdClassLib\obj\Debug\net9.0\ref\NwdClassLib.dll

@@ -1,0 +1,1 @@
+import * as file from "./file_module.js"

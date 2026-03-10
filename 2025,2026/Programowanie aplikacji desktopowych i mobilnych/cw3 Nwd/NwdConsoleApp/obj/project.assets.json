@@ -1,0 +1,102 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "NwdClassLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/NwdClassLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NwdClassLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NwdClassLib/1.0.0": {
+      "type": "project",
+      "path": "../NwdClassLib/NwdClassLib.csproj",
+      "msbuildProject": "../NwdClassLib/NwdClassLib.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "NwdClassLib >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\student\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "G:\\Programowanie aplikacji desktopowych i mobilnych\\cw3 Nwd\\NwdConsoleApp\\NwdConsoleApp.csproj",
+      "projectName": "NwdConsoleApp",
+      "projectPath": "G:\\Programowanie aplikacji desktopowych i mobilnych\\cw3 Nwd\\NwdConsoleApp\\NwdConsoleApp.csproj",
+      "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
+      "outputPath": "G:\\Programowanie aplikacji desktopowych i mobilnych\\cw3 Nwd\\NwdConsoleApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "G:\\Programowanie aplikacji desktopowych i mobilnych\\cw3 Nwd\\NwdClassLib\\NwdClassLib.csproj": {
+              "projectPath": "G:\\Programowanie aplikacji desktopowych i mobilnych\\cw3 Nwd\\NwdClassLib\\NwdClassLib.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

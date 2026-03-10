@@ -1,0 +1,30 @@
+﻿@model List<Book>
+<h1>Przeglądaj rekordy</h1>
+<table class="table table-striped">
+    <thead>
+        <th>Lp</th>
+        <th>Tytuł</th>
+        <th>Autor</th>
+        <th>rok wydania</th>
+        <th> ---- </th>
+
+    </thead>
+    <tbody>
+        @{
+            int lp = 0;
+        }
+        @foreach (var book in Model)
+        {
+            lp++;
+            <tr>
+                <td>@lp</td>
+                <td>@book.Title</td>
+                <td>@book.Author</td>
+                <td>@book.Year</td>
+                <td>
+                    <a class="btn btn-danger" asp-action="RemoveBook" asp-route-id="@book.Id">Usun</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,17 @@
+F:\Programowanie aplikacji desktopowych i mobilnych\Arkusz1\bin\Debug\net9.0-windows\Arkusz1.exe
+F:\Programowanie aplikacji desktopowych i mobilnych\Arkusz1\bin\Debug\net9.0-windows\Arkusz1.deps.json
+F:\Programowanie aplikacji desktopowych i mobilnych\Arkusz1\bin\Debug\net9.0-windows\Arkusz1.runtimeconfig.json
+F:\Programowanie aplikacji desktopowych i mobilnych\Arkusz1\bin\Debug\net9.0-windows\Arkusz1.dll
+F:\Programowanie aplikacji desktopowych i mobilnych\Arkusz1\bin\Debug\net9.0-windows\Arkusz1.pdb
+F:\Programowanie aplikacji desktopowych i mobilnych\Arkusz1\obj\Debug\net9.0-windows\Arkusz1.Form1.resources
+F:\Programowanie aplikacji desktopowych i mobilnych\Arkusz1\obj\Debug\net9.0-windows\Arkusz1.csproj.GenerateResource.cache
+F:\Programowanie aplikacji desktopowych i mobilnych\Arkusz1\obj\Debug\net9.0-windows\Arkusz1.GeneratedMSBuildEditorConfig.editorconfig
+F:\Programowanie aplikacji desktopowych i mobilnych\Arkusz1\obj\Debug\net9.0-windows\Arkusz1.AssemblyInfoInputs.cache
+F:\Programowanie aplikacji desktopowych i mobilnych\Arkusz1\obj\Debug\net9.0-windows\Arkusz1.AssemblyInfo.cs
+F:\Programowanie aplikacji desktopowych i mobilnych\Arkusz1\obj\Debug\net9.0-windows\Arkusz1.csproj.CoreCompileInputs.cache
+F:\Programowanie aplikacji desktopowych i mobilnych\Arkusz1\obj\Debug\net9.0-windows\Arkusz1.dll
+F:\Programowanie aplikacji desktopowych i mobilnych\Arkusz1\obj\Debug\net9.0-windows\refint\Arkusz1.dll
+F:\Programowanie aplikacji desktopowych i mobilnych\Arkusz1\obj\Debug\net9.0-windows\Arkusz1.pdb
+F:\Programowanie aplikacji desktopowych i mobilnych\Arkusz1\obj\Debug\net9.0-windows\Arkusz1.genruntimeconfig.cache
+F:\Programowanie aplikacji desktopowych i mobilnych\Arkusz1\obj\Debug\net9.0-windows\ref\Arkusz1.dll
+F:\Programowanie aplikacji desktopowych i mobilnych\Arkusz1\bin\Debug\net9.0-windows\Colors.txt
